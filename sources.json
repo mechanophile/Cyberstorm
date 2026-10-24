@@ -1,0 +1,32 @@
+{
+  "_note": "Feed URLs were written from memory and could not be tested from the build workspace (it has no access to news sites). On the first real run, check the log: feeds that fail are skipped and reported.",
+  "feeds": [
+    { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews" },
+    { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/" },
+    { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/" },
+    { "name": "The Record", "url": "https://therecord.media/feed" },
+    { "name": "SecurityWeek", "url": "https://feeds.feedburner.com/securityweek" },
+    { "name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml" },
+    { "name": "The Register (Security)", "url": "https://www.theregister.com/security/headlines.atom" },
+    { "name": "Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/rss/news/" },
+    { "name": "Sophos Naked Security", "url": "https://nakedsecurity.sophos.com/feed/" },
+    { "name": "Schneier on Security", "url": "https://www.schneier.com/feed/atom/" }
+  ],
+  "googleNews": {
+    "enabled": true,
+    "editions": [
+      { "country": "India", "lang": "en", "hl": "en-IN", "gl": "IN", "ceid": "IN:en", "query": "cyberattack OR ransomware OR \"data breach\" OR \"cyber fraud\" OR deepfake OR \"AI scam\"" },
+      { "country": "United States", "lang": "en", "hl": "en-US", "gl": "US", "ceid": "US:en", "query": "cyberattack OR ransomware OR \"data breach\" OR deepfake OR \"AI scam\"" },
+      { "country": "United Kingdom", "lang": "en", "hl": "en-GB", "gl": "GB", "ceid": "GB:en", "query": "cyberattack OR ransomware OR \"data breach\" OR deepfake OR \"AI scam\"" },
+      { "country": "Australia", "lang": "en", "hl": "en-AU", "gl": "AU", "ceid": "AU:en", "query": "cyberattack OR ransomware OR \"data breach\" OR deepfake OR scam" },
+      { "country": "Canada", "lang": "en", "hl": "en-CA", "gl": "CA", "ceid": "CA:en", "query": "cyberattack OR ransomware OR \"data breach\" OR deepfake OR scam" },
+      { "country": "Singapore", "lang": "en", "hl": "en-SG", "gl": "SG", "ceid": "SG:en", "query": "cyberattack OR ransomware OR \"data breach\" OR scam" },
+      { "country": "Nigeria", "lang": "en", "hl": "en-NG", "gl": "NG", "ceid": "NG:en", "query": "cyberattack OR hackers OR \"data breach\" OR fraud" },
+      { "country": "South Africa", "lang": "en", "hl": "en-ZA", "gl": "ZA", "ceid": "ZA:en", "query": "cyberattack OR ransomware OR \"data breach\" OR scam" },
+      { "country": "Germany", "lang": "de", "hl": "de", "gl": "DE", "ceid": "DE:de", "query": "Cyberangriff OR Ransomware OR Datenleck OR Deepfake" },
+      { "country": "France", "lang": "fr", "hl": "fr", "gl": "FR", "ceid": "FR:fr", "query": "cyberattaque OR rançongiciel OR \"fuite de données\" OR deepfake" },
+      { "country": "Brazil", "lang": "pt", "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419", "query": "\"ataque hacker\" OR ransomware OR \"vazamento de dados\" OR golpe deepfake" },
+      { "country": "Japan", "lang": "ja", "hl": "ja", "gl": "JP", "ceid": "JP:ja", "query": "サイバー攻撃 OR ランサムウェア OR 情報漏えい OR ディープフェイク" }
+    ]
+  }
+}

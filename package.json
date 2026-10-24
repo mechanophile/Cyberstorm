@@ -1,0 +1,14 @@
+{
+  "name": "cyberstorm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CyberStorm: worldwide cybercrime and AI-threat news as short swipeable cards.",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "build": "node scripts/build.mjs",
+    "update": "node scripts/fetch.mjs && node scripts/build.mjs",
+    "test": "node scripts/test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

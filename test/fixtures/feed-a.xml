@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fixture Feed A</title>
+    <item>
+      <title>Ransomware attack knocks German hospital network offline</title>
+      <link>https://example.com/a/hospital</link>
+      <pubDate>{{AGO:3h}}</pubDate>
+      <description><![CDATA[<p>A regional hospital network in Germany has gone offline after a ransomware attack. Appointments have been postponed and investigators are examining how the attackers got in.</p>]]></description>
+    </item>
+    <item>
+      <title>New smartphone launches with a bigger battery</title>
+      <link>https://example.com/a/phone</link>
+      <pubDate>{{AGO:4h}}</pubDate>
+      <description>The latest handset adds a bigger battery and a brighter display.</description>
+    </item>
+    <item>
+      <title>Retailer in India leaks customer phone numbers &amp; addresses in data breach</title>
+      <link>https://example.com/a/india-retail</link>
+      <pubDate>{{AGO:6h}}</pubDate>
+      <description>Customer records of an Indian online retailer were exposed on an open database. The company has locked the database and is informing users.</description>
+    </item>
+  </channel>
+</rss>

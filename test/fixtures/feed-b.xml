@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fixture Feed B</title>
+  <entry>
+    <title>German hospital network offline after ransomware attack</title>
+    <link rel="self" href="https://example.com/b/feed-self"/>
+    <link rel="alternate" href="https://example.com/b/hospital"/>
+    <updated>{{AGOISO:2h}}</updated>
+    <summary type="html">&lt;p&gt;Hospitals in Germany lost access to patient records after ransomware locked servers; police were informed.&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Police arrest suspects over Brazil tax portal fraud</title>
+    <link href="https://example.com/b/brazil"/>
+    <updated>{{AGOISO:9h}}</updated>
+    <summary>Several suspects were arrested after criminals used reused passwords to access taxpayer accounts and change bank details.</summary>
+  </entry>
+</feed>

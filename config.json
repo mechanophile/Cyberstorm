@@ -1,0 +1,13 @@
+{
+  "siteName": "CyberStorm",
+  "siteUrl": "https://cyberstorm.example",
+  "contactEmail": "mscybk@gmail.com",
+  "tagline": "Every cyber attack. Every country. In short.",
+  "cloudflareAnalyticsToken": "",
+  "model": "claude-haiku-5-5",
+  "maxStories": 300,
+  "maxAgeDays": 7,
+  "maxNewPerRun": 40,
+  "breakingMinSources": 3,
+  "breakingMinSeverity": 4
+}

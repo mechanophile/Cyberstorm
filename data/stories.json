@@ -1,7 +1,1278 @@
 {
- "updatedAt": "2026-10-24T13:07:11.234Z",
+ "updatedAt": "2026-10-24T16:45:18.108Z",
  "sample": false,
  "stories": [
+  {
+   "id": "bbba6bcfd7",
+   "title": "Sask. Crime Stoppers programs pause tip intake due to national data breach",
+   "headline": "Sask. Crime Stoppers programs pause tip intake due to national data breach",
+   "category": "Data Breach",
+   "country": "United States",
+   "region": "North America",
+   "what": "Crime Stoppers programs pause tip intake due to national data breach CBC",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:30:19.000Z",
+   "updatedAt": "2026-10-24T16:30:19.000Z",
+   "sourceName": "CBC",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTHlYa1VUVHk1bzBoTjVJUWRCZG4tSXpYaGY5TFRXbFdqX0xQVkZoQWl1eE9lS2xCRk5CQ1JoS3pvYjJJRkhQQ2VfbWNiRnB6UFhZRkd1ZEczWDBJNW44WFJIQ1g2YUQ3dEk5YUJPQXNKNEh3VFFlZGM3MjBYZm5uTUFOWWRHbV91RnRiNzdDelB0aVJRakFBektpMDUtLVNSS2lBVkVhSk00U3U4aHRnZEx3?oc=5",
+   "sources": [
+    {
+     "name": "CBC",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTHlYa1VUVHk1bzBoTjVJUWRCZG4tSXpYaGY5TFRXbFdqX0xQVkZoQWl1eE9lS2xCRk5CQ1JoS3pvYjJJRkhQQ2VfbWNiRnB6UFhZRkd1ZEczWDBJNW44WFJIQ1g2YUQ3dEk5YUJPQXNKNEh3VFFlZGM3MjBYZm5uTUFOWWRHbV91RnRiNzdDelB0aVJRakFBektpMDUtLVNSS2lBVkVhSk00U3U4aHRnZEx3?oc=5"
+    },
+    {
+     "name": "980 CJME",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObmRyT1FtZW5aZnVOaERzWURNTURkZ2ZUNnloZHZyLVhaNkE1OWVJOTdVMU9OQm0zZEhMNmp2aE1Gc0M1a0FqdlpOMUh1eGNEM0xiUTJ3WTJRSFM3cHRkdVhqQS1XUGdQU19LVHFsUHQ4YmZtbExOWHU2dDlZTzBrVHZBZ2c2S0lSeEZadkUwWXE?oc=5"
+    },
+    {
+     "name": "650 CKOM",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo0MHkxWEZhVkpQaFphcjVlbWZOWDlvTEc0THhxRTV3SFBpRzJ4LTJIWnlKWlNUeTd5ZXNPTjNXWEo1Z1Y1d1dzWmRmcUh2OUFHSGhsbHlsUlZXVWVOR3hnLWkzZzJ4UnhyMFdzckl0WVFFZDRtTzE3N2Z5UWpZQW96MS1vY0VSQU1UbGlvSXQ?oc=5"
+    },
+    {
+     "name": "The Sydenham Current",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTEQ0aEctSi1OcW1HSGRyX2l2a1dVTjJUYVJtV3Y5QkptUDV5Ry1kU3lPYmNaSUNkc1UzTHNNLS1XOVRrYW9DODhmX21xYVU3aXNZMUxPU0pwVjh5aFJwWXVYRkdseTc2U1Z0UDVtSy10UHRHVEdfMVFwZW1uaTlwbGlnV19SVDhmMlg0d0RJSmQzZmpObm5DbHVCTERLVmozNUFwM2FFVXlFZW5tWTZYdXNqakczM085XzZnNm9sSWk?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-23T18:00:00.000Z",
+     "text": "Chatham-Kent police pause participation in Crime Stoppers after national data breach",
+     "source": "The Sydenham Current"
+    },
+    {
+     "at": "2026-10-24T16:29:00.000Z",
+     "text": "Sask. Crime Stoppers pauses tip lines after data breach",
+     "source": "980 CJME"
+    },
+    {
+     "at": "2026-10-24T16:29:00.000Z",
+     "text": "Sask. Crime Stoppers pauses tip lines after data breach",
+     "source": "650 CKOM"
+    },
+    {
+     "at": "2026-10-24T16:30:19.000Z",
+     "text": "Sask. Crime Stoppers programs pause tip intake due to national data breach",
+     "source": "CBC"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "ed07765c39",
+   "title": "iPhone Duo Scam Warning: Fake Websites May Steal Your Personal Information",
+   "headline": "iPhone Duo Scam Warning: Fake Websites May Steal Your Personal Information",
+   "category": "Fraud",
+   "country": "Singapore",
+   "region": "Asia",
+   "what": "iPhone Duo Scam Warning: Fake Websites May Steal Your Personal Information Beebom Gadgets",
+   "how": "Not yet reported.",
+   "status": "Warning issued",
+   "tone": "amber",
+   "statusText": "Reported as: warning issued.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:28:53.000Z",
+   "updatedAt": "2026-10-24T16:28:53.000Z",
+   "sourceName": "Beebom Gadgets",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVBGQ3phTzdPWVFGaGFNNVJ0c0VZaHh6RVo4Z0xoUXhwNWVCbDdDRzhQcEtGLVpMOE9KU0hVejkyZVh0bWMxcHBKbkVaNHhDTk5WRi1qc0VPcmVnUGpMdGZhTmZBOGNMVDdNMUZFRWxKVTMxd19ZVXRpdUVjcGlRci1CRTlrY1cteTFPdm1jWFFFMGhMU1JqU3phbW03SWQzWWxQMA?oc=5",
+   "sources": [
+    {
+     "name": "Beebom Gadgets",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVBGQ3phTzdPWVFGaGFNNVJ0c0VZaHh6RVo4Z0xoUXhwNWVCbDdDRzhQcEtGLVpMOE9KU0hVejkyZVh0bWMxcHBKbkVaNHhDTk5WRi1qc0VPcmVnUGpMdGZhTmZBOGNMVDdNMUZFRWxKVTMxd19ZVXRpdUVjcGlRci1CRTlrY1cteTFPdm1jWFFFMGhMU1JqU3phbW03SWQzWWxQMA?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T16:28:53.000Z",
+     "text": "iPhone Duo Scam Warning: Fake Websites May Steal Your Personal Information",
+     "source": "Beebom Gadgets"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "a143248d8f",
+   "title": "Businessman in court over alleged World Cup visa fraud",
+   "headline": "Businessman in court over alleged World Cup visa fraud",
+   "category": "Fraud",
+   "country": "Ghana",
+   "region": "Africa",
+   "what": "Businessman in court over alleged World Cup visa fraud Ghana News Agency",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:26:36.000Z",
+   "updatedAt": "2026-10-24T16:26:36.000Z",
+   "sourceName": "Ghana News Agency",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWWlYZDE3UGRsUWZ2WmdVaXBSMVM0S2ZwWmVQM2k2eFFhSEwydEdMZC14NG1yUG9pUXpsb3dqMnRfMnh1N2VULTR2Q0twd2FHR0JKcnlOb3lPd1hqVnlhWi1qUW1GYnRLckFZbWExdU1IZHllZXNEWnBEOFZsYk5RMEVuNnlVazZqS3c?oc=5",
+   "sources": [
+    {
+     "name": "Ghana News Agency",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWWlYZDE3UGRsUWZ2WmdVaXBSMVM0S2ZwWmVQM2k2eFFhSEwydEdMZC14NG1yUG9pUXpsb3dqMnRfMnh1N2VULTR2Q0twd2FHR0JKcnlOb3lPd1hqVnlhWi1qUW1GYnRLckFZbWExdU1IZHllZXNEWnBEOFZsYk5RMEVuNnlVazZqS3c?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T16:26:36.000Z",
+     "text": "Businessman in court over alleged World Cup visa fraud",
+     "source": "Ghana News Agency"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "b1d09bd276",
+   "title": "ED Arrests Advocate At Mumbai Airport In Pan-india Cyber Fraud Case; Total Arrests Reach 7",
+   "headline": "ED Arrests Advocate At Mumbai Airport In Pan-india Cyber Fraud Case; Total Arrests Reach 7",
+   "category": "Fraud",
+   "country": "India",
+   "region": "Asia",
+   "what": "ED Arrests Advocate At Mumbai Airport In Pan-india Cyber Fraud Case; Total Arrests Reach 7 NDTV Profit",
+   "how": "Not yet reported.",
+   "status": "Arrests made",
+   "tone": "green",
+   "statusText": "Reported as: arrests made.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:06:35.000Z",
+   "updatedAt": "2026-10-24T16:06:35.000Z",
+   "sourceName": "NDTV Profit",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNlVZbHhQbVp1OEk0MG9SSlhmdXZ0Uk9vT3dlYklRQmhOVFozdWRpQXRkX1RhczdhZUI4M3F0ODVlY3paUkZocExvcHMyUlFOUVFLdUVxUmNMZmV6Vnl3dHkwOUZfai16Tk5zQVBwNUV6SVFrQ09MOEJZTHI0c2UtVG1PVG9yNUN3MncwMi1Fd2xWZWdPV0M3a1ZnanNOWE1yUmtJVzRLa2wteVJFMFFLUFdwS3VEemtiMEY0bXpad3VHUTRRTG5JSHJ5Y9IB0wFBVV95cUxNV3VQMld6NGxucnRtRkZUa1VrY1otNDZETzVsY0g3Q2U0VURGd1d0cHNpNW9GYktpS21iRnJQYW00TDdtaS03bW1sVGh0aUItWmtDRWd2NVh5eDFQRGFFTDVRVFNIMmdHbzU5Q0NpZm5Vd1AtRW5ZZ3A3NjU4VmRjRmJGYkdRTzFBT1Nlalk3ME1RLVRXckxxOFV4RFZlUmFhNHdVcmdERFloZEY3TEdoSkdXYkU2cFFqS3RDTTRXdkxmdlJralRqVF82d2gtVDNWVkpR?oc=5",
+   "sources": [
+    {
+     "name": "NDTV Profit",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNlVZbHhQbVp1OEk0MG9SSlhmdXZ0Uk9vT3dlYklRQmhOVFozdWRpQXRkX1RhczdhZUI4M3F0ODVlY3paUkZocExvcHMyUlFOUVFLdUVxUmNMZmV6Vnl3dHkwOUZfai16Tk5zQVBwNUV6SVFrQ09MOEJZTHI0c2UtVG1PVG9yNUN3MncwMi1Fd2xWZWdPV0M3a1ZnanNOWE1yUmtJVzRLa2wteVJFMFFLUFdwS3VEemtiMEY0bXpad3VHUTRRTG5JSHJ5Y9IB0wFBVV95cUxNV3VQMld6NGxucnRtRkZUa1VrY1otNDZETzVsY0g3Q2U0VURGd1d0cHNpNW9GYktpS21iRnJQYW00TDdtaS03bW1sVGh0aUItWmtDRWd2NVh5eDFQRGFFTDVRVFNIMmdHbzU5Q0NpZm5Vd1AtRW5ZZ3A3NjU4VmRjRmJGYkdRTzFBT1Nlalk3ME1RLVRXckxxOFV4RFZlUmFhNHdVcmdERFloZEY3TEdoSkdXYkU2cFFqS3RDTTRXdkxmdlJralRqVF82d2gtVDNWVkpR?oc=5"
+    },
+    {
+     "name": "ThePrint",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3MyS05YLS01cG1ENC1WTmc5TVRrck5taDJCVEViYkF6RWFRS2JSelppd2ZJY1dQOVAtb3VhYlF0aWpjRjNPZlhBY2JWZ3RwYktPRnJyZGI0d3BvbW1tTVNDVHAxZ0hnbndKOGFSa3dlUnBDWVBkSVE4SXk1R2tPbmltRXFfQmMxRnppX1pMWTk0WXVoYWxlWFl4UzhjYUptNWdiT0YzVmZvN3ZoTTJLLWdiV2VwUnczYUZsUm5tcmttQ1N3MzFr0gHHAUFVX3lxTE5LczJLTlgtLTVwbUQ0LVZOZzlNVGtyTm1oMkJURWJiQXpFYVFLYlJ6Wml3ZkljV1A5UC1vdWFiUXRpamNGM09mWEFjYlZndHBiS09GcnJkYjR3cG9tbW1NU0NUcDFnSGdud0o4YVJrd2VScENZUGRJUThJeTVHa09uaW1FcV9CYzFGemlfWkxZOTRZdWhhbGVYWXhTOGNhSm01Z2JPRjNWZm83dmhNMkstZ2JXZXBSdzNhRmxSbm1ya21DU3czMWs?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:47:27.000Z",
+     "text": "ED arrests advocate at Mumbai airport in pan-India cyber fraud case; total arrests reach 7",
+     "source": "ThePrint"
+    },
+    {
+     "at": "2026-10-24T16:06:35.000Z",
+     "text": "ED Arrests Advocate At Mumbai Airport In Pan-india Cyber Fraud Case; Total Arrests Reach 7",
+     "source": "NDTV Profit"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "5da781e7ee",
+   "title": "Data breach dials up concerns for local Crime Stoppers chapter",
+   "headline": "Data breach dials up concerns for local Crime Stoppers chapter",
+   "category": "Data Breach",
+   "country": "Canada",
+   "region": "North America",
+   "what": "Data breach dials up concerns for local Crime Stoppers chapter OrilliaMatters.com",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:00:00.000Z",
+   "updatedAt": "2026-10-24T16:00:00.000Z",
+   "sourceName": "OrilliaMatters.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbGx4RDJEMHY0ZzFyQmgxTmxGcElhWUY1Yk1waTZmR2Y5d1c4cF9YaktLeHdxNl8wZGZhdkI1X3FKZUdOZlhTcWRNandfRzdLTlVMTXNOXzQxR2RjcGo5dUFtUWZWaXZBOTFSVHlIeG5RNERSa2dVVXB1aFU4dTNiOXVraG1uQnh2c0pSbXZPa1dKUTJmQ0xCQnhCdTlNSXpKYklqRHNDTFdhNjVzWEFSeUNodlY?oc=5",
+   "sources": [
+    {
+     "name": "OrilliaMatters.com",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbGx4RDJEMHY0ZzFyQmgxTmxGcElhWUY1Yk1waTZmR2Y5d1c4cF9YaktLeHdxNl8wZGZhdkI1X3FKZUdOZlhTcWRNandfRzdLTlVMTXNOXzQxR2RjcGo5dUFtUWZWaXZBOTFSVHlIeG5RNERSa2dVVXB1aFU4dTNiOXVraG1uQnh2c0pSbXZPa1dKUTJmQ0xCQnhCdTlNSXpKYklqRHNDTFdhNjVzWEFSeUNodlY?oc=5"
+    },
+    {
+     "name": "BradfordToday.ca",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbnEzbU1GTmo4Q2l2WFNaU2JZQ0RuZFBTZ3h4cHRiaEp1SjNKV3JPSWdWRU9qM0ZiVm5XSF9sSFZaeGprRUhHMUJwWGhFUVBpV2dHbmU4ZzJ1ak40YzIzWXFKOTZ4cmxuV1ZEUl8zWjJRTVJsSnY0YVFrNUJXRDY5elFxNW51b0hWLXFjMWJUdWhLOVhLcmFmdm9BeUp1aF9wSTl6YUxmX0R3VHNGTlF1ZW5fM0hDMWk3bE1wcW56RXhuQXEtRF9ZNkJR?oc=5"
+    },
+    {
+     "name": "CityNews Kitchener",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkM3TzZyWHliTlpjdS1WRWxUN1B3X3RPdm0zSGlzWGZyZk50dktfdmlQOHdiYXNGSzdyVjk0YkpLQjZJVl82U3ZuN09KS3lFVHVQMFJaVENTVUlNRW9vc01OVDZUNUxMdjBjQ1JNcEZrOWRxNWMtU2tpM2VKV1paOXkybWJrbTdpX3VfWm42a0VqdjVlUFVBX2RhdEpoMTNBQXg0RUhLZzRNQ1dlRlB5cGx1NWwwaFRzNFE?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-23T10:51:41.000Z",
+     "text": "Local police continue to avoid Crime Stoppers after data breach",
+     "source": "CityNews Kitchener"
+    },
+    {
+     "at": "2026-10-24T16:00:00.000Z",
+     "text": "Data breach dials up concerns for local Crime Stoppers chapter",
+     "source": "OrilliaMatters.com"
+    },
+    {
+     "at": "2026-10-24T16:00:00.000Z",
+     "text": "Local Crime Stoppers chapter planning next steps after international data breach",
+     "source": "BradfordToday.ca"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "7e01e5bd19",
+   "title": "‘Visa-free entry likely caused scam hub resurgence’",
+   "headline": "‘Visa-free entry likely caused scam hub resurgence’",
+   "category": "Fraud",
+   "country": "Canada",
+   "region": "North America",
+   "what": "‘Visa-free entry likely caused scam hub resurgence’ Philstar.com",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:00:00.000Z",
+   "updatedAt": "2026-10-24T16:00:00.000Z",
+   "sourceName": "Philstar.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOFFhYi1GWkpaQkM3OHZ5YWdsRDNERDhCQk9vcUpGcjJqZWJyWkF3UE5hTWZPaGpncW96Q1JLaldJdXlGMDM3YlF0aERtWWVxa1RnUkFKWW5YMUNKVnpZLVR5TDktZkxEZXJ4blM1eWc5SFpjdV9PeF9oalhISC1SaXhRdEhNZ2VXd0lBR3dDckI2UnlWaVh0aU84VHFlME5vT1hPS0Nn0gGsAUFVX3lxTE0zTkl1RGV1dkFfQmhtdzdoOXRBSkZRT05oRWRyUDlHd25GTmdaTmtVQXhzUXNOVDRMZlQzdzE3X3NfNUJpdjNnbll2azdZajlVVVJXZkowb0hyaUdSTlhpa2xYUDcwSHFLOW1QUWwwOUsxdUFBSjZ5WWZadnY0LWdIVDZGaXVFeEZ5NThRZ1laUVNKbGtwazR6amFobGJPaVBmd1NCeUprZElPdE0?oc=5",
+   "sources": [
+    {
+     "name": "Philstar.com",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOFFhYi1GWkpaQkM3OHZ5YWdsRDNERDhCQk9vcUpGcjJqZWJyWkF3UE5hTWZPaGpncW96Q1JLaldJdXlGMDM3YlF0aERtWWVxa1RnUkFKWW5YMUNKVnpZLVR5TDktZkxEZXJ4blM1eWc5SFpjdV9PeF9oalhISC1SaXhRdEhNZ2VXd0lBR3dDckI2UnlWaVh0aU84VHFlME5vT1hPS0Nn0gGsAUFVX3lxTE0zTkl1RGV1dkFfQmhtdzdoOXRBSkZRT05oRWRyUDlHd25GTmdaTmtVQXhzUXNOVDRMZlQzdzE3X3NfNUJpdjNnbll2azdZajlVVVJXZkowb0hyaUdSTlhpa2xYUDcwSHFLOW1QUWwwOUsxdUFBSjZ5WWZadnY0LWdIVDZGaXVFeEZ5NThRZ1laUVNKbGtwazR6amFobGJPaVBmd1NCeUprZElPdE0?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T16:00:00.000Z",
+     "text": "‘Visa-free entry likely caused scam hub resurgence’",
+     "source": "Philstar.com"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "0052abca03",
+   "title": "EDITORIAL - Emerging scam hub",
+   "headline": "EDITORIAL - Emerging scam hub",
+   "category": "Fraud",
+   "country": "Canada",
+   "region": "North America",
+   "what": "EDITORIAL - Emerging scam hub Philstar.com",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:00:00.000Z",
+   "updatedAt": "2026-10-24T16:00:00.000Z",
+   "sourceName": "Philstar.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcUs3NEtDRnVBVVpseXhpN19tZ2wtcFpfUjJHdDJWZmxMcFBHUUNOTnJjQ0VpN3BLSTdrVEpFSkxmdlhINWhPcmZ6UUk0Wk82QVVFa1RxV0c0bzhnaENZT1FKdzAtdjBIbExIdms2NnZUZkpMMDZRTVZrUThwMVRBYUtId2ZwUdIBjAFBVV95cUxOdkdSdUJTLXZ6ZTRWQ3R5ZjdZZlJuNm9iM3lUVlNoU0JXNVlZYnZ1TVhjeU9DVHAxY0N2RGJHbzB6NjhhMVRuanZxLUZKMU9yRlhxTnAtQlAyaENWVWdieXFkTlpTLTNXMTJLblFfd0E0bC1IRVBYRG1tbWUwSDhrbU9CcXIwbTd5TE8zYg?oc=5",
+   "sources": [
+    {
+     "name": "Philstar.com",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcUs3NEtDRnVBVVpseXhpN19tZ2wtcFpfUjJHdDJWZmxMcFBHUUNOTnJjQ0VpN3BLSTdrVEpFSkxmdlhINWhPcmZ6UUk0Wk82QVVFa1RxV0c0bzhnaENZT1FKdzAtdjBIbExIdms2NnZUZkpMMDZRTVZrUThwMVRBYUtId2ZwUdIBjAFBVV95cUxOdkdSdUJTLXZ6ZTRWQ3R5ZjdZZlJuNm9iM3lUVlNoU0JXNVlZYnZ1TVhjeU9DVHAxY0N2RGJHbzB6NjhhMVRuanZxLUZKMU9yRlhxTnAtQlAyaENWVWdieXFkTlpTLTNXMTJLblFfd0E0bC1IRVBYRG1tbWUwSDhrbU9CcXIwbTd5TE8zYg?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T16:00:00.000Z",
+     "text": "EDITORIAL - Emerging scam hub",
+     "source": "Philstar.com"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "723db0042e",
+   "title": "Dolly Parton's $450 Million Legacy War EXPLODES, Family Turns On Nephew Amid 'FRAUD' Claims",
+   "headline": "Dolly Parton's $450 Million Legacy War EXPLODES, Family Turns On Nephew Amid 'FRAUD' Claims",
+   "category": "Fraud",
+   "country": "India",
+   "region": "Asia",
+   "what": "Dolly Parton's $450 Million Legacy War EXPLODES, Family Turns On Nephew Amid 'FRAUD' Claims The Times of India",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-10-24T16:00:00.000Z",
+   "updatedAt": "2026-10-24T16:00:00.000Z",
+   "sourceName": "The Times of India",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNjlZTXFoVDRXdm9VUDBEYjNDZlowMGVyRjBQdlhqXzljaUMzUFhhb2hidDBPOVc3NFd0bUpHZXk2UFNFN0dDWnBpTXZpUXhRZTNkSW5GekNwTko2SGhLZlhZUElGTTdHcUJrd2NhLWpFYmx3SmZKR3BXZ0lkSlNKaGdvT0RTcjRMSVY5eTJGRDNNSkJ3MG9PdUFVNXJjeGFkNVl5eklhQ0dTNnl5bnFxSnhCU2o3dVA2d1pkNGd4dG51X2ZSMFFTQTM1S0V6T25JZEJ6YUZyM0dyMThYSDhqYUxzY2VPMnBjUVFlR1laQVpoSkxjWktaWVhhVdIBgAJBVV95cUxON0NfdDRPd09LTDM4TFpLUjg0aThrVlFnbjhPTmJIMTZBdWFFQWxyODlCMjhja3c5Y05LU2xtN0FkY1N3WEpjRDN3aVZKSkVidUVWVF9FUG5ULUpBbk03WDJjNTA1RW03TlhNck1PS2VWT1BLSTB4Yko4Y3hLRzJBcjN3a0ZUaDE3UlBIVHdVR3NNM2poeVdoN2VzdzRMUTM0TmkyXzVaTTEtN2YyWXF2N0w4TXdSZEt5Vk13ZURrSFpqNEFiaVFzZ1EzeE5McW5NMGdUb1pVRHhIMWsyQzJvb1MwcVJPRXJhTC1KR053UW9VV0k4c2Z6WTFuYVRHWUlY?oc=5",
+   "sources": [
+    {
+     "name": "The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNjlZTXFoVDRXdm9VUDBEYjNDZlowMGVyRjBQdlhqXzljaUMzUFhhb2hidDBPOVc3NFd0bUpHZXk2UFNFN0dDWnBpTXZpUXhRZTNkSW5GekNwTko2SGhLZlhZUElGTTdHcUJrd2NhLWpFYmx3SmZKR3BXZ0lkSlNKaGdvT0RTcjRMSVY5eTJGRDNNSkJ3MG9PdUFVNXJjeGFkNVl5eklhQ0dTNnl5bnFxSnhCU2o3dVA2d1pkNGd4dG51X2ZSMFFTQTM1S0V6T25JZEJ6YUZyM0dyMThYSDhqYUxzY2VPMnBjUVFlR1laQVpoSkxjWktaWVhhVdIBgAJBVV95cUxON0NfdDRPd09LTDM4TFpLUjg0aThrVlFnbjhPTmJIMTZBdWFFQWxyODlCMjhja3c5Y05LU2xtN0FkY1N3WEpjRDN3aVZKSkVidUVWVF9FUG5ULUpBbk03WDJjNTA1RW03TlhNck1PS2VWT1BLSTB4Yko4Y3hLRzJBcjN3a0ZUaDE3UlBIVHdVR3NNM2poeVdoN2VzdzRMUTM0TmkyXzVaTTEtN2YyWXF2N0w4TXdSZEt5Vk13ZURrSFpqNEFiaVFzZ1EzeE5McW5NMGdUb1pVRHhIMWsyQzJvb1MwcVJPRXJhTC1KR053UW9VV0k4c2Z6WTFuYVRHWUlY?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T16:00:00.000Z",
+     "text": "Dolly Parton's $450 Million Legacy War EXPLODES, Family Turns On Nephew Amid 'FRAUD' Claims",
+     "source": "The Times of India"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "9a8a975276",
+   "title": "ED Attaches Rs 3.72 Crore Assets in Cyber Fraud Case",
+   "headline": "ED Attaches Rs 3.72 Crore Assets in Cyber Fraud Case",
+   "category": "Fraud",
+   "country": "India",
+   "region": "Asia",
+   "what": "ED Attaches Rs 3.72 Crore Assets in Cyber Fraud Case Urban Acres",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:41:00.000Z",
+   "updatedAt": "2026-10-24T15:41:00.000Z",
+   "sourceName": "Urban Acres",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdHA3QndlQzVYd3NTanhVc3pXWGZNZ3NUcWM4UG11YzNQa3NMVzRvRVg2dWxpZUlnQnpzVTlrMW1WVnNQaGs0dGFpRFhwcTVJaG1kaUdpbFJDR3JxcFFXRmloV05CRU45VG55dndHbEpTWXQwdjJQQlF1aGJKTnlWaw?oc=5",
+   "sources": [
+    {
+     "name": "Urban Acres",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdHA3QndlQzVYd3NTanhVc3pXWGZNZ3NUcWM4UG11YzNQa3NMVzRvRVg2dWxpZUlnQnpzVTlrMW1WVnNQaGs0dGFpRFhwcTVJaG1kaUdpbFJDR3JxcFFXRmloV05CRU45VG55dndHbEpTWXQwdjJQQlF1aGJKTnlWaw?oc=5"
+    },
+    {
+     "name": "The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVzRBWkx3Y2w4N294dU1tSDkwbk5HaU5xWGpDLXEwdVMxVzdFeVoxNzVKNUxFcHFOQXEwZU9ZcFdfT2tBTlVKLVhSMDY4ZFZIbUd0ejhqVzQ3WVA0N3BwbEllNmJRczhSRzNXZDdidmhNS2dLeEpGZjhsa2lBX2Y4Ukw4a3ZQSk5JY0xaOU95VVRXMmQ4cHgyUHJLbWU2Z0F5eUdfY2cwaDdneFVEZGFLRWg3OWhrV3YtUzdTd0JZendhY1JOejFETllGTVp6ZzJFdnRYQjEtU3UxYm9ncXRMTG9lQTJZQdIB6wFBVV95cUxORUpHQmdmdzRmN3VDLU1KZ3hpc2hfRC13U2pscDZqaWpRaVZPT2sxM2ZZNEUwWW04dldzN09rVDRXNHduaHZDbTNsdjJ3b0s4MjVFbUJGX3JNRkJTQk9SaFhTWW9qeVBCSWoxczhya2JTb0N1U2Fad0tlUTAwZ1ZteVJxSk1meEhhcHpMY0xjM3pUMXo5YUZhYmEyYXd1ZkRwUGVoNF9pS0p1RnYzLWYwSTNOdjJrTTVfTjFOdXR2SVQxQkRNMkRWbmFUb2o2OWRWWUp2X0dPVW8wY2pDbzZ0bnhXTGRwYm12T2w0?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:37:00.000Z",
+     "text": "ED attaches properties worth Rs 3.72 crore in international cyber fraud case",
+     "source": "The Times of India"
+    },
+    {
+     "at": "2026-10-24T15:41:00.000Z",
+     "text": "ED Attaches Rs 3.72 Crore Assets in Cyber Fraud Case",
+     "source": "Urban Acres"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "2f724e97b4",
+   "title": "Palmdale pet owner warns others after receiving scam messages about her missing cat",
+   "headline": "Palmdale pet owner warns others after receiving scam messages about her missing cat",
+   "category": "Fraud",
+   "country": "Canada",
+   "region": "North America",
+   "what": "Palmdale pet owner warns others after receiving scam messages about her missing cat ABC7 Los Angeles",
+   "how": "Not yet reported.",
+   "status": "Warning issued",
+   "tone": "amber",
+   "statusText": "Reported as: warning issued.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:40:35.000Z",
+   "updatedAt": "2026-10-24T15:40:35.000Z",
+   "sourceName": "ABC7 Los Angeles",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbzR0aXdsWWVhVkJXZ0V0R3p1ZHY3WC1IdlpINkpERmhCQ05WLU1kRTlQTk9ReEI3bEJoYVMwbnJpZ19wMmNNS1I1RnpwWjdyOTl1MUV4NDQ2Mk5qZmFNVm9tRkIzUmRsNUdreFdBN2w1elRGYlUxd1hncE5KWW9FbHMzcjhhbHlRdDFWY1gzZVBsQk8xclNyS2d2anJzdElP0gGmAUFVX3lxTE9PVmx0ZWZ1eEhITzUyZnZNR01hUEJJVTViUjRjZU1VOUpKcUg4bDlPN3Y0dTB2MG1yZVZTNktHM3JYd0x4dFdBNFdTNmxVMWdIYld4dHI5RGtVNkVxUUlLQmtFaWZudmhKeENFR2ZxblNJOFBMTnRySkZkdTdaQlUzZVBkOUR2a3A5RmJvZUZJVV9DM2RWa2tITGRkWlhlcmlnSmJIR3c?oc=5",
+   "sources": [
+    {
+     "name": "ABC7 Los Angeles",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbzR0aXdsWWVhVkJXZ0V0R3p1ZHY3WC1IdlpINkpERmhCQ05WLU1kRTlQTk9ReEI3bEJoYVMwbnJpZ19wMmNNS1I1RnpwWjdyOTl1MUV4NDQ2Mk5qZmFNVm9tRkIzUmRsNUdreFdBN2w1elRGYlUxd1hncE5KWW9FbHMzcjhhbHlRdDFWY1gzZVBsQk8xclNyS2d2anJzdElP0gGmAUFVX3lxTE9PVmx0ZWZ1eEhITzUyZnZNR01hUEJJVTViUjRjZU1VOUpKcUg4bDlPN3Y0dTB2MG1yZVZTNktHM3JYd0x4dFdBNFdTNmxVMWdIYld4dHI5RGtVNkVxUUlLQmtFaWZudmhKeENFR2ZxblNJOFBMTnRySkZkdTdaQlUzZVBkOUR2a3A5RmJvZUZJVV9DM2RWa2tITGRkWlhlcmlnSmJIR3c?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:40:35.000Z",
+     "text": "Palmdale pet owner warns others after receiving scam messages about her missing cat",
+     "source": "ABC7 Los Angeles"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "5e1c23df32",
+   "title": "County data breach could cost taxpayers $25,000",
+   "headline": "County data breach could cost taxpayers $25,000",
+   "category": "Data Breach",
+   "country": "United States",
+   "region": "North America",
+   "what": "County data breach could cost taxpayers $25,000 chronicleonline.com",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:30:00.000Z",
+   "updatedAt": "2026-10-24T15:30:00.000Z",
+   "sourceName": "chronicleonline.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSWJLcC1GVFl1R29OSGpDZG9scEhiQzNxTl9KMm9BSXFnVHN3VElhQm8zOVRrY3RPYUxKQi0xTXI4YXBiMU5aSktReGMwaG9WQWhtSDhtUmtlWlU1LVpmZEtNLVJvelNRYmJXRkVGcXRFckhhazE4QjJWQWp6WjY0OERYWHJ3TnYzdFNSTVJQWmpVczg4SVlEN2JWTmZMM096M09qMjRrZmc2aDdVcUtVMmhxdWJtTVZPRkNaVFBRaU5sMV83NUVTWW1vNU9RVnRWQ0JqRkxn?oc=5",
+   "sources": [
+    {
+     "name": "chronicleonline.com",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSWJLcC1GVFl1R29OSGpDZG9scEhiQzNxTl9KMm9BSXFnVHN3VElhQm8zOVRrY3RPYUxKQi0xTXI4YXBiMU5aSktReGMwaG9WQWhtSDhtUmtlWlU1LVpmZEtNLVJvelNRYmJXRkVGcXRFckhhazE4QjJWQWp6WjY0OERYWHJ3TnYzdFNSTVJQWmpVczg4SVlEN2JWTmZMM096M09qMjRrZmc2aDdVcUtVMmhxdWJtTVZPRkNaVFBRaU5sMV83NUVTWW1vNU9RVnRWQ0JqRkxn?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:30:00.000Z",
+     "text": "County data breach could cost taxpayers $25,000",
+     "source": "chronicleonline.com"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "fdc2fe9c41",
+   "title": "Voter fraud escalation",
+   "headline": "Voter fraud escalation",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "Voter fraud escalation LAist",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:29:10.000Z",
+   "updatedAt": "2026-10-24T15:29:10.000Z",
+   "sourceName": "LAist",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZGthMGVYYUdJN1NkSUVsd3RnMGlzYzA0Q3Q4WFJzNG9mQmJ1WG9CN19qbTFyTmxBUUtWdFBxRDBTOFFzZ3AyS3N6OXFpWHo1YS1TR1U3LURoa0lOaEwyYVdWMnYxd2ZTMU5PMTZMYWJTMXE1WkpyWDNyY2dfa01uYnJlMmltRzFoN0k1eEpEUGdpMzdjQ3pUTUpST0pDc1Y4T0R3Wk5R?oc=5",
+   "sources": [
+    {
+     "name": "LAist",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZGthMGVYYUdJN1NkSUVsd3RnMGlzYzA0Q3Q4WFJzNG9mQmJ1WG9CN19qbTFyTmxBUUtWdFBxRDBTOFFzZ3AyS3N6OXFpWHo1YS1TR1U3LURoa0lOaEwyYVdWMnYxd2ZTMU5PMTZMYWJTMXE1WkpyWDNyY2dfa01uYnJlMmltRzFoN0k1eEpEUGdpMzdjQ3pUTUpST0pDc1Y4T0R3Wk5R?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:29:10.000Z",
+     "text": "Voter fraud escalation",
+     "source": "LAist"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "26992f01e6",
+   "title": "Dream job abroad turns nightmare as Mumbai chef forced into cyber fraud",
+   "headline": "Dream job abroad turns nightmare as Mumbai chef forced into cyber fraud",
+   "category": "Fraud",
+   "country": "India",
+   "region": "Asia",
+   "what": "Dream job abroad turns nightmare as Mumbai chef forced into cyber fraud The Times of India",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:24:00.000Z",
+   "updatedAt": "2026-10-24T15:24:00.000Z",
+   "sourceName": "The Times of India",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNX2R1NC1qUGJKYXUteXVxQmZpc3c1TjZnYUFJQWxLVDU2R3p0ZW1tUHB1S0oyRHBUWFZzai1kaldqVnRxcXlqVzV4ZUpOS2djV1lMM05PLXFFU1Y2R1Vfak9rU3Jsa05ldlRiaG1mRFFXMUs0TzVTekZmSzZNU21aWWJZVHdleVlhNHJhUGRYRGNzdllWd0QzUmxZMzBXSkJHOWdCRUZFV2k5ZU5HZk1HamFiMUp5blpjYU9WRlNuX25HWTBMZHVPSjVuWkhlQm1qcHNlVFg2Z1RaSFBhOVHSAeMBQVVfeXFMTXJKWlBmUk0yWTJGc1JWUUo4YUFTcUZVSXdTWGwyUnhJckJleEJELVhMRUNBeUZUNkZXR3JiNng1TnUtOFkyUGJkZGJjS1hLdGQxN2laa2pFRHNCWTc5eEdodEFwZmFlTWR6TWlmb0dwVW5pSEN4UmxkeUFjSVFsSWxnZlQ3NUE1YkRLLXJfT3dlQzVxZ3Q1U1h1eGRrOGhLTHB0VjRoZzlsdmowOGVxQ3VzRnpfNXQ3bzlHQmZKbzFnSlFMQVdYb3F3RzhlNWYzZEo4c3RqeFJ3LVFyNVZNMy1Na0k?oc=5",
+   "sources": [
+    {
+     "name": "The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNX2R1NC1qUGJKYXUteXVxQmZpc3c1TjZnYUFJQWxLVDU2R3p0ZW1tUHB1S0oyRHBUWFZzai1kaldqVnRxcXlqVzV4ZUpOS2djV1lMM05PLXFFU1Y2R1Vfak9rU3Jsa05ldlRiaG1mRFFXMUs0TzVTekZmSzZNU21aWWJZVHdleVlhNHJhUGRYRGNzdllWd0QzUmxZMzBXSkJHOWdCRUZFV2k5ZU5HZk1HamFiMUp5blpjYU9WRlNuX25HWTBMZHVPSjVuWkhlQm1qcHNlVFg2Z1RaSFBhOVHSAeMBQVVfeXFMTXJKWlBmUk0yWTJGc1JWUUo4YUFTcUZVSXdTWGwyUnhJckJleEJELVhMRUNBeUZUNkZXR3JiNng1TnUtOFkyUGJkZGJjS1hLdGQxN2laa2pFRHNCWTc5eEdodEFwZmFlTWR6TWlmb0dwVW5pSEN4UmxkeUFjSVFsSWxnZlQ3NUE1YkRLLXJfT3dlQzVxZ3Q1U1h1eGRrOGhLTHB0VjRoZzlsdmowOGVxQ3VzRnpfNXQ3bzlHQmZKbzFnSlFMQVdYb3F3RzhlNWYzZEo4c3RqeFJ3LVFyNVZNMy1Na0k?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:24:00.000Z",
+     "text": "Dream job abroad turns nightmare as Mumbai chef forced into cyber fraud",
+     "source": "The Times of India"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "05bc01c74e",
+   "title": "Jack Dorsey's new voice AI is impressing users and alarming fraud watchers",
+   "headline": "Jack Dorsey's new voice AI is impressing users and alarming fraud watchers",
+   "category": "AI Scams",
+   "country": "Canada",
+   "region": "North America",
+   "what": "Jack Dorsey's new voice AI is impressing users and alarming fraud watchers CoinDesk",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:21:06.000Z",
+   "updatedAt": "2026-10-24T15:21:06.000Z",
+   "sourceName": "CoinDesk",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQkstcEFQRTZjZklVY3hicW1GaFZ2c3VmNDZjaVJLY3VPZVdhQkRGRF9aOXo5S1F6VEVaWWtFWkV5bWdKWmRNQ1lxNnNzOHhJdnpGMUx0ODhONzh6WExfZTdtSmVtSlc0VXFRcEgxcHVFU0xCTHR6NDhuR3Nnc2pyNW1OZll5SmJjRUlQMGxDTnpPc250Wi1kdEJabkx6bnFkV0xDeEJWcWk3SDdpWkE?oc=5",
+   "sources": [
+    {
+     "name": "CoinDesk",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQkstcEFQRTZjZklVY3hicW1GaFZ2c3VmNDZjaVJLY3VPZVdhQkRGRF9aOXo5S1F6VEVaWWtFWkV5bWdKWmRNQ1lxNnNzOHhJdnpGMUx0ODhONzh6WExfZTdtSmVtSlc0VXFRcEgxcHVFU0xCTHR6NDhuR3Nnc2pyNW1OZll5SmJjRUlQMGxDTnpPc250Wi1kdEJabkx6bnFkV0xDeEJWcWk3SDdpWkE?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:21:06.000Z",
+     "text": "Jack Dorsey's new voice AI is impressing users and alarming fraud watchers",
+     "source": "CoinDesk"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "c74af51fe8",
+   "title": "Trump Called Mail Voting A 'Nation Destroying SCAM.' Now He's Promoting It For Republicans.",
+   "headline": "Trump Called Mail Voting A 'Nation Destroying SCAM.' Now He's Promoting It For Republicans.",
+   "category": "Fraud",
+   "country": "Singapore",
+   "region": "Asia",
+   "what": "See the original report for details.",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:10:48.000Z",
+   "updatedAt": "2026-10-24T15:10:48.000Z",
+   "sourceName": "Yahoo News Singapore",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xbTU5alpZcFBscERFc3M0ZU1uenA5cExuUldVanItQWxtYnpuNktNall0RFE0Z1hVRkdVdGdJVlBmeTcydnhVd1o1OW9rWk5vNy10ZW1pUWd6NDRpX21lSFljdnRCb0tOZTlBLXNnbF84cmxsX3dYc29zeTc?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo News Singapore",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xbTU5alpZcFBscERFc3M0ZU1uenA5cExuUldVanItQWxtYnpuNktNall0RFE0Z1hVRkdVdGdJVlBmeTcydnhVd1o1OW9rWk5vNy10ZW1pUWd6NDRpX21lSFljdnRCb0tOZTlBLXNnbF84cmxsX3dYc29zeTc?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:10:48.000Z",
+     "text": "Trump Called Mail Voting A 'Nation Destroying SCAM.' Now He's Promoting It For Republicans.",
+     "source": "Yahoo News Singapore"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "784e9e3844",
+   "title": "Cyberattack exposes personal data of thousands of Portuguese firefighters",
+   "headline": "Cyberattack exposes personal data of thousands of Portuguese firefighters",
+   "category": "Fraud",
+   "country": "Portugal",
+   "region": "Europe",
+   "what": "Cyberattack exposes personal data of thousands of Portuguese firefighters Portugal Resident",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:09:47.000Z",
+   "updatedAt": "2026-10-24T15:09:47.000Z",
+   "sourceName": "Portugal Resident",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORkwyYkhYQUpZbUZ2d3QzV3pndU1XVmV3MmxCa1duZkdFcmlxdjFXYW4yRkhud3ViVlpDbVdRUFFhazVvS2FsRkd5UWV1Sk5odFhUaDF1R1F6a01XUUNZLU9OOGt0MFNuM0NDdlJJR3Y1V2VxNkJ2VXROVHpSSG93YnYzamJ5VE5xMkFVT3NTbDVRXy1LbEFPMHFQSjZ2TThVdUdhT1U1N1kzNUU?oc=5",
+   "sources": [
+    {
+     "name": "Portugal Resident",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORkwyYkhYQUpZbUZ2d3QzV3pndU1XVmV3MmxCa1duZkdFcmlxdjFXYW4yRkhud3ViVlpDbVdRUFFhazVvS2FsRkd5UWV1Sk5odFhUaDF1R1F6a01XUUNZLU9OOGt0MFNuM0NDdlJJR3Y1V2VxNkJ2VXROVHpSSG93YnYzamJ5VE5xMkFVT3NTbDVRXy1LbEFPMHFQSjZ2TThVdUdhT1U1N1kzNUU?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:09:47.000Z",
+     "text": "Cyberattack exposes personal data of thousands of Portuguese firefighters",
+     "source": "Portugal Resident"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "38afddb9b9",
+   "title": "Morocco Joins UAE-Led Global Operation That Flagged $39 Billion in Fraud Assets",
+   "headline": "Morocco Joins UAE-Led Global Operation That Flagged $39 Billion in Fraud Assets",
+   "category": "Fraud",
+   "country": "Morocco",
+   "region": "Africa",
+   "what": "Morocco Joins UAE-Led Global Operation That Flagged $39 Billion in Fraud Assets Morocco World News",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-10-24T15:05:24.000Z",
+   "updatedAt": "2026-10-24T15:05:24.000Z",
+   "sourceName": "Morocco World News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSl9nZi1yNk9zVWVXLWJDS05sWGRFbmFNb0VRWm5NRnd6QXJaQWpXS2NCcm81ZVhfUXhqc1FmUVpfbTd5VXhpYzhqbi1TdXRIbEFlZThENVNhOE1UNFpJbllKX3dJMnU1R3JHZlZITWZzOFVSeEVfQXVBQ1FGbTlSa3NGaHBxN1dRWEdnUmRTU19SM25KQ0haMGNjUHdoWDVzdWl2UlZ0YW9fZ1pFWVJRZFNYNVlyVXRYaVpjVFZrOU8zTXBGR2c?oc=5",
+   "sources": [
+    {
+     "name": "Morocco World News",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSl9nZi1yNk9zVWVXLWJDS05sWGRFbmFNb0VRWm5NRnd6QXJaQWpXS2NCcm81ZVhfUXhqc1FmUVpfbTd5VXhpYzhqbi1TdXRIbEFlZThENVNhOE1UNFpJbllKX3dJMnU1R3JHZlZITWZzOFVSeEVfQXVBQ1FGbTlSa3NGaHBxN1dRWEdnUmRTU19SM25KQ0haMGNjUHdoWDVzdWl2UlZ0YW9fZ1pFWVJRZFNYNVlyVXRYaVpjVFZrOU8zTXBGR2c?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T15:05:24.000Z",
+     "text": "Morocco Joins UAE-Led Global Operation That Flagged $39 Billion in Fraud Assets",
+     "source": "Morocco World News"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "ad767f1e16",
+   "title": "AgriGold scam: Karnataka, AP set up 9 centres to verify investors’ bonds, receipts",
+   "headline": "AgriGold scam: Karnataka, AP set up 9 centres to verify investors’ bonds, receipts",
+   "category": "Fraud",
+   "country": "India",
+   "region": "Asia",
+   "what": "AgriGold scam: Karnataka, AP set up 9 centres to verify investors’ bonds, receipts The Times of India",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:53:00.000Z",
+   "updatedAt": "2026-10-24T14:53:00.000Z",
+   "sourceName": "The Times of India",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTXJaQ1RTVkZVNXZjRTVwOEpreXVVWkxuV3g1Sm1fQXk2cEJzQjlnTWtWaV9vWnR0WjFhVUozOHpLbU9zb25vY2E0UnYwLW81bGMwa2ZUeHZiQmU3N1FBSS1ZeXMyOEhVeGtmem5iUktoaU5lamY5MXVKd25sOUJXdnp3cnY2UkNKN2c0blQ0UExYTzVsU1F6aTdTcm9hWXZXZTZ1TUZSQzIzYW1VVHB4REdrN0JSOVFGeEVnMXE4c3Q4VEo0TzlmZ3Z5ZUVNR0twX3FTLXRLM1p5ZGp3ZU55SkJEVmx6QkllWmVV0gHwAUFVX3lxTE9qMW9PcW1mczNTNFJiVWJkN1cwdGxJUjR6NHRkZGNiLTRVeHIzck9wTjEzcWxMNnhrRnAwQlRRUDJONlcwYWl0QWxtZWFRSmtmMUlyMkJCZkRGVFdlN1Q5VTh5SXpDQVRPMlFxOTJ5Ti1mR2RZNU04YVdjMlFzVTdENURJaFRyRUlFR0tWeW1MTUt0SmlaNVhMTlptTmgyMDRfeGpvbTdMd21UZXRSQ2l3RGlldHM5T2E2ZWdNRE03MVFrS2ZYWUVrUFN2ZUp2VGZkam9pOHRkTS14ZVZlQjhOX09HZm9sTmhQWUdVQmNsWQ?oc=5",
+   "sources": [
+    {
+     "name": "The Times of India",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTXJaQ1RTVkZVNXZjRTVwOEpreXVVWkxuV3g1Sm1fQXk2cEJzQjlnTWtWaV9vWnR0WjFhVUozOHpLbU9zb25vY2E0UnYwLW81bGMwa2ZUeHZiQmU3N1FBSS1ZeXMyOEhVeGtmem5iUktoaU5lamY5MXVKd25sOUJXdnp3cnY2UkNKN2c0blQ0UExYTzVsU1F6aTdTcm9hWXZXZTZ1TUZSQzIzYW1VVHB4REdrN0JSOVFGeEVnMXE4c3Q4VEo0TzlmZ3Z5ZUVNR0twX3FTLXRLM1p5ZGp3ZU55SkJEVmx6QkllWmVV0gHwAUFVX3lxTE9qMW9PcW1mczNTNFJiVWJkN1cwdGxJUjR6NHRkZGNiLTRVeHIzck9wTjEzcWxMNnhrRnAwQlRRUDJONlcwYWl0QWxtZWFRSmtmMUlyMkJCZkRGVFdlN1Q5VTh5SXpDQVRPMlFxOTJ5Ti1mR2RZNU04YVdjMlFzVTdENURJaFRyRUlFR0tWeW1MTUt0SmlaNVhMTlptTmgyMDRfeGpvbTdMd21UZXRSQ2l3RGlldHM5T2E2ZWdNRE03MVFrS2ZYWUVrUFN2ZUp2VGZkam9pOHRkTS14ZVZlQjhOX09HZm9sTmhQWUdVQmNsWQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:53:00.000Z",
+     "text": "AgriGold scam: Karnataka, AP set up 9 centres to verify investors’ bonds, receipts",
+     "source": "The Times of India"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "4e14498405",
+   "title": "Deepfake Threatens Press Credibility, Lemhanas Governor Investigates 1,166 Complaints to the Press Council",
+   "headline": "Deepfake Threatens Press Credibility, Lemhanas Governor Investigates 1,166 Complaints to the Press Council",
+   "category": "Deepfake",
+   "country": "United Kingdom",
+   "region": "Europe",
+   "what": "Deepfake Threatens Press Credibility, Lemhanas Governor Investigates 1,166 Complaints to the Press Council VOI.ID",
+   "how": "Not yet reported.",
+   "status": "Investigating",
+   "tone": "blue",
+   "statusText": "Reported as: investigating.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:51:09.000Z",
+   "updatedAt": "2026-10-24T14:51:09.000Z",
+   "sourceName": "VOI.ID",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVWkh5ZHRWdXY3S1h6LWhDbU9MZkV0SFJmU21zbEhfM2ZVd2dPclhzbXNHcjBqeEFKcGVZSUplbzFoNDTSAUJBVV95cUxQMUlVYWVzLVZLeU05M2d0WV8xZ2dJNUt5czVFczVzQlh6YlhwdGhNdVFFNGloZzFaeXpzNzlZNHBJd3c?oc=5",
+   "sources": [
+    {
+     "name": "VOI.ID",
+     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBVWkh5ZHRWdXY3S1h6LWhDbU9MZkV0SFJmU21zbEhfM2ZVd2dPclhzbXNHcjBqeEFKcGVZSUplbzFoNDTSAUJBVV95cUxQMUlVYWVzLVZLeU05M2d0WV8xZ2dJNUt5czVFczVzQlh6YlhwdGhNdVFFNGloZzFaeXpzNzlZNHBJd3c?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:51:09.000Z",
+     "text": "Deepfake Threatens Press Credibility, Lemhanas Governor Investigates 1,166 Complaints to the Press Council",
+     "source": "VOI.ID"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "4598e2da5b",
+   "title": "Campus crime: Fraud, alcohol violations and larceny reported at UNC this week",
+   "headline": "Campus crime: Fraud, alcohol violations and larceny reported at UNC this week",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "Campus crime: Fraud, alcohol violations and larceny reported at UNC this week The Daily Tar Heel",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:48:53.000Z",
+   "updatedAt": "2026-10-24T14:48:53.000Z",
+   "sourceName": "The Daily Tar Heel",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM1VGWGlwY2VNX0FzMnNucFMtcDlDemZTRnhuRVdKdnVLajFfSGFFcjJOWWp6T3k5WEdGc1hXOHNJUzBVVDR2Mll5d0h6WG5Oa3h3b1lOWWhpLWt6dmNpMVlxenFvNTh0c1Y3dTR5VEVGcHVSMFNMVHVnNHFiM0VPdGFiNFZ6dw?oc=5",
+   "sources": [
+    {
+     "name": "The Daily Tar Heel",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM1VGWGlwY2VNX0FzMnNucFMtcDlDemZTRnhuRVdKdnVLajFfSGFFcjJOWWp6T3k5WEdGc1hXOHNJUzBVVDR2Mll5d0h6WG5Oa3h3b1lOWWhpLWt6dmNpMVlxenFvNTh0c1Y3dTR5VEVGcHVSMFNMVHVnNHFiM0VPdGFiNFZ6dw?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:48:53.000Z",
+     "text": "Campus crime: Fraud, alcohol violations and larceny reported at UNC this week",
+     "source": "The Daily Tar Heel"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "3542581336",
+   "title": "INTERPOL Arrests Cybercrime Suspects In Nigeria Over $2.4m Fraud",
+   "headline": "INTERPOL Arrests Cybercrime Suspects In Nigeria Over $2.4m Fraud",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "INTERPOL Arrests Cybercrime Suspects In Nigeria Over $2.4m Fraud AIT LIVE",
+   "how": "Not yet reported.",
+   "status": "Arrests made",
+   "tone": "green",
+   "statusText": "Reported as: arrests made.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:39:18.000Z",
+   "updatedAt": "2026-10-24T14:39:18.000Z",
+   "sourceName": "AIT LIVE",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdU1sX1l6cmRleUw4NGRMcDROT1dzc1dwbzRBaU9rOTdpb0ltT185ZXRLdy13N0lBR04wS2dsSE9iakhKaURNdF9kdURrTjlNbUptRngxajlBenRwTWxFZjlkOHllclI0Y1A5TzZYME9XeWpQcl9CcmE3OTF5cWhqdEFoaFdabl9X?oc=5",
+   "sources": [
+    {
+     "name": "AIT LIVE",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdU1sX1l6cmRleUw4NGRMcDROT1dzc1dwbzRBaU9rOTdpb0ltT185ZXRLdy13N0lBR04wS2dsSE9iakhKaURNdF9kdURrTjlNbUptRngxajlBenRwTWxFZjlkOHllclI0Y1A5TzZYME9XeWpQcl9CcmE3OTF5cWhqdEFoaFdabl9X?oc=5"
+    },
+    {
+     "name": "TheCable",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUk9pc1gxek9wOUtNVjRnclN1TlBQaWFDN2Y4aUd5Vm9aeDRQMTFJdDlRWjB4RjBNS2J6NHdjT0pFTUNhVkV5T1MxYldydFBZd29sbjVQZGt6ZjVSOFRVY0I1WElVOHljMnlxeEJ5QlBmTG1xa1ZpaENVZTM3TXhFSHBsaWIyalFXc1lsY20zN3oxNzRDSWM4RnhZUUlwNTQ?oc=5"
+    },
+    {
+     "name": "Punch Newspapers",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQM254YkFuN0lWUkNoZGd4U256X2VzV0szbUpPTm1lUGQxVGxHRFd2Ry1CYkpwUUJUX010dU9VS0MzYmZzd3o4TmxBeGFfRS0yNTlvbGFFY2U1Snl2Ynp2UGZFSnYyY1dhZXotZ09ieE5yZ1R6NXRtdHR5RV9MTTNuTDlUYw?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-22T23:14:38.000Z",
+     "text": "INTERPOL arrests two suspects in Nigeria over $2.4m fraud",
+     "source": "Punch Newspapers"
+    },
+    {
+     "at": "2026-10-23T08:26:00.000Z",
+     "text": "Interpol arrests two suspects in Nigeria over ‘$2.4m fraud, email compromise’",
+     "source": "TheCable"
+    },
+    {
+     "at": "2026-10-24T14:39:18.000Z",
+     "text": "INTERPOL Arrests Cybercrime Suspects In Nigeria Over $2.4m Fraud",
+     "source": "AIT LIVE"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "970f5f6266",
+   "title": "Uber Passenger Alleges 'Scam' After Driver Shows 'Fake Screenshot' Of Fare; Takes To Reddit",
+   "headline": "Uber Passenger Alleges 'Scam' After Driver Shows 'Fake Screenshot' Of Fare; Takes To Reddit",
+   "category": "Fraud",
+   "country": "Canada",
+   "region": "North America",
+   "what": "Uber Passenger Alleges 'Scam' After Driver Shows 'Fake Screenshot' Of Fare; Takes To Reddit NDTV Profit",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:35:35.000Z",
+   "updatedAt": "2026-10-24T14:35:35.000Z",
+   "sourceName": "NDTV Profit",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNS1VUF82Mmo4dy1yZWlpelVmZE5LbFl4dmd2QzlkMmphXzZkYzhYUHQtRDZRaVdTSjhRdUlMX2wyeTc2NUpFUlRZQll2QzJlVTU4eUNkUFRnT1d5UmhjVFU5dUpyNlE3WVZhRDRPVlZqbVBsZmZkV0NSWG4tanpOSVcxRU1WZzc4SC0xYkYyTDJEalVMakpJTDQwOV8xZEhTSUFxS2JEdGRRV1NmMXFZczhZMkFhVWtXV3NoVFVoTF9ISzTSAcsBQVVfeXFMUGx0R0hmeTRrNWxlM2NpZmR3MDR0WEdaZUZSSU5HaW9ERDhaRTBqVHRsUm0zQ2RIU0VkeU9OTGwtM3NtVVRjRDM4Q29iMUFWanpENHY0RkY1bEp2MlUwaXkyTlZvcnBlYlprZXowcllhenkxN1NJdEdibFAxM3ZVRU43SWNUQVFRcUt5YjlpbWpaUmNIVFN1Z3VIcFN2WWh2Z2NPUk4tSy1PUjBnWTl0THdDNTZ0Q3M4QkJnSEp4eDZtd19peDZoem5rZW8?oc=5",
+   "sources": [
+    {
+     "name": "NDTV Profit",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNS1VUF82Mmo4dy1yZWlpelVmZE5LbFl4dmd2QzlkMmphXzZkYzhYUHQtRDZRaVdTSjhRdUlMX2wyeTc2NUpFUlRZQll2QzJlVTU4eUNkUFRnT1d5UmhjVFU5dUpyNlE3WVZhRDRPVlZqbVBsZmZkV0NSWG4tanpOSVcxRU1WZzc4SC0xYkYyTDJEalVMakpJTDQwOV8xZEhTSUFxS2JEdGRRV1NmMXFZczhZMkFhVWtXV3NoVFVoTF9ISzTSAcsBQVVfeXFMUGx0R0hmeTRrNWxlM2NpZmR3MDR0WEdaZUZSSU5HaW9ERDhaRTBqVHRsUm0zQ2RIU0VkeU9OTGwtM3NtVVRjRDM4Q29iMUFWanpENHY0RkY1bEp2MlUwaXkyTlZvcnBlYlprZXowcllhenkxN1NJdEdibFAxM3ZVRU43SWNUQVFRcUt5YjlpbWpaUmNIVFN1Z3VIcFN2WWh2Z2NPUk4tSy1PUjBnWTl0THdDNTZ0Q3M4QkJnSEp4eDZtd19peDZoem5rZW8?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:35:35.000Z",
+     "text": "Uber Passenger Alleges 'Scam' After Driver Shows 'Fake Screenshot' Of Fare; Takes To Reddit",
+     "source": "NDTV Profit"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "f4d0d41825",
+   "title": "Unifinz Capital Reports ₹7.69 Crore Cyber Fraud Through 346 Transactions",
+   "headline": "Unifinz Capital Reports ₹7.69 Crore Cyber Fraud Through 346 Transactions",
+   "category": "Fraud",
+   "country": "India",
+   "region": "Asia",
+   "what": "Unifinz Capital Reports ₹7.69 Crore Cyber Fraud Through 346 Transactions The420.in",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:30:35.000Z",
+   "updatedAt": "2026-10-24T14:30:35.000Z",
+   "sourceName": "The420.in",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mQlJKSXRvQzlHLXdtWWxJazloUG04R3ViMDZaNmZjUG9qZm9BUy1PcmtvdG16S0hyRXctaFpQckFjQklnc1gzVkhsSlJjR1RuZ0hWNmwwcm9mZEd5WnZ5b2gxNmdBMUFSYm8yRA?oc=5",
+   "sources": [
+    {
+     "name": "The420.in",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mQlJKSXRvQzlHLXdtWWxJazloUG04R3ViMDZaNmZjUG9qZm9BUy1PcmtvdG16S0hyRXctaFpQckFjQklnc1gzVkhsSlJjR1RuZ0hWNmwwcm9mZEd5WnZ5b2gxNmdBMUFSYm8yRA?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:30:35.000Z",
+     "text": "Unifinz Capital Reports ₹7.69 Crore Cyber Fraud Through 346 Transactions",
+     "source": "The420.in"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "f6854679d4",
+   "title": "Billionaire Mark Cuban compares AI hackers to cockroaches, says businesses can use AI to fight back | Trending",
+   "headline": "Billionaire Mark Cuban compares AI hackers to cockroaches, says businesses can use AI to fight back | Trending",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "Billionaire Mark Cuban compares AI hackers to cockroaches, says businesses can use AI to fight back | Trending Hindustan Times",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:30:34.000Z",
+   "updatedAt": "2026-10-24T14:30:34.000Z",
+   "sourceName": "Hindustan Times",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObXh6M3Q1SVpZbkFHTTc2Q2ZvOGtCWVNZOWpzdFB3ZW9ReWpESFh0akQ5UTdTYWhzdVREX2dOZHVEZE9GSXRRQ21pMG9iZk00S084a3cxb2kyaUI2X3JjcG5rV0Q2ZHZaWkZxeUFma1hMRFVPb2lydG92STItbWZOU2FCQW16RzE1MldWMXVuNEN3d094cXZMNEJJLWkwWXVIUTg1VWJxRTZvZlEwWldiYnJqdGFpcm9adkZQTG5GRER5Sm5GSTJuY0J6dnpoUGNTX3FkU1pJamJYSnZ5Tm41dWEzWmlrMUN3dV9qbkk0VE7SAfYBQVVfeXFMTlpmVHB3aGk0a1dYMW1RQU13WnhfU0s1Rkk2Y1Qwc2Zmb2xGSlBJcDVLVDhsTVoxSkpGWHNvVmhNeldTbDAtOE9mV3gtR2YxUF9fRVJNSG5VNGg1XzZWV2tQeDFsSGs0TW10dEdPR0w3aTc2UW40X2lHVTF1cDlDaTVxbnFsQkZub3F4enJsNlVHemxCN2R4VnpNalVsQXlzVmNrRU55MDJuN1psU3YyNEY3LWt6WmVEZS1rendtd0plOXhZN3h2VnVqRGhxaVBsMDNSNng0eWZWaUVnYmIxSkphNjh6RnlFcG1PbXRpWjFHUDRRMi1n?oc=5",
+   "sources": [
+    {
+     "name": "Hindustan Times",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObXh6M3Q1SVpZbkFHTTc2Q2ZvOGtCWVNZOWpzdFB3ZW9ReWpESFh0akQ5UTdTYWhzdVREX2dOZHVEZE9GSXRRQ21pMG9iZk00S084a3cxb2kyaUI2X3JjcG5rV0Q2ZHZaWkZxeUFma1hMRFVPb2lydG92STItbWZOU2FCQW16RzE1MldWMXVuNEN3d094cXZMNEJJLWkwWXVIUTg1VWJxRTZvZlEwWldiYnJqdGFpcm9adkZQTG5GRER5Sm5GSTJuY0J6dnpoUGNTX3FkU1pJamJYSnZ5Tm41dWEzWmlrMUN3dV9qbkk0VE7SAfYBQVVfeXFMTlpmVHB3aGk0a1dYMW1RQU13WnhfU0s1Rkk2Y1Qwc2Zmb2xGSlBJcDVLVDhsTVoxSkpGWHNvVmhNeldTbDAtOE9mV3gtR2YxUF9fRVJNSG5VNGg1XzZWV2tQeDFsSGs0TW10dEdPR0w3aTc2UW40X2lHVTF1cDlDaTVxbnFsQkZub3F4enJsNlVHemxCN2R4VnpNalVsQXlzVmNrRU55MDJuN1psU3YyNEY3LWt6WmVEZS1rendtd0plOXhZN3h2VnVqRGhxaVBsMDNSNng0eWZWaUVnYmIxSkphNjh6RnlFcG1PbXRpWjFHUDRRMi1n?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:30:34.000Z",
+     "text": "Billionaire Mark Cuban compares AI hackers to cockroaches, says businesses can use AI to fight back | Trending",
+     "source": "Hindustan Times"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "37776b4c94",
+   "title": "Edon Bytyqi Extradited to Kosovo for Fraud Cases",
+   "headline": "Edon Bytyqi Extradited to Kosovo for Fraud Cases",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "Edon Bytyqi Extradited to Kosovo for Fraud Cases Nacionale",
+   "how": "Not yet reported.",
+   "status": "Arrests made",
+   "tone": "green",
+   "statusText": "Reported as: arrests made.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:24:14.000Z",
+   "updatedAt": "2026-10-24T14:24:14.000Z",
+   "sourceName": "Nacionale",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1dEaVF0Y19JOUVaVXNmTEh0eFJieHIyaVZmb2NDcDZUdHNCbW1kUGlkT0ZfQWt3RHZBMzRZODRkSXYxMlk4UXFRYklrWnlNU0xrSWE4TGZhdHlPcS1wUzZqTmZ2N3dYOW9VSHlpalNxOTVrTWo4bHI4Z0YtS0JkM3F1X3IxdmRKbWE5MENLbXdybllpTEhRN3BWOWljOTg2SFNYaVlfUFV6cV84NU5QWWZ2b2w0bGlCN3c?oc=5",
+   "sources": [
+    {
+     "name": "Nacionale",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1dEaVF0Y19JOUVaVXNmTEh0eFJieHIyaVZmb2NDcDZUdHNCbW1kUGlkT0ZfQWt3RHZBMzRZODRkSXYxMlk4UXFRYklrWnlNU0xrSWE4TGZhdHlPcS1wUzZqTmZ2N3dYOW9VSHlpalNxOTVrTWo4bHI4Z0YtS0JkM3F1X3IxdmRKbWE5MENLbXdybllpTEhRN3BWOWljOTg2SFNYaVlfUFV6cV84NU5QWWZ2b2w0bGlCN3c?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:24:14.000Z",
+     "text": "Edon Bytyqi Extradited to Kosovo for Fraud Cases",
+     "source": "Nacionale"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "a6ce317099",
+   "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+   "headline": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+   "category": "Vulnerability",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast.",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:17:32.000Z",
+   "updatedAt": "2026-10-24T14:17:32.000Z",
+   "sourceName": "BleepingComputer",
+   "sourceUrl": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+   "sources": [
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:17:32.000Z",
+     "text": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+     "source": "BleepingComputer"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "98977eff44",
+   "title": "New PHP flaws spark cyberattack warnings, boosting CrowdStrike and Palo Alto stocks.",
+   "headline": "New PHP flaws spark cyberattack warnings, boosting CrowdStrike and Palo Alto stocks.",
+   "category": "Fraud",
+   "country": "Singapore",
+   "region": "Asia",
+   "what": "See the original report for details.",
+   "how": "Not yet reported.",
+   "status": "Warning issued",
+   "tone": "amber",
+   "statusText": "Reported as: warning issued.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:15:22.000Z",
+   "updatedAt": "2026-10-24T14:15:22.000Z",
+   "sourceName": "Pluang",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmo4UDJOcFlJUVV5SFRHRExnOGhRdXJNQ0RydDJsaXBJLXBFTmhDZEtZUDd3U3VqUjNLeXRsc1h6TjNwamRGUzNjZ3RkTmp2Yk1NMWZuNlNiM3JmT0MtMGZtRGswVUxUQ0E4b3BmNWlmNDh6eTQ4STA0dTdld2p3YmVYd05LOUJaTnBDdVVhQmdFWTlk?oc=5",
+   "sources": [
+    {
+     "name": "Pluang",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmo4UDJOcFlJUVV5SFRHRExnOGhRdXJNQ0RydDJsaXBJLXBFTmhDZEtZUDd3U3VqUjNLeXRsc1h6TjNwamRGUzNjZ3RkTmp2Yk1NMWZuNlNiM3JmT0MtMGZtRGswVUxUQ0E4b3BmNWlmNDh6eTQ4STA0dTdld2p3YmVYd05LOUJaTnBDdVVhQmdFWTlk?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:15:22.000Z",
+     "text": "New PHP flaws spark cyberattack warnings, boosting CrowdStrike and Palo Alto stocks.",
+     "source": "Pluang"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "f31b9f4b24",
+   "title": "DaVita (DVA) Settles Ransomware Case As Kidney Week Research Takes Center Stage",
+   "headline": "DaVita (DVA) Settles Ransomware Case As Kidney Week Research Takes Center Stage",
+   "category": "Ransomware",
+   "country": "United States",
+   "region": "North America",
+   "what": "DaVita (DVA) Settles Ransomware Case As Kidney Week Research Takes Center Stage Yahoo Finance",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T14:11:19.000Z",
+   "updatedAt": "2026-10-24T14:11:19.000Z",
+   "sourceName": "Yahoo Finance",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY09wMnVWSC1KUG1Td3BrTGo0aXdEVWJocS1vSlB1QTlVaVItd0pENk11NnhqVk5xZ0VfUXJheE1Xc3pwb2FaVnhfNERNOFViRmlobVVpRGV0LUplSVhSRXVpZ25WOFFPelFZMjlETU84RDJnSXAzOGJ0NW54bFRwb0xrYjJ3TmVyeXlYZ0x2aXZlcFZ0ME1fM19MSQ?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY09wMnVWSC1KUG1Td3BrTGo0aXdEVWJocS1vSlB1QTlVaVItd0pENk11NnhqVk5xZ0VfUXJheE1Xc3pwb2FaVnhfNERNOFViRmlobVVpRGV0LUplSVhSRXVpZ25WOFFPelFZMjlETU84RDJnSXAzOGJ0NW54bFRwb0xrYjJ3TmVyeXlYZ0x2aXZlcFZ0ME1fM19MSQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T14:11:19.000Z",
+     "text": "DaVita (DVA) Settles Ransomware Case As Kidney Week Research Takes Center Stage",
+     "source": "Yahoo Finance"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "d70a35e0f1",
+   "title": "iPhone Duo scam alert: How scammers are tricking premium smartphone buyers",
+   "headline": "iPhone Duo scam alert: How scammers are tricking premium smartphone buyers",
+   "category": "Fraud",
+   "country": "Singapore",
+   "region": "Asia",
+   "what": "iPhone Duo scam alert: How scammers are tricking premium smartphone buyers Business Today",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T13:46:20.000Z",
+   "updatedAt": "2026-10-24T13:46:20.000Z",
+   "sourceName": "Business Today",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMDVUWkJ5V0R0RTlFYkd2VkFGb0o4NHZzQlVIRWEtS1Bnb3AtQjYzeENHV0J6OEFibl9BWlZmTlRrYUpVVG40WE1nQU1nVWtLM3g1NUh0Q3pkOUpra29BbTBaUTdFWnVub3g4ZWQ3X2hLejJNX0NzUnJ6S1FtNU1CMXpnQWRsSGFRZ1lSLTFjVWtMeFh0Q3FwRm85SHNDVUloMGRsbU9FckpOVTJlXzVGYWRIbER0bk1Wc0t4UlR6dWFnbFZFLUZmYWdTb1JtZ1FxNDVxdkhteFhpd9IB3wFBVV95cUxOSDIxY2tVMWdmc0ZPVm5HMHlUalNKV29lUkcyenhFVXJDOGtyV0VLbk1ibTlycklEZFVlbTdmUzhrUWx2MEU3RTJ4QVhhTkRkclVoSmk4azBMdVpLYldkY2JpMFBLcTRYUTFyODJUUUoyWEJXYkdiQ3J6SGNLZHNqRUcwTERPcEVpUnJZeE8yM3FlcjlaVlFveHNrNTFublV3WkZWVEFQRGw0allZTUI3Mjc1eHRHaGtlNll0aGRnNFl3c21INGg1MDN0cDhNLVlTMnVyMnpuVXVEa2ZXMExR?oc=5",
+   "sources": [
+    {
+     "name": "Business Today",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMDVUWkJ5V0R0RTlFYkd2VkFGb0o4NHZzQlVIRWEtS1Bnb3AtQjYzeENHV0J6OEFibl9BWlZmTlRrYUpVVG40WE1nQU1nVWtLM3g1NUh0Q3pkOUpra29BbTBaUTdFWnVub3g4ZWQ3X2hLejJNX0NzUnJ6S1FtNU1CMXpnQWRsSGFRZ1lSLTFjVWtMeFh0Q3FwRm85SHNDVUloMGRsbU9FckpOVTJlXzVGYWRIbER0bk1Wc0t4UlR6dWFnbFZFLUZmYWdTb1JtZ1FxNDVxdkhteFhpd9IB3wFBVV95cUxOSDIxY2tVMWdmc0ZPVm5HMHlUalNKV29lUkcyenhFVXJDOGtyV0VLbk1ibTlycklEZFVlbTdmUzhrUWx2MEU3RTJ4QVhhTkRkclVoSmk4azBMdVpLYldkY2JpMFBLcTRYUTFyODJUUUoyWEJXYkdiQ3J6SGNLZHNqRUcwTERPcEVpUnJZeE8yM3FlcjlaVlFveHNrNTFublV3WkZWVEFQRGw0allZTUI3Mjc1eHRHaGtlNll0aGRnNFl3c21INGg1MDN0cDhNLVlTMnVyMnpuVXVEa2ZXMExR?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:46:20.000Z",
+     "text": "iPhone Duo scam alert: How scammers are tricking premium smartphone buyers",
+     "source": "Business Today"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "5b2d46896e",
+   "title": "Kochi cyber police launch probe as LuLu Group reportedly loses ₹1.64 crore in online fraud",
+   "headline": "Kochi cyber police launch probe as LuLu Group reportedly loses ₹1.64 crore in online fraud",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "Kochi cyber police launch probe as LuLu Group reportedly loses ₹1.64 crore in online fraud The Hindu",
+   "how": "Not yet reported.",
+   "status": "Investigating",
+   "tone": "blue",
+   "statusText": "Reported as: investigating.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T13:41:33.000Z",
+   "updatedAt": "2026-10-24T13:41:33.000Z",
+   "sourceName": "The Hindu",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTno3VXB3VU1kck90ZnU5T2didXREeXgxcjUxNTlwMlZhYjNVX2tRZFZxS0pWZDhfUmRsd0R6cFppLU5LZldXZ01BT1Zjc2M4ZHV2WHRVamZYUFBEVUxPdl9ZMnRMNzZBZWpnV29JSWVCUEEwVGx2TDU2dmpQRGY3TTNmSlYyN19yblZfd3hMSTRSVHI5WHh1T2U3Tmk3cHM0QWZPa0dQWXZuMG5sQldBNmhGQkh0QXpwU3FFajRoaV9kSGE5X0ZFVVd2emIyMjNqNnJkWmNFSlFycWM0R3B2QUxnU0ZxUDhmbnfSAfABQVVfeXFMUEVTYzBSQy0yNndMLTFRcEJqUVpDQTJPRS1nMVBnM1Fwc210dkp1azBQak9iVEJUdnFMTkdvVy11Nm5mNkRTZENzLTA2Qk9sdTJtZFk2M3BpWHBNUXktRkp6VDN1UTlJNnhCNmNEc0VKdTlwME5pekFvdFZVSE9HRS1sWGYyUmZiOGJGNUtxUDFadWIxZDVSN254OW5hZUo1WE1lSzBWbjFsaE9Gbmw2enJfVzEwZC1kME54RzQ4NFYzWVFEVlNNbDBydjUwbmozRFBPOVJWa3RtQkpGZFdZQjZRcjdNdXFFS0xTc2QwN3Nn?oc=5",
+   "sources": [
+    {
+     "name": "The Hindu",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTno3VXB3VU1kck90ZnU5T2didXREeXgxcjUxNTlwMlZhYjNVX2tRZFZxS0pWZDhfUmRsd0R6cFppLU5LZldXZ01BT1Zjc2M4ZHV2WHRVamZYUFBEVUxPdl9ZMnRMNzZBZWpnV29JSWVCUEEwVGx2TDU2dmpQRGY3TTNmSlYyN19yblZfd3hMSTRSVHI5WHh1T2U3Tmk3cHM0QWZPa0dQWXZuMG5sQldBNmhGQkh0QXpwU3FFajRoaV9kSGE5X0ZFVVd2emIyMjNqNnJkWmNFSlFycWM0R3B2QUxnU0ZxUDhmbnfSAfABQVVfeXFMUEVTYzBSQy0yNndMLTFRcEJqUVpDQTJPRS1nMVBnM1Fwc210dkp1azBQak9iVEJUdnFMTkdvVy11Nm5mNkRTZENzLTA2Qk9sdTJtZFk2M3BpWHBNUXktRkp6VDN1UTlJNnhCNmNEc0VKdTlwME5pekFvdFZVSE9HRS1sWGYyUmZiOGJGNUtxUDFadWIxZDVSN254OW5hZUo1WE1lSzBWbjFsaE9Gbmw2enJfVzEwZC1kME54RzQ4NFYzWVFEVlNNbDBydjUwbmozRFBPOVJWa3RtQkpGZFdZQjZRcjdNdXFFS0xTc2QwN3Nn?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:41:33.000Z",
+     "text": "Kochi cyber police launch probe as LuLu Group reportedly loses ₹1.64 crore in online fraud",
+     "source": "The Hindu"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "ae90a62771",
+   "title": "SLED: Columbia cybersecurity incident was ransomware attack",
+   "headline": "SLED: Columbia cybersecurity incident was ransomware attack",
+   "category": "Ransomware",
+   "country": "United States",
+   "region": "North America",
+   "what": "SLED: Columbia cybersecurity incident was ransomware attack ColaDaily.com",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T13:30:00.000Z",
+   "updatedAt": "2026-10-24T13:30:00.000Z",
+   "sourceName": "ColaDaily.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNajJiclFzZ1YzRk96SkQzazJDdHJydjJ1X0p4d1J3LUEyMzF6UHZNSVNpeFNieUFMVmFoZ1dRd1I2cDVITlVHZWc0UFdaQmlNNHVQVDg4N21WbWFzWW9hb3BUbzA0WndWb21HTV90LUdJUGNILTNiMVIxRURsYmU2M28zUHRVSVk5NlVxRUZvOGRkenh3QXUwM2dWWGk4R05vNGIzVUJyNmNyODNRM3dIS1llWThIeUJJbVhVQWM0SWxQQzI3VlVMcFdud08yOGJYZ0xWa2g2Q2h2bS1PMFQ4?oc=5",
+   "sources": [
+    {
+     "name": "ColaDaily.com",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNajJiclFzZ1YzRk96SkQzazJDdHJydjJ1X0p4d1J3LUEyMzF6UHZNSVNpeFNieUFMVmFoZ1dRd1I2cDVITlVHZWc0UFdaQmlNNHVQVDg4N21WbWFzWW9hb3BUbzA0WndWb21HTV90LUdJUGNILTNiMVIxRURsYmU2M28zUHRVSVk5NlVxRUZvOGRkenh3QXUwM2dWWGk4R05vNGIzVUJyNmNyODNRM3dIS1llWThIeUJJbVhVQWM0SWxQQzI3VlVMcFdud08yOGJYZ0xWa2g2Q2h2bS1PMFQ4?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:30:00.000Z",
+     "text": "SLED: Columbia cybersecurity incident was ransomware attack",
+     "source": "ColaDaily.com"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "c5257ea443",
+   "title": "Old Tappan Man Charged in AI Deepfake Nude Images Case",
+   "headline": "Old Tappan Man Charged in AI Deepfake Nude Images Case",
+   "category": "Deepfake",
+   "country": "United States",
+   "region": "North America",
+   "what": "Old Tappan Man Charged in AI Deepfake Nude Images Case Hoodline",
+   "how": "Not yet reported.",
+   "status": "Arrests made",
+   "tone": "green",
+   "statusText": "Reported as: arrests made.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T13:28:58.000Z",
+   "updatedAt": "2026-10-24T13:28:58.000Z",
+   "sourceName": "Hoodline",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTVA0VmxBZUlaSWdJSzFxaWI2YWVfUU5HY1ZsLUxxNFFLamNwa3JxaEowM1E1eGhCUlVZUWExeTVHeDVVaUlwMERDSG5tdmZlNm1SRVk3dFQ4bS1URjNXaGlZVkROb0ZzaEpScEpxTGp3b2VXQ0FrZ1BwUXJVV1lBX0dNSkxLNk4zeXJCdWxnUDFKU0k?oc=5",
+   "sources": [
+    {
+     "name": "Hoodline",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTVA0VmxBZUlaSWdJSzFxaWI2YWVfUU5HY1ZsLUxxNFFLamNwa3JxaEowM1E1eGhCUlVZUWExeTVHeDVVaUlwMERDSG5tdmZlNm1SRVk3dFQ4bS1URjNXaGlZVkROb0ZzaEpScEpxTGp3b2VXQ0FrZ1BwUXJVV1lBX0dNSkxLNk4zeXJCdWxnUDFKU0k?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:28:58.000Z",
+     "text": "Old Tappan Man Charged in AI Deepfake Nude Images Case",
+     "source": "Hoodline"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "daa12e22a6",
+   "title": "Why reported challenges with touchscreen voting machines don't signal election rigging",
+   "headline": "Why reported challenges with touchscreen voting machines don't signal election rigging",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "Why reported challenges with touchscreen voting machines don't signal election rigging NBC 7 San Diego",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-10-24T13:27:57.000Z",
+   "updatedAt": "2026-10-24T13:27:57.000Z",
+   "sourceName": "NBC 7 San Diego",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcjdwU0pfZnkyS1ZKOVBWcjZ4bGg5Ynp5UElhMldWS2gyOTVYX0poSjhhV2prZUpVX3RnODlacUZCMDdWVjNYMlU4NWxXQ2x2cmhHVURMbUdXZF9lVmJiYlhWOWRxTnV4RGlCRlJDX1ZIVWdGNEg3R1N5OHdfLU02bGZ2ZHlxazlPZjRlNElYc193aGVrS0c5SkZWeDUzSTVIV0lUdE5BcEVTdnQ0blk4cVhBQWJVSWFOMUtUSTVNaWJaaGE4Tml3RjdURHVkU2Yzd0lVeU1wSVhiRlNYNXRNZdIB4AFBVV95cUxNcjdwU0pfZnkyS1ZKOVBWcjZ4bGg5Ynp5UElhMldWS2gyOTVYX0poSjhhV2prZUpVX3RnODlacUZCMDdWVjNYMlU4NWxXQ2x2cmhHVURMbUdXZF9lVmJiYlhWOWRxTnV4RGlCRlJDX1ZIVWdGNEg3R1N5OHdfLU02bGZ2ZHlxazlPZjRlNElYc193aGVrS0c5SkZWeDUzSTVIV0lUdE5BcEVTdnQ0blk4cVhBQWJVSWFOMUtUSTVNaWJaaGE4Tml3RjdURHVkU2Yzd0lVeU1wSVhiRlNYNXRNZQ?oc=5",
+   "sources": [
+    {
+     "name": "NBC 7 San Diego",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcjdwU0pfZnkyS1ZKOVBWcjZ4bGg5Ynp5UElhMldWS2gyOTVYX0poSjhhV2prZUpVX3RnODlacUZCMDdWVjNYMlU4NWxXQ2x2cmhHVURMbUdXZF9lVmJiYlhWOWRxTnV4RGlCRlJDX1ZIVWdGNEg3R1N5OHdfLU02bGZ2ZHlxazlPZjRlNElYc193aGVrS0c5SkZWeDUzSTVIV0lUdE5BcEVTdnQ0blk4cVhBQWJVSWFOMUtUSTVNaWJaaGE4Tml3RjdURHVkU2Yzd0lVeU1wSVhiRlNYNXRNZdIB4AFBVV95cUxNcjdwU0pfZnkyS1ZKOVBWcjZ4bGg5Ynp5UElhMldWS2gyOTVYX0poSjhhV2prZUpVX3RnODlacUZCMDdWVjNYMlU4NWxXQ2x2cmhHVURMbUdXZF9lVmJiYlhWOWRxTnV4RGlCRlJDX1ZIVWdGNEg3R1N5OHdfLU02bGZ2ZHlxazlPZjRlNElYc193aGVrS0c5SkZWeDUzSTVIV0lUdE5BcEVTdnQ0blk4cVhBQWJVSWFOMUtUSTVNaWJaaGE4Tml3RjdURHVkU2Yzd0lVeU1wSVhiRlNYNXRNZQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:27:57.000Z",
+     "text": "Why reported challenges with touchscreen voting machines don't signal election rigging",
+     "source": "NBC 7 San Diego"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "912095757c",
+   "title": "EFCC Arraigns Suspect For Alleged $285m Crude Oil Fraud",
+   "headline": "EFCC Arraigns Suspect For Alleged $285m Crude Oil Fraud",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "EFCC Arraigns Suspect For Alleged $285m Crude Oil Fraud PM Parrot",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T13:22:32.000Z",
+   "updatedAt": "2026-10-24T13:22:32.000Z",
+   "sourceName": "PM Parrot",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zVW9Db0FmaFY1ZHNLYVJ2eGI0UUxOVG5Xb2RoODd0bll3TDhaakE2MzJlc2pKdUpaLTRHcTdVa19aQU5OS0RBbl9mT0dUTGdhcF95T255NUhnOHpsRHZGSC0xbWs1cFk3UzBSM1hhc0F6aHdYQU8zQlpyNTVTZw?oc=5",
+   "sources": [
+    {
+     "name": "PM Parrot",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zVW9Db0FmaFY1ZHNLYVJ2eGI0UUxOVG5Xb2RoODd0bll3TDhaakE2MzJlc2pKdUpaLTRHcTdVa19aQU5OS0RBbl9mT0dUTGdhcF95T255NUhnOHpsRHZGSC0xbWs1cFk3UzBSM1hhc0F6aHdYQU8zQlpyNTVTZw?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:22:32.000Z",
+     "text": "EFCC Arraigns Suspect For Alleged $285m Crude Oil Fraud",
+     "source": "PM Parrot"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "3278413443",
+   "title": "Six arrested in PP raids on suspected online scam operations",
+   "headline": "Six arrested in PP raids on suspected online scam operations",
+   "category": "Fraud",
+   "country": "Singapore",
+   "region": "Asia",
+   "what": "Six arrested in PP raids on suspected online scam operations Khmer Times",
+   "how": "Not yet reported.",
+   "status": "Arrests made",
+   "tone": "green",
+   "statusText": "Reported as: arrests made.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T13:21:04.000Z",
+   "updatedAt": "2026-10-24T13:21:04.000Z",
+   "sourceName": "Khmer Times",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEd0R01UT3B6YVdLVVlsWkdENG55cDA3bHNwQjVfV1JCN09TMC1vWGRoa2NPQUk3SEo1Zk9UVFlQeXpQb2ptcGVKMHFDY3NhNGlFS3BNSld3eWpkVV9qT0RWM2dsLWVSdnJERkNjVDlsVzRCNFd6TUl1WkplVFpxZThZUGhEeHd6VDVFQ3pTNjFfSzgxVDdxVkxFSUJreGFpSVE?oc=5",
+   "sources": [
+    {
+     "name": "Khmer Times",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEd0R01UT3B6YVdLVVlsWkdENG55cDA3bHNwQjVfV1JCN09TMC1vWGRoa2NPQUk3SEo1Zk9UVFlQeXpQb2ptcGVKMHFDY3NhNGlFS3BNSld3eWpkVV9qT0RWM2dsLWVSdnJERkNjVDlsVzRCNFd6TUl1WkplVFpxZThZUGhEeHd6VDVFQ3pTNjFfSzgxVDdxVkxFSUJreGFpSVE?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T13:21:04.000Z",
+     "text": "Six arrested in PP raids on suspected online scam operations",
+     "source": "Khmer Times"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
   {
    "id": "1afcb21b97",
    "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
@@ -105,6 +1376,40 @@
    "ai": false
   },
   {
+   "id": "b851f455c9",
+   "title": "Incognia Launches Real-Time Scam Prevention Solution Using Patented Location Intelligence",
+   "headline": "Incognia Launches Real-Time Scam Prevention Solution Using Patented Location Intelligence",
+   "category": "Fraud",
+   "country": "Canada",
+   "region": "North America",
+   "what": "Incognia Launches Real-Time Scam Prevention Solution Using Patented Location Intelligence Cybersecurity Insiders",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T12:22:08.000Z",
+   "updatedAt": "2026-10-24T12:22:08.000Z",
+   "sourceName": "Cybersecurity Insiders",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmZjNnJiWndPNV9qUV80X091WlVBQTZXbnFQeUt6cnE2UGl3eEhuVzN5TzVPRkNRLU9xcjFSYUtXX285elJsOUpfRVJjX25pQnA2VlJ6T2VhckJ6RHpUdTNBdWpoNXo1MUtPenMtRWJ4bm9mWm1VMkhOdkpqWG5tWHQxeFVFbFRuM3Rib01iVXJFRVFFcHJsc1dRTUFWWkpFNUFtM3UtN2VKOXJrWjVUdHdOQWRFQ1duaFM4bDhJNmp3MmhlcE9oUA?oc=5",
+   "sources": [
+    {
+     "name": "Cybersecurity Insiders",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmZjNnJiWndPNV9qUV80X091WlVBQTZXbnFQeUt6cnE2UGl3eEhuVzN5TzVPRkNRLU9xcjFSYUtXX285elJsOUpfRVJjX25pQnA2VlJ6T2VhckJ6RHpUdTNBdWpoNXo1MUtPenMtRWJ4bm9mWm1VMkhOdkpqWG5tWHQxeFVFbFRuM3Rib01iVXJFRVFFcHJsc1dRTUFWWkpFNUFtM3UtN2VKOXJrWjVUdHdOQWRFQ1duaFM4bDhJNmp3MmhlcE9oUA?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T12:22:08.000Z",
+     "text": "Incognia Launches Real-Time Scam Prevention Solution Using Patented Location Intelligence",
+     "source": "Cybersecurity Insiders"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
    "id": "d3d78860f1",
    "title": "AARP scam alert: Spotting social media scams",
    "headline": "AARP scam alert: Spotting social media scams",
@@ -201,6 +1506,113 @@
      "at": "2026-10-24T12:04:00.000Z",
      "text": "AgriGold scam: Andhra Pradesh, Karnataka CID join hands to verify bonds of victims, agents",
      "source": "The Times of India"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "d4f84f271e",
+   "title": "He works in financial services. He still lost about S$180,000 in a scam.",
+   "headline": "He works in financial services. He still lost about S$180,000 in a scam.",
+   "category": "Fraud",
+   "country": "Singapore",
+   "region": "Asia",
+   "what": "He works in financial services. He still lost about S$180,000 in a scam.",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T12:00:00.000Z",
+   "updatedAt": "2026-10-24T12:00:00.000Z",
+   "sourceName": "CNA",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV1lMemF0dXBXdXpNanA1dzY2eElpMC1tbWRiejBSQlg3U095WWtINnVFRkpjdjFJLUZscGc3elZYY3JWVmdLTGpCajZOSDVSVXJhZGNNX2c2dnhaVzVwZDZhbS14SjUyVjd6dTU4MWhCcnNJLUYybEdQQTB6TlFNRGdieUpPcXhHNzA2bkNBeXNCbkdrbFdhT1VNb013RXVTZ3RYTkFZWHFHRW80d0ZmQjdjdw?oc=5",
+   "sources": [
+    {
+     "name": "CNA",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV1lMemF0dXBXdXpNanA1dzY2eElpMC1tbWRiejBSQlg3U095WWtINnVFRkpjdjFJLUZscGc3elZYY3JWVmdLTGpCajZOSDVSVXJhZGNNX2c2dnhaVzVwZDZhbS14SjUyVjd6dTU4MWhCcnNJLUYybEdQQTB6TlFNRGdieUpPcXhHNzA2bkNBeXNCbkdrbFdhT1VNb013RXVTZ3RYTkFZWHFHRW80d0ZmQjdjdw?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T12:00:00.000Z",
+     "text": "He works in financial services. He still lost about S$180,000 in a scam.",
+     "source": "CNA"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "648722b9ee",
+   "title": "Fashion Weak reveals the fake-shop scam of the declined payment",
+   "headline": "Fashion Weak reveals the fake-shop scam of the declined payment",
+   "category": "Fraud",
+   "country": "Australia",
+   "region": "Oceania",
+   "what": "Fashion Weak reveals the fake-shop scam of the declined payment Pasquale Pillitteri",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T11:56:12.000Z",
+   "updatedAt": "2026-10-24T11:56:12.000Z",
+   "sourceName": "Pasquale Pillitteri",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb2lfbUdqYmRwa2E5cnJSbVVqNE1OcEV0OWJ4Z1N3R1Mwc1dueWp2NmxySlJqSzNNVExTU2U2MTJEWmVudzJPSkZSdjBBWlBWU3pydHVNNm4xUF91czhUM0ZnVllkMDVsTWhMOVRyblhSQ2VTYk90dk42TVBrTXloX0l1YWZYY3ZMOXhTNHp5VjNwd28?oc=5",
+   "sources": [
+    {
+     "name": "Pasquale Pillitteri",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb2lfbUdqYmRwa2E5cnJSbVVqNE1OcEV0OWJ4Z1N3R1Mwc1dueWp2NmxySlJqSzNNVExTU2U2MTJEWmVudzJPSkZSdjBBWlBWU3pydHVNNm4xUF91czhUM0ZnVllkMDVsTWhMOVRyblhSQ2VTYk90dk42TVBrTXloX0l1YWZYY3ZMOXhTNHp5VjNwd28?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T11:56:12.000Z",
+     "text": "Fashion Weak reveals the fake-shop scam of the declined payment",
+     "source": "Pasquale Pillitteri"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "5d0068df3b",
+   "title": "TYGO Investors Have Opportunity to Lead Tigo Energy, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+   "headline": "TYGO Investors Have Opportunity to Lead Tigo Energy, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "TYGO Investors Have Opportunity to Lead Tigo Energy, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm Morningstar",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-10-24T11:50:00.000Z",
+   "updatedAt": "2026-10-24T11:50:00.000Z",
+   "sourceName": "Morningstar",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQb2Utc2NIMmotR1RSRnFkZnluRFRFdklYZDJwV1pKOVYzYVluVlhqQ1hPQ0luSDJONElSRDhSWmJ1bXVURzJsZWp6Q2ZzaGV4eTQ3VEM2SDdDWnN4SFVrQUpGXzFrR2RqSE4ydnRTaEJYN09BTWVYNDBtY2F4dnB1Qm80Tll4UnFPdURVRmdWOGFGcGxwS18tME1jeWlfVjF0bmItU2ZoNVVOZHROUUs3YVpTSXdOZk50dlE1RE1SQUdfMmJhTmdyTjVUdXJGZ2wxMi14YUlnSi1lU0JBUGFMYk05QjZUeDF0Q2hNX0h4UFRpYXo0X09JZjhKcHhUQQ?oc=5",
+   "sources": [
+    {
+     "name": "Morningstar",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQb2Utc2NIMmotR1RSRnFkZnluRFRFdklYZDJwV1pKOVYzYVluVlhqQ1hPQ0luSDJONElSRDhSWmJ1bXVURzJsZWp6Q2ZzaGV4eTQ3VEM2SDdDWnN4SFVrQUpGXzFrR2RqSE4ydnRTaEJYN09BTWVYNDBtY2F4dnB1Qm80Tll4UnFPdURVRmdWOGFGcGxwS18tME1jeWlfVjF0bmItU2ZoNVVOZHROUUs3YVpTSXdOZk50dlE1RE1SQUdfMmJhTmdyTjVUdXJGZ2wxMi14YUlnSi1lU0JBUGFMYk05QjZUeDF0Q2hNX0h4UFRpYXo0X09JZjhKcHhUQQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T11:43:00.000Z",
+     "text": "BULL Investors Have Opportunity to Lead Webull Corporation Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+     "source": "Morningstar"
+    },
+    {
+     "at": "2026-10-24T11:50:00.000Z",
+     "text": "TYGO Investors Have Opportunity to Lead Tigo Energy, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+     "source": "Morningstar"
     }
    ],
    "breaking": false,
@@ -541,6 +1953,11 @@
      "at": "2026-10-24T11:00:45.000Z",
      "text": "Jon Bon Jovi impersonator uses AI videos to scam woman out of $10K, nearly costing her home",
      "source": "Fox News"
+    },
+    {
+     "at": "2026-10-24T11:00:45.000Z",
+     "text": "Jon Bon Jovi impersonator uses AI videos to scam woman out of $10K, nearly costing her home",
+     "source": "Fox News"
     }
    ],
    "breaking": false,
@@ -757,13 +2174,17 @@
    "severity": 2,
    "advice": [],
    "publishedAt": "2026-10-24T10:15:18.000Z",
-   "updatedAt": "2026-10-24T10:15:18.000Z",
+   "updatedAt": "2026-10-24T16:16:16.000Z",
    "sourceName": "The Whistler Newspaper",
    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSFlfVXQ0b2lZal9FMnNIcEoxNWNibEtBQ2Y3TERHQ3ZKOTdqT0VWdGNOeVNHUkhHUlNRMU9zd011TEdkRmtybFMtWUFwRVl5c3U2YllLUjU1cFpTcmZ0Q2E1Y2RtMzVnUUpNMDhUcEZ6RHNMU1BTQVZfUno5djFjR3BOU2lkNkVjWWFLU3hBSQ?oc=5",
    "sources": [
     {
      "name": "The Whistler Newspaper",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSFlfVXQ0b2lZal9FMnNIcEoxNWNibEtBQ2Y3TERHQ3ZKOTdqT0VWdGNOeVNHUkhHUlNRMU9zd011TEdkRmtybFMtWUFwRVl5c3U2YllLUjU1cFpTcmZ0Q2E1Y2RtMzVnUUpNMDhUcEZ6RHNMU1BTQVZfUno5djFjR3BOU2lkNkVjWWFLU3hBSQ?oc=5"
+    },
+    {
+     "name": "PM News Nigeria",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWt3Z2Z2ZDg1YUJwQmtXbWs3dW9LUS1BZEtGMjMzeGwzT3gxcmRadGFrVmRvdl9BQUZYVU03U0h1OHFyT01HdzhjVkhjclAyTW4tWEVCRkhsNFA0ZW9TdHZDdk41emRuR3owZXlhUm9PRWcyOTlUOGVRcVVPSE9ZVjM2eWFBb3lENTNKOHExS3A2QTVOdkFUSS1VN2w3clg2bDZJ?oc=5"
     }
    ],
    "updates": [
@@ -771,6 +2192,11 @@
      "at": "2026-10-24T10:15:18.000Z",
      "text": "US Lists Two Nigerians Wanted Over Medicare Fraud, Drug Charges",
      "source": "The Whistler Newspaper"
+    },
+    {
+     "at": "2026-10-24T16:16:16.000Z",
+     "text": "Medicare Fraud, Drug Conspiracy: US declares two Nigerians wanted",
+     "source": "PM News Nigeria"
     }
    ],
    "breaking": false,
@@ -805,6 +2231,40 @@
      "at": "2026-10-24T10:05:19.000Z",
      "text": "Man arrested by London police over 'scam' claims that 650 sheep were stolen",
      "source": "London Evening Standard"
+    }
+   ],
+   "breaking": false,
+   "ai": false
+  },
+  {
+   "id": "83be69ecf0",
+   "title": "Ballston Spa Medicaid provider accused of $714K fake ride fraud",
+   "headline": "Ballston Spa Medicaid provider accused of $714K fake ride fraud",
+   "category": "Fraud",
+   "country": "Nigeria",
+   "region": "Africa",
+   "what": "Ballston Spa Medicaid provider accused of $714K fake ride fraud WNYT.com",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-10-24T10:01:19.000Z",
+   "updatedAt": "2026-10-24T10:01:19.000Z",
+   "sourceName": "WNYT.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMHJOZHFleW5QOVpaLUpnYVdFdmdTbkptamJhTGJ5Ykt1QWhoOGxCaEpkbVMzem82VnNxclpVTG52ODIyM3JTXzg3RHltSEx0UlZWWV8xUGwtcjJOajdlb2Nvb3RibEt1YlpqZlJwQ1VCS1N4YlVldHg0dU5pRjNjMWdfVi1qWFVNcGVqZFhNSjNodnlpV1ZV?oc=5",
+   "sources": [
+    {
+     "name": "WNYT.com",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMHJOZHFleW5QOVpaLUpnYVdFdmdTbkptamJhTGJ5Ykt1QWhoOGxCaEpkbVMzem82VnNxclpVTG52ODIyM3JTXzg3RHltSEx0UlZWWV8xUGwtcjJOajdlb2Nvb3RibEt1YlpqZlJwQ1VCS1N4YlVldHg0dU5pRjNjMWdfVi1qWFVNcGVqZFhNSjNodnlpV1ZV?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-10-24T10:01:19.000Z",
+     "text": "Ballston Spa Medicaid provider accused of $714K fake ride fraud",
+     "source": "WNYT.com"
     }
    ],
    "breaking": false,
@@ -2981,7 +4441,7 @@
    "severity": 2,
    "advice": [],
    "publishedAt": "2026-10-24T03:02:00.000Z",
-   "updatedAt": "2026-10-24T03:02:00.000Z",
+   "updatedAt": "2026-10-24T15:09:32.000Z",
    "sourceName": "WLTX",
    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOelBRV2RuS05iVmp6Vkd2YlZoR2cwSnRMaENjNXNFYkpJZE1kR1hrRlVXSnNPQzZSaUQ5bjVRYmNOWjNwOVczdEp0aE04dDNzTEZzTlN1dVR2N3p5N0xQMEcta215UWdYeGRaUTdNRWcwcVE0X2ZqS3lMVElzX0pSbGZVdzJCNVFDMkFVaHY1b2JHcVVvZDJVQWVBSlVwZ2YySmRwTVlsUS1vekZXSGprNkd4ejRkRW5nSXIzMlU0bw?oc=5",
    "sources": [
@@ -2992,6 +4452,10 @@
     {
      "name": "WIS News 10",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWUEwbktMenFjcFUxSGJISDNYQTQ4dW1QNnpxRHp1aDEzY2RHZ0Vvdm43TmE3MWpZWjdpZkExRWVhdTE2TVZaMHpYV1dXODg3aTRmcnhwUjdXSUIzTlZwVUZMQjUzZ1JLRGlCWGk0VDZfS1hROHh0UFB0SUxGNTNXQkNtR3I4ZWZPNzJMX1dKZWzSAaQBQVVfeXFMTVNLUDROeF9pb0loTW5qanRVZXRNOTR4cmdrdVZBWHFkdC1xVFBnZ0Y1UldxZ3FKSVNKZVJFWXVPTEtrUEVROWJkeXppbFhHZHhkeHNXeG5mRGJvb3lLQUZxNklJaXRsZVRkZGZ6SHNSNndTMVZKcVdqT1Q4dTFRU2ZTQ2JTN0pBMExfTEdyc2NUMFZFWmFXM2hlbDEwQXUwcjdxZ20?oc=5"
+    },
+    {
+     "name": "WACH.com",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT2xRNE0tMzZnay1neUlsNzFVdWh5QXJ5UjcxRERwdGxYTzNkNzlreGpMX044aUFYa3hNcEIwRVNZb1Nid01oRkhDTW9WSGNTYWV2dEN1S21hdk1lekJkMHJzakVOaFp1TmliMDZvam1hYlotQTllcTN2NzlYNS1sRExkbWdnU1I4ZzlpeS0xVmJBNEd6MldZY2Q2cFV5QjYwdlVqR0lVRXRNWnR5QlBZazg1dEhsYzJKem1GUld5NGRTSWdxcE4yRjFEb3Vtb01wbFZHbVR5clgwOVJPU3U0?oc=5"
     }
    ],
    "updates": [
@@ -3004,6 +4468,11 @@
      "at": "2026-10-24T03:02:00.000Z",
      "text": "City of Columbia confirms ransomware attack",
      "source": "WLTX"
+    },
+    {
+     "at": "2026-10-24T15:09:32.000Z",
+     "text": "City of Columbia confirms ransomware attack disrupting online services",
+     "source": "WACH.com"
     }
    ],
    "breaking": false,
@@ -3536,9 +5005,18 @@
     {
      "name": "ETHRWorld.com",
      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdnBQVFYzYUtWWnJPMzFhYmNLR2U2Rm1keTRYalZvSjRxT3gzbHlBNVBBLW9JUFZLTTM0MmpRRGVoeWYyX0h1SVpoWUxNeDRsMEtCTjFERG45TlcyQ0hnU2RlNHRVMDVISzlISnJoMThJVUhEai1nRmFMNG16eHJkSjBTUzA1U3dqLWdMME9pUkR4amF6bWhUOGhOWGtwTXV4RHZBbkRNOU9rbTJac0x5ZjRIc3dYY0U5WHV4ODR1akVOSEVzU0xsYjlwMHZnb2Ny?oc=5"
+    },
+    {
+     "name": "Reuters",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcldEOEdyclVvcTNpbkhsUkMwV0U1UlcwMFA1bklVenFndDNaekpKSTdOZEtWY0swSUhUeTZZM3BmSDgzSEgzMldIb3U0U3Y1WjgtNU1UX29qS1pMT1YwWWpMdjFVeWNmTTlreEJJRzV0eDBDdWY3UTB2amMyb1RadDVRWktiNVNNcHdfbnVlWHpHaEVQemExX0JFdlVlaGRaWk1BbE4yUFFhQnh6Ri10aUJYVjJSclZ2Zl9xcUNmNlRXUQ?oc=5"
     }
    ],
    "updates": [
+    {
+     "at": "2026-10-23T21:45:13.000Z",
+     "text": "PwC confirms cybersecurity incident involving employee learning records",
+     "source": "Reuters"
+    },
     {
      "at": "2026-10-24T01:44:02.000Z",
      "text": "PwC confirms cybersecurity incident involving employee learning records",
@@ -4310,7 +5788,7 @@
    "severity": 2,
    "advice": [],
    "publishedAt": "2026-10-23T23:30:29.000Z",
-   "updatedAt": "2026-10-23T23:30:29.000Z",
+   "updatedAt": "2026-10-24T16:40:45.000Z",
    "sourceName": "GINX TV",
    "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQnpHWTNxVzJlMXZhNUF3MDhCSWxNUHhHakdHMmhSRWJqXzY2WHVmWTgxcUJqRkNQTk5qWExYRVlFcE9GcU94ajZfa0pFenJuQndONjJLd3Vhd0p2QTJKRDJwNEpaM09JMndNeUc0YTZTWkRPU0xWZFVGQlNqdDhzNkRtUkZVaWV5WUNOc1FvQnE?oc=5",
    "sources": [
@@ -4325,6 +5803,10 @@
     {
      "name": "GamesIndustry.biz",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaEdyM0o4enJVZERVMXBnQmE0Y1NITE5wWFRnUmQ4dDYtVDAzYlEySVF3MGtmdGFsOUs3MVFadUF3b2N6NEFrSWl4U1B4NFJhUUtOSExtUU9LTlNCdDhyWU5ISWxqT3hMXzV6MnlJb1dfcXRaY1Rvc1A2bVlib0oyamdxbHloc2p5Qjl5YkNlLTZ3S2lnY0pDY2RUbERUNF9iVU53?oc=5"
+    },
+    {
+     "name": "Engadget",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVjh6UERQUGhMalFzSGdMSTJ5ekY4VGJEV3ZKSWQ3OVVWZkVCMzZTbUJrN3ZvQWk2NmNvaW1EN0p1SnlmSWVxS3R1UFE1MENaeS1rY0t6T05iNHBIMHFhS2FHUTVMTmJDNkVHLXU0S29ybEg1WjQ0dHVOZEFockV0RC13ck5oUzlqSjNoRmd2MkFLOWRNSXZVSg?oc=5"
     }
    ],
    "updates": [
@@ -4342,6 +5824,11 @@
      "at": "2026-10-23T23:30:29.000Z",
      "text": "Capcom data breach: up to 390,000 people affected",
      "source": "GINX TV"
+    },
+    {
+     "at": "2026-10-24T16:40:45.000Z",
+     "text": "Capcom Confirms Data Breach That Affected 11.7 Million Users",
+     "source": "Engadget"
     }
    ],
    "breaking": false,
@@ -5148,6 +6635,87 @@
   "eccdad8836",
   "6b18018d2e",
   "7d79b6ad78",
-  "6ecc364163"
+  "6ecc364163",
+  "a5acd1647d",
+  "bbba6bcfd7",
+  "c5382d5d1d",
+  "26bcd90c63",
+  "ed07765c39",
+  "a143248d8f",
+  "69b8321f97",
+  "b1d09bd276",
+  "5da781e7ee",
+  "7e01e5bd19",
+  "0052abca03",
+  "e27d2267a8",
+  "723db0042e",
+  "9a8a975276",
+  "2f724e97b4",
+  "8b9ade7d84",
+  "5e1c23df32",
+  "fdc2fe9c41",
+  "26992f01e6",
+  "05bc01c74e",
+  "2d5588d6d9",
+  "c74af51fe8",
+  "784e9e3844",
+  "d80d04f300",
+  "38afddb9b9",
+  "3531fa4623",
+  "ad767f1e16",
+  "4e14498405",
+  "c19af049a6",
+  "4598e2da5b",
+  "3d62e0bf04",
+  "3542581336",
+  "970f5f6266",
+  "12796ac447",
+  "f4d0d41825",
+  "f6854679d4",
+  "37776b4c94",
+  "a6ce317099",
+  "98977eff44",
+  "f31b9f4b24",
+  "67efc4f430",
+  "2633456e2d",
+  "d70a35e0f1",
+  "5b2d46896e",
+  "a9a7477045",
+  "ae90a62771",
+  "c5257ea443",
+  "daa12e22a6",
+  "912095757c",
+  "3278413443",
+  "b851f455c9",
+  "d4f84f271e",
+  "648722b9ee",
+  "5d0068df3b",
+  "f8dd04ebb7",
+  "aea14902a1",
+  "83be69ecf0",
+  "dfd64eea00",
+  "c55fb5ed84",
+  "4e53394c30",
+  "b88bebd592",
+  "14f2a00034",
+  "3bbdec4470",
+  "ba9a89e139",
+  "1d41c49cc4",
+  "14f04a5aa7",
+  "7016324d66",
+  "d297da5173",
+  "5e22783a76",
+  "d0e7459ba1",
+  "dd948108d7",
+  "c1a8981eac",
+  "f17e40b38e",
+  "c5eda9dbfa",
+  "9445b65987",
+  "3d9a6f1bda",
+  "02bba87846",
+  "1c01e315f4",
+  "95bda1de43",
+  "2a9e0e38be",
+  "ec56496d04"
  ]
 }

@@ -1,0 +1,34 @@
+name: Update news
+
+# Every 30 minutes: collect news, summarise, and save data/stories.json.
+# Cloudflare Pages rebuilds the site automatically whenever this file changes.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect and summarise news
+        run: node scripts/fetch.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Save results
+        run: |
+          git config user.name "cyberstorm-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/stories.json
+          git diff --cached --quiet || (git commit -m "Update news" && git push)

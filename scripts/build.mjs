@@ -6,6 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { makeSample } from './sample.mjs';
 import { REGIONS } from './lib/regions.mjs';
+import { groupOf } from './lib/classify.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = process.env.DATA_DIR || path.join(ROOT, 'data');
@@ -110,12 +111,21 @@ function listCard(s) {
     <h3><a href="/story/${esc(s.id)}/">${esc(s.headline)}</a></h3>
     <p>${esc(s.what)}</p>
     <p class="st"><b>STATUS</b>${esc(s.statusText)}</p>
-    <div class="foot"><span>${esc(place(s))} · ${timeEl(s.publishedAt)}</span><a href="/story/${esc(s.id)}/">Full story →</a></div>
+    ${s.advice?.length ? `<div class="protect"><b>PROTECT YOURSELF</b><p>${esc(s.advice[0])}</p></div>` : ''}
+    <div class="foot"><span>${esc(place(s))} · ${timeEl(s.publishedAt)}${groupOf(s) !== 'solved' && s.checkedAt ? ` · checked ${timeEl(s.checkedAt)}` : ''}</span><a href="/story/${esc(s.id)}/">Full story →</a></div>
   </article>`;
 }
 
+const GROUPS = [
+  { key: 'current', title: 'Current', desc: 'Last 2 days, still unfolding' },
+  { key: 'solved', title: 'Solved', desc: 'Arrests, fixes or recovery reported' },
+  { key: 'unresolved', title: 'Unresolved', desc: 'No fix or cause reported yet' }
+];
+
 function homePage() {
-  const latest = stories.slice(0, 60);
+  const byGroup = { current: [], solved: [], unresolved: [] };
+  for (const s of stories) { const g = groupOf(s, now); if (byGroup[g].length < 40) byGroup[g].push(s); }
+  const latest = GROUPS.flatMap((g) => byGroup[g.key]).sort((a, c) => new Date(c.publishedAt) - new Date(a.publishedAt));
   const day = stories.filter((s) => hoursAgo(s.publishedAt) < 24);
   const week = stories.filter((s) => hoursAgo(s.publishedAt) < 24 * 7);
   const countries = new Set(week.map((s) => s.country).filter((c) => c && c !== 'Unknown'));
@@ -128,7 +138,7 @@ function homePage() {
   for (const s of latest) catCount[s.category] = (catCount[s.category] || 0) + 1;
   const cats = Object.keys(catCount).sort((a, b) => catCount[b] - catCount[a]);
   const chips = (group, values) => ['All', ...values].map((v) => `<button type="button" class="chip" data-group="${group}" data-value="${esc(v)}" aria-pressed="${v === 'All'}">${esc(v)}</button>`).join('');
-  const clientData = latest.map((s) => ({ id: s.id, headline: s.headline, what: s.what, how: s.how, status: s.status, tone: s.tone, statusText: s.statusText, category: s.category, country: s.country, region: s.region, publishedAt: s.publishedAt, sourceName: s.sourceName, sourceUrl: s.sourceUrl }));
+  const clientData = latest.map((s) => ({ group: groupOf(s, now), checkedAt: s.checkedAt || null, advice: (s.advice || []).slice(0, 1), id: s.id, headline: s.headline, what: s.what, how: s.how, status: s.status, tone: s.tone, statusText: s.statusText, category: s.category, country: s.country, region: s.region, publishedAt: s.publishedAt, sourceName: s.sourceName, sourceUrl: s.sourceUrl }));
   const arrow = (d) => `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${d}"/></svg>`;
 
   const body = `
@@ -170,7 +180,7 @@ ${breaking ? `<div class="breaking"><div class="wrap"><b>BREAKING</b><span>${esc
 
 <section class="wrap block" id="latest">
   <div class="sechead">
-    <div><h2>Latest incidents</h2><small><span id="count">${latest.length} stories</span> · newest first</small></div>
+    <div><h2>Latest incidents</h2><small><span id="count">${latest.length} stories</span> · sorted by what we know so far</small></div>
     <div class="seg" role="group" aria-label="View mode"><button type="button" data-view="swipe" aria-pressed="true">Swipe</button><button type="button" data-view="list" aria-pressed="false">List</button></div>
   </div>
   <div class="tools">
@@ -181,20 +191,26 @@ ${breaking ? `<div class="breaking"><div class="wrap"><b>BREAKING</b><span>${esc
     <div class="chips"><span>TYPE</span>${chips('cat', cats)}</div>
   </div>
 
-  <div class="swipe" id="swipe" hidden>
-    <div class="stage" id="stage" tabindex="0" role="region" aria-label="Story cards. Swipe up for the next story. Arrow keys also work.">
-      <div class="track" id="track"></div>
-      <div class="progress"><i id="bar"></i></div>
-      <div class="hint" id="hint">${arrow('M6 14l6-6 6 6').replace('width="22" height="22"', 'width="18" height="18"')}SWIPE UP FOR NEXT</div>
+  <div class="tabs" role="tablist" aria-label="Story groups">${GROUPS.map((g, i) => `<button type="button" role="tab" class="tab" data-tab="${g.key}" aria-selected="${i === 0}">${g.title}<span data-tabcount="${g.key}">${byGroup[g.key].length}</span></button>`).join('')}</div>
+  <div class="cols">
+  ${GROUPS.map((g, i) => `<div class="col ${g.key}${i === 0 ? ' on' : ''}" data-group="${g.key}">
+    <div class="colhead"><i></i><h3>${g.title}</h3><b data-colcount>${byGroup[g.key].length}</b><span>${g.desc}</span></div>
+    <div class="swipe" hidden>
+      <div class="stage" tabindex="0" role="region" aria-label="${g.title} stories. Swipe up for the next story. Arrow keys also work.">
+        <div class="track"></div>
+        <div class="progress"><i></i></div>
+        <div class="hint">${arrow('M6 14l6-6 6 6').replace('width="22" height="22"', 'width="18" height="18"')}SWIPE UP FOR NEXT</div>
+      </div>
+      <div class="ctl">
+        <button type="button" class="prev" aria-label="Previous story">${arrow('M6 14l6-6 6 6')}</button>
+        <span class="pos" aria-live="polite">1 / ${byGroup[g.key].length}</span>
+        <button type="button" class="next" aria-label="Next story">${arrow('M6 10l6 6 6-6')}</button>
+      </div>
     </div>
-    <div class="ctl">
-      <button type="button" id="prev" aria-label="Previous story">${arrow('M6 14l6-6 6 6')}</button>
-      <span id="pos" aria-live="polite">1 / ${latest.length}</span>
-      <button type="button" id="next" aria-label="Next story">${arrow('M6 10l6 6 6-6')}</button>
-    </div>
+    <div class="grid list">${byGroup[g.key].map(listCard).join('')}</div>
+    <div class="empty" hidden>Nothing in ${g.title} matches right now.</div>
+  </div>`).join('')}
   </div>
-
-  <div class="grid" id="list">${latest.map(listCard).join('')}</div>
   <div class="empty" id="empty" hidden>No stories match this search yet. Try another word, region or type.</div>
 </section>
 </main>
@@ -302,20 +318,22 @@ function archivePage() {
     <div class="chips"><span>FOCUS</span>${chips('region', regions)}</div>
     <div class="chips"><span>ERA</span>${chips('cat', eras)}</div>
   </div>
-  <div class="swipe" id="swipe" hidden>
-    <div class="stage arch-stage" id="stage" tabindex="0" role="region" aria-label="Archive cards. Swipe up for the next one. Arrow keys also work.">
-      <div class="track" id="track"></div>
-      <div class="progress"><i id="bar"></i></div>
-      <div class="hint" id="hint">${arrow('M6 14l6-6 6 6').replace('width="22" height="22"', 'width="18" height="18"')}SWIPE UP FOR NEXT</div>
+  <div class="cols single"><div class="col on" data-group="all">
+    <div class="swipe" hidden>
+      <div class="stage arch-stage" tabindex="0" role="region" aria-label="Archive cards. Swipe up for the next one. Arrow keys also work.">
+        <div class="track"></div>
+        <div class="progress"><i></i></div>
+        <div class="hint">${arrow('M6 14l6-6 6 6').replace('width="22" height="22"', 'width="18" height="18"')}SWIPE UP FOR NEXT</div>
+      </div>
+      <div class="ctl">
+        <button type="button" class="prev" aria-label="Previous">${arrow('M6 14l6-6 6 6')}</button>
+        <span class="pos" aria-live="polite">1 / ${archEntries.length}</span>
+        <button type="button" class="next" aria-label="Next">${arrow('M6 10l6 6 6-6')}</button>
+      </div>
     </div>
-    <div class="ctl">
-      <button type="button" id="prev" aria-label="Previous">${arrow('M6 14l6-6 6 6')}</button>
-      <span id="pos" aria-live="polite">1 / ${archEntries.length}</span>
-      <button type="button" id="next" aria-label="Next">${arrow('M6 10l6 6 6-6')}</button>
-    </div>
-  </div>
-  <div class="grid" id="list">${archEntries.map(archListCard).join('')}</div>
-  <div class="empty" id="empty" hidden>Nothing matches this search. Try another word, focus or era.</div>
+    <div class="grid list">${archEntries.map(archListCard).join('')}</div>
+    <div class="empty" hidden>Nothing matches this search. Try another word, focus or era.</div>
+  </div></div>
   <p class="archfoot">Summaries are AI-assisted and checked against the linked sources. Where something is not public, we say "Not publicly reported". Blame for an attack is shown as "attributed to", not as proven fact, unless a court has decided.</p>
 </section>
 </main>

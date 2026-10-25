@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { parseFeed } from './lib/xml.mjs';
 import { parseModelJson, sanitize } from './lib/summarize.mjs';
 import { findCountry, regionOf } from './lib/regions.mjs';
+import { isCyberRelevant, groupOf, extractHow, statusRank } from './lib/classify.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 let passed = 0;
@@ -42,6 +43,26 @@ ok('AI reply validation trims, fixes enums, rejects junk', () => {
   assert.equal(sanitize({ relevant: false }).relevant, false);
   assert.throws(() => sanitize({ relevant: true }));
   assert.throws(() => parseModelJson('no json here'));
+});
+
+ok('V3 groups: solved, current (last 2 days), unresolved', () => {
+  const now = Date.now();
+  const h = (n) => new Date(now - n * 36e5).toISOString();
+  assert.equal(groupOf({ status: 'Arrests made', updatedAt: h(300) }, now), 'solved');
+  assert.equal(groupOf({ status: 'Contained', updatedAt: h(1) }, now), 'solved');
+  assert.equal(groupOf({ status: 'Ongoing', updatedAt: h(10) }, now), 'current');
+  assert.equal(groupOf({ status: 'Unconfirmed', updatedAt: h(60) }, now), 'unresolved');
+  assert.ok(statusRank('Arrests made') > statusRank('Ongoing'));
+});
+ok('V3 relevance: off-topic fraud/policy news is dropped, cyber news kept', () => {
+  assert.equal(isCyberRelevant('Trump administration unveils whistleblower program offering cash rewards to fight fraud'), false);
+  assert.equal(isCyberRelevant('Breach of contract lawsuit filed against supplier'), false);
+  assert.equal(isCyberRelevant('Ransomware hits hospital network'), true);
+  assert.equal(isCyberRelevant('Online banking scam steals OTP from customers'), true);
+});
+ok('V3 cause extraction only when an article states one', () => {
+  assert.match(extractHow('The company said little. Attackers got in through a stolen contractor password.'), /stolen|through/);
+  assert.equal(extractHow('The company declined to comment on the incident.'), null);
 });
 
 // --- pipeline + build in a temp folder

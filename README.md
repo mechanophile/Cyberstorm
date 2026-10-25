@@ -39,6 +39,10 @@ cd dist && python3 -m http.server 8000
 6. Cloudflare → Web Analytics → add your site, copy the token into `cloudflareAnalyticsToken` in `config.json`.
 7. Replace the draft text on the Privacy page (`scripts/build.mjs`, `privacyPage`) with a reviewed policy.
 
+## Current / Solved / Unresolved (V3)
+
+The home page sorts every story into three columns (tabs on phones): **Solved** (status "Arrests made" or "Contained"), **Current** (updated in the last 48 hours), **Unresolved** (older, no fix reported). When a later article about the same incident arrives, the card is updated: a better status replaces "Not yet reported", a stated cause fills "How it happened" (credited to the outlet), and open cards show "Last checked". Groups are recalculated on every build. Off-topic news is dropped by a stricter relevance filter, and the country is no longer guessed from the news edition.
+
 ## Archive
 
 `data/archive.json` holds the landmark attacks shown at `/archive/` (swipe + list, filters, search). It is a fixed, hand-checked list, not fetched automatically. To add one, copy an entry, fill every field, give it at least one https source, and rebuild. Keep wording factual: say "attributed to X" for blame and "Not publicly reported" for unknowns.

@@ -8,7 +8,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { parseFeed } from './lib/xml.mjs';
-import { isCyberRelevant, classify, guessStatus, guessSeverity, STATUS_TONE } from './lib/classify.mjs';
+import { isCyberRelevant, classify, guessStatus, guessSeverity, statusRank, extractHow, groupOf, STATUS_TONE } from './lib/classify.mjs';
 import { findCountry, regionOf } from './lib/regions.mjs';
 import { summarizeAI } from './lib/summarize.mjs';
 
@@ -107,7 +107,7 @@ function fallbackSummary(item) {
     relevant: true,
     headline: item.title.slice(0, 110),
     category: classify(text),
-    country: findCountry(text) || item.countryHint || 'Unknown',
+    country: findCountry(text) || 'Unknown', // the news edition is not proof of where an attack happened
     what: (sentences.slice(0, 2).join(' ') || 'See the original report for details.').slice(0, 280),
     how: 'Not yet reported.',
     status,
@@ -133,7 +133,7 @@ for (const item of raw) {
   if (seen.has(id)) continue;
   seen.add(id);
   if (!apiKey && item.lang !== 'en') { skipped++; continue; } // translation needs AI
-  if (!item.trusted && !isCyberRelevant(item.title + ' ' + item.excerpt)) { skipped++; continue; }
+  if (!isCyberRelevant(item.title + ' ' + item.excerpt)) { skipped++; continue; }
 
   const tk = tokens(item.title);
   const twin = stories.find((s) => {
@@ -145,6 +145,18 @@ for (const item of raw) {
     if (!twin.sources.some((x) => x.name === item.source)) twin.sources.push({ name: item.source, url: item.link });
     twin.updates.push({ at: item.publishedAt, text: item.title, source: item.source });
     if (new Date(item.publishedAt) > new Date(twin.updatedAt)) twin.updatedAt = item.publishedAt;
+    // a later article may add the cause or a better status: update the card, say where it came from
+    const later = item.title + ' ' + item.excerpt;
+    const st = guessStatus(later);
+    if (statusRank(st) > statusRank(twin.status) && (st === 'Arrests made' || st === 'Contained' || statusRank(twin.status) === 0)) {
+      twin.status = st;
+      twin.tone = STATUS_TONE[st];
+      twin.statusText = `Update (${item.source}): ${item.title}`.slice(0, 280);
+    }
+    if (!twin.how || twin.how === 'Not yet reported.') {
+      const how = extractHow(item.excerpt);
+      if (how) twin.how = `${how} (reported by ${item.source})`.slice(0, 340);
+    }
     merged++;
     continue;
   }
@@ -191,6 +203,8 @@ for (const s of stories) {
   s.breaking = s.severity >= cfg.breakingMinSeverity && s.sources.length >= cfg.breakingMinSources && Date.now() - new Date(s.publishedAt) < 48 * 36e5;
   s.updates.sort((a, b) => new Date(a.at) - new Date(b.at));
   delete s._tokens;
+  // still open? then the system keeps checking: stamp the time of this check
+  if (groupOf(s) !== 'solved' && Date.now() - new Date(s.publishedAt) < 14 * 864e5) s.checkedAt = new Date().toISOString();
 }
 stories.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 

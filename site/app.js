@@ -50,7 +50,20 @@
   const prev = $('#prev'), next = $('#next'), hint = $('#hint');
   const swipeEl = $('#swipe'), listEl = $('#list'), emptyEl = $('#empty'), countEl = $('#count');
 
-  const slide = (s, n) => `<div class="slide" style="height:${100 / n}%">
+  const archSlide = (s, n) => `<div class="slide arch" style="height:${100 / n}%">
+    <div class="r"><span class="tag">${esc(s.kind)}</span><span class="badge ${esc(s.tone)}"><i></i>${esc(s.status)}</span></div>
+    <div class="meta"><span class="year">${esc(s.when)}</span> · ${esc(s.country)}</div>
+    <h3>${esc(s.headline)}</h3>
+    <div class="qa">
+      <div><b>WHAT HAPPENED</b><p>${esc(s.what)}</p></div>
+      <div><b>HOW IT HAPPENED</b><p>${esc(s.how)}</p></div>
+      <div><b>HOW IT WAS FIXED</b><p>${esc(s.fixed)}</p></div>
+    </div>
+    <div class="protect"><b>PROTECT YOURSELF</b><p>${esc(s.protect)}</p></div>
+    <div class="foot"><span>Past attack</span><a href="${esc(s.sourceUrl)}" target="_blank" rel="noopener nofollow">Source: ${esc(s.sourceName)} ↗</a></div>
+  </div>`;
+
+  const slide = (s, n) => s.archive ? archSlide(s, n) : `<div class="slide" style="height:${100 / n}%">
     <div class="r"><span class="tag">${esc(s.category)}</span><span class="badge ${esc(s.tone)}"><i></i>${esc(s.status)}</span></div>
     <div class="meta">${esc(s.country && s.country !== 'Unknown' ? s.country : 'Worldwide')}${s.region && s.region !== 'Other' ? ' · ' + esc(s.region) : ''} · ${ago(s.publishedAt)}</div>
     <h3>${esc(s.headline)}</h3>
@@ -81,7 +94,7 @@
     filtered = stories.filter((s) =>
       (state.region === 'All' || s.region === state.region) &&
       (state.cat === 'All' || s.category === state.cat) &&
-      (!q || (s.headline + ' ' + s.country + ' ' + s.category + ' ' + s.what + ' ' + s.region).toLowerCase().includes(q)));
+      (!q || (s.headline + ' ' + s.country + ' ' + s.category + ' ' + s.what + ' ' + s.region + ' ' + (s.kind || '') + ' ' + (s.when || '')).toLowerCase().includes(q)));
     const n = filtered.length;
     countEl.textContent = n + (n === 1 ? ' story' : ' stories');
     const ids = new Set(filtered.map((s) => s.id));

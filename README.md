@@ -39,6 +39,10 @@ cd dist && python3 -m http.server 8000
 6. Cloudflare → Web Analytics → add your site, copy the token into `cloudflareAnalyticsToken` in `config.json`.
 7. Replace the draft text on the Privacy page (`scripts/build.mjs`, `privacyPage`) with a reviewed policy.
 
+## Archive
+
+`data/archive.json` holds the landmark attacks shown at `/archive/` (swipe + list, filters, search). It is a fixed, hand-checked list, not fetched automatically. To add one, copy an entry, fill every field, give it at least one https source, and rebuild. Keep wording factual: say "attributed to X" for blame and "Not publicly reported" for unknowns.
+
 ## Things to know
 
 - `sources.json` feed addresses were written without being able to test them from the build workspace. Check the first run's log.

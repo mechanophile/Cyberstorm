@@ -215,3 +215,27 @@ footer{border-top:1px solid var(--line2);margin-top:24px}
 
 @media (prefers-reduced-motion:reduce){.hot i,.hint{animation:none}.track,.progress i{transition:none}html{scroll-behavior:auto}}
 @media (max-width:560px){.chips>span{width:100%}.row time{text-align:left}}
+
+/* archive */
+.slide.arch{gap:11px;padding:26px 22px 50px}
+.slide.arch h3{font-size:22px;line-height:1.15}
+.slide.arch .qa{gap:9px}
+.slide.arch .qa p{font-size:14px;line-height:1.42}
+.year{font:500 13px var(--mono);color:var(--accent)}
+.protect{border:1px solid rgba(61,220,151,.35);background:rgba(61,220,151,.08);border-radius:10px;padding:9px 12px}
+.protect b{display:block;font:500 11px var(--mono);letter-spacing:.14em;color:#5be8a9;margin-bottom:2px}
+.protect p{margin:0;font-size:14px;line-height:1.4;color:var(--text)}
+.card .protect{margin-top:4px}
+.archfoot{margin:28px 0 0;font-size:13px;color:var(--muted);max-width:720px}
+.card .foot a{color:var(--blue)}
+
+@media (max-width:520px){
+  .slide.arch{gap:9px;padding:22px 18px 46px}
+  .slide.arch h3{font-size:20px}
+  .slide.arch .qa{gap:8px}
+  .slide.arch .qa p,.protect p{font-size:13.5px;line-height:1.38}
+  .slide.arch .foot{font-size:13px}
+}
+
+.stage.arch-stage{height:min(720px,92svh);min-height:560px}
+@media (max-width:380px){.slide.arch .qa p,.protect p{font-size:13px}.slide.arch h3{font-size:19px}}

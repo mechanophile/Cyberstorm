@@ -16,6 +16,11 @@ const NAME = cfg.siteName;
 
 let doc;
 try { doc = JSON.parse(await fs.readFile(path.join(DATA, 'stories.json'), 'utf8')); } catch { doc = makeSample(); }
+let archive = [];
+for (const dir of [DATA, path.join(ROOT, 'data')]) {
+  try { archive = JSON.parse(await fs.readFile(path.join(dir, 'archive.json'), 'utf8')); break; } catch {}
+}
+const archEntries = [...(archive.entries || [])].sort((a, b) => String(b.ym).localeCompare(String(a.ym)));
 const stories = [...doc.stories].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 const now = Date.now();
 const hoursAgo = (iso) => (now - new Date(iso)) / 36e5;
@@ -45,7 +50,7 @@ const out = async (rel, content) => {
 
 /* ---------- shared layout ---------- */
 const SHIELD = '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>';
-const NAV = [['/#latest', 'Latest'], ['/#top5', 'Top 5 today'], ['/#map', 'Attack map'], ['/timeline/', 'Timeline'], ['/about/', 'About']];
+const NAV = [['/#latest', 'Latest'], ['/#top5', 'Top 5 today'], ['/#map', 'Attack map'], ['/timeline/', 'Timeline'], ['/archive/', 'Archive'], ['/about/', 'About']];
 
 function layout({ title, desc, url, body, active = '', jsonld = '', bodyScripts = '' }) {
   const full = title === NAME ? NAME + ' · Worldwide cybercrime & AI-threat news' : title + ' · ' + NAME;
@@ -86,7 +91,7 @@ ${body}
   </div>
   <div class="fbar"><div class="wrap">
     <span>© ${new Date().getFullYear()} ${esc(NAME)}. All rights reserved.</span>
-    <nav aria-label="Footer"><a href="/privacy/">Privacy Policy</a><a href="/about/">About</a><a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></nav>
+    <nav aria-label="Footer"><a href="/archive/">Archive</a><a href="/privacy/">Privacy Policy</a><a href="/about/">About</a><a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></nav>
   </div></div>
 </footer>
 ${bodyScripts}
@@ -256,6 +261,68 @@ function timelinePage() {
   return layout({ title: 'Incident timeline', desc: 'A running timeline of cyber attacks, data breaches and scams around the world.', url: '/timeline/', body, active: 'Timeline' });
 }
 
+
+/* ---------- archive ---------- */
+const srcLinks = (e) => e.sources.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener nofollow">${esc(n)} ↗</a>`).join(' · ');
+function archListCard(e) {
+  return `<article class="card" data-id="${esc(e.id)}">
+    <div class="r">${tag(e.kind)}<span class="badge ${esc(e.tone)}"><i></i>${esc(e.status)}</span></div>
+    <h3>${esc(e.headline)}</h3>
+    <p class="st"><b>WHEN</b>${esc(e.when)} · ${esc(e.country)}</p>
+    <p>${esc(e.what)}</p>
+    <p class="st"><b>HOW IT HAPPENED</b>${esc(e.how)}</p>
+    <p class="st"><b>HOW IT WAS FIXED</b>${esc(e.fixed)}</p>
+    <div class="protect"><b>PROTECT YOURSELF</b><p>${esc(e.protect)}</p></div>
+    <div class="foot"><span>Sources: ${srcLinks(e)}</span></div>
+  </article>`;
+}
+function archivePage() {
+  const asOf = fmtDate(archive.asOf || new Date().toISOString());
+  const regions = ['Worldwide', 'India', 'AI scams'];
+  const eras = [...new Set(archEntries.map((e) => e.era))].sort().reverse();
+  const chips = (group, values) => ['All', ...values].map((v) => `<button type="button" class="chip" data-group="${group}" data-value="${esc(v)}" aria-pressed="${v === 'All'}">${esc(v)}</button>`).join('');
+  const clientData = archEntries.map((e) => ({ archive: true, id: e.id, headline: e.headline, what: e.what, how: e.how, fixed: e.fixed, protect: e.protect, status: e.status, tone: e.tone, kind: e.kind, when: e.when, country: e.country, region: e.region, category: e.era, sourceName: e.sources[0][0], sourceUrl: e.sources[0][1] }));
+  const arrow = (d) => `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${d}"/></svg>`;
+  const body = `<div class="notice"><div class="wrap">Past attacks, not today's news. Statuses are as of ${esc(asOf)} and can change, for example while court cases continue.</div></div>
+<main>
+<section class="wrap pagehead narrow" style="padding-top:48px">
+  <div class="eyebrow">ARCHIVE</div>
+  <h1>Big attacks of the past, <em>and what we learned.</em></h1>
+  <p class="lead">${archEntries.length} landmark cyber incidents from around the world and India: when each happened, how it was fixed, and how you can stay safe. Learn from them to stay safe online.</p>
+</section>
+<section class="wrap block" id="latest">
+  <div class="sechead">
+    <div><h2>Archive</h2><small><span id="count">${archEntries.length} stories</span> · newest first</small></div>
+    <div class="seg" role="group" aria-label="View mode"><button type="button" data-view="swipe" aria-pressed="true">Swipe</button><button type="button" data-view="list" aria-pressed="false">List</button></div>
+  </div>
+  <div class="tools">
+    <div class="search"><label class="sr" for="search">Search the archive</label>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9fb0cc" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input id="search" type="search" autocomplete="off" placeholder="Search by country, company or attack type"></div>
+    <div class="chips"><span>FOCUS</span>${chips('region', regions)}</div>
+    <div class="chips"><span>ERA</span>${chips('cat', eras)}</div>
+  </div>
+  <div class="swipe" id="swipe" hidden>
+    <div class="stage arch-stage" id="stage" tabindex="0" role="region" aria-label="Archive cards. Swipe up for the next one. Arrow keys also work.">
+      <div class="track" id="track"></div>
+      <div class="progress"><i id="bar"></i></div>
+      <div class="hint" id="hint">${arrow('M6 14l6-6 6 6').replace('width="22" height="22"', 'width="18" height="18"')}SWIPE UP FOR NEXT</div>
+    </div>
+    <div class="ctl">
+      <button type="button" id="prev" aria-label="Previous">${arrow('M6 14l6-6 6 6')}</button>
+      <span id="pos" aria-live="polite">1 / ${archEntries.length}</span>
+      <button type="button" id="next" aria-label="Next">${arrow('M6 10l6 6 6-6')}</button>
+    </div>
+  </div>
+  <div class="grid" id="list">${archEntries.map(archListCard).join('')}</div>
+  <div class="empty" id="empty" hidden>Nothing matches this search. Try another word, focus or era.</div>
+  <p class="archfoot">Summaries are AI-assisted and checked against the linked sources. Where something is not public, we say "Not publicly reported". Blame for an attack is shown as "attributed to", not as proven fact, unless a court has decided.</p>
+</section>
+</main>
+<script type="application/json" id="stories-data">${JSON.stringify(clientData).replace(/</g, '\\u003c')}</script>`;
+  return layout({ title: 'Archive of landmark cyber attacks', desc: 'Landmark cyber attacks from around the world and India: when they happened, how they were fixed, and how to protect yourself.', url: '/archive/', body, active: 'Archive' });
+}
+
 /* ---------- about / privacy ---------- */
 const section = (h, p) => `<div><h2>${h}</h2><p>${p}</p></div>`;
 function aboutPage() {
@@ -304,12 +371,13 @@ await out('manifest.webmanifest', JSON.stringify({
 }, null, 1));
 await out('index.html', homePage());
 await out('timeline/index.html', timelinePage());
+await out('archive/index.html', archivePage());
 await out('about/index.html', aboutPage());
 await out('privacy/index.html', privacyPage());
 await out('404.html', notFound());
 for (const s of stories) await out(`story/${s.id}/index.html`, storyPage(s));
 await out('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${BASE}/sitemap.xml\n`);
-const urls = ['/', '/timeline/', '/about/', '/privacy/', ...stories.map((s) => `/story/${s.id}/`)];
+const urls = ['/', '/timeline/', '/archive/', '/about/', '/privacy/', ...stories.map((s) => `/story/${s.id}/`)];
 await out('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${esc(BASE + u)}</loc></url>`).join('\n')}\n</urlset>\n`);
 await out('stories.json', JSON.stringify({ updatedAt: doc.updatedAt, stories }));
 

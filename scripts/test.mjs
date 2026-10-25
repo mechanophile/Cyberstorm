@@ -73,7 +73,7 @@ execFileSync('node', [path.join(ROOT, 'scripts/build.mjs')], { env, stdio: 'pipe
 const dist = path.join(tmp, 'dist');
 const read = (f) => fs.readFile(path.join(dist, f), 'utf8');
 const home = await read('index.html');
-for (const f of ['index.html', 'timeline/index.html', 'about/index.html', 'privacy/index.html', '404.html', 'sitemap.xml', 'robots.txt', 'manifest.webmanifest', 'sw.js', 'assets/style.css', 'assets/app.js']) {
+for (const f of ['index.html', 'timeline/index.html', 'archive/index.html', 'about/index.html', 'privacy/index.html', '404.html', 'sitemap.xml', 'robots.txt', 'manifest.webmanifest', 'sw.js', 'assets/style.css', 'assets/app.js']) {
   await fs.access(path.join(dist, f));
 }
 passed++; console.log('  ✓ build: all pages and assets exist');
@@ -94,6 +94,19 @@ ok('build: stories JSON is safe to embed (no raw "</")', () => {
   const m = /<script type="application\/json" id="stories-data">([\s\S]*?)<\/script>/.exec(home);
   assert.ok(m && !m[1].includes('</'));
   assert.equal(JSON.parse(m[1]).length, 3);
+});
+const arch = JSON.parse(await fs.readFile(path.join(ROOT, 'data/archive.json'), 'utf8'));
+const archPage = await read('archive/index.html');
+ok('archive: every entry complete, sourced and rendered', () => {
+  assert.equal(arch.entries.length, 21);
+  for (const e of arch.entries) {
+    for (const k of ['id', 'headline', 'when', 'country', 'region', 'era', 'kind', 'what', 'how', 'fixed', 'protect', 'status', 'tone']) assert.ok(e[k], e.id + ' missing ' + k);
+    assert.ok(e.sources.length >= 1 && e.sources.every(([n, u]) => n && /^https:\/\//.test(u)), e.id + ' sources');
+    assert.ok(['Worldwide', 'India', 'AI scams'].includes(e.region), e.id + ' region');
+    assert.ok(archPage.includes(`data-id="${e.id}"`), e.id + ' not rendered');
+  }
+  assert.ok(!/undefined|\[object/.test(archPage));
+  assert.match(home, /href="\/archive\/"/);
 });
 await fs.rm(tmp, { recursive: true, force: true });
 console.log(`\n${passed} checks passed`);

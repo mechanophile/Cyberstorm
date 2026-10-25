@@ -1,0 +1,543 @@
+{
+ "asOf": "2026-10-25",
+ "entries": [
+  {
+   "id": "arup-deepfake-2024",
+   "ym": "2024-01",
+   "when": "January 2024",
+   "country": "Hong Kong",
+   "region": "AI scams",
+   "era": "2020–2025",
+   "kind": "Deepfake fraud",
+   "headline": "Arup: a fake video call with fake colleagues",
+   "what": "A finance worker at engineering firm Arup joined a video call with fake versions of his UK finance chief and colleagues, then made 15 transfers worth HK$200 million (about US$25.6M).",
+   "how": "Police said fraudsters likely used public video and audio plus AI-made voices. He doubted a suspicious email at first, then trusted the call.",
+   "fixed": "It came to light when he checked with head office. Arup said its systems were not affected. No arrests or recovery were reported; still under investigation at the last report found.",
+   "protect": "Treat any video call asking for urgent, secret payments as suspect, and confirm through a separate channel.",
+   "status": "Under investigation",
+   "tone": "amber",
+   "sources": [
+    [
+     "CNN",
+     "https://edition.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk"
+    ],
+    [
+     "Hong Kong Free Press",
+     "https://hongkongfp.com/2024/02/05/multinational-loses-hk200-million-to-deepfake-video-conference-scam-hong-kong-police-say/"
+    ],
+    [
+     "The Register",
+     "https://www.theregister.com/2024/02/05/hong_kong_deepfaked_cfo"
+    ]
+   ]
+  },
+  {
+   "id": "change-healthcare-2024",
+   "ym": "2024-02",
+   "when": "February 2024",
+   "country": "United States",
+   "region": "Worldwide",
+   "era": "2020–2025",
+   "kind": "Ransomware",
+   "headline": "Change Healthcare: US health payments frozen",
+   "what": "Ransomware (the ALPHV/BlackCat group) disrupted insurance claims and payments across the US. A reported 192.7 million people were affected, per a 2025 filing.",
+   "how": "Stolen login details worked on a remote-access portal with no second login step, according to the parent company's CEO.",
+   "fixed": "A ransom of about $22M was reportedly paid, and the gang then reportedly vanished. Free credit monitoring was offered. Lawsuits are combined in one court; no settlement as of 30 September 2026.",
+   "protect": "Use a different password for each account, with two-step login switched on.",
+   "status": "Court cases ongoing",
+   "tone": "amber",
+   "sources": [
+    [
+     "Healthcare Dive",
+     "https://www.healthcaredive.com/news/change-healthcare-compromised-credentials-no-mfa/714824/"
+    ],
+    [
+     "Infosecurity Magazine",
+     "https://www.infosecurity-magazine.com/news/change-healthcare-breach-americans/"
+    ]
+   ]
+  },
+  {
+   "id": "moveit-2023",
+   "ym": "2023-05",
+   "when": "May 2023",
+   "country": "United States",
+   "region": "Worldwide",
+   "era": "2020–2025",
+   "kind": "Data breach",
+   "headline": "MOVEit: one flaw, thousands of organisations",
+   "what": "The Clop group stole data from servers running MOVEit, a file-transfer product. A researcher counted about 2,095 organisations and around 62 million people by September 2023 (an estimate).",
+   "how": "A previously unknown flaw let attackers send commands to the product's database. The maker, Progress Software, released a fix on 31 May 2023.",
+   "fixed": "Lawsuits are combined in one US case. A $2.5M settlement with Ernst & Young and Bank of America got final approval in October 2026. Claims against Progress continue. No arrests found.",
+   "protect": "If you're told your data was involved, freeze your credit and watch for fake messages.",
+   "status": "Court cases ongoing",
+   "tone": "amber",
+   "sources": [
+    [
+     "TechTarget",
+     "https://www.techtarget.com/cybersecurity/news/366553304/Clop-MoveIt-Transfer-attacks-affect-over-2000-organizations"
+    ],
+    [
+     "Settlement Insight",
+     "https://settlementinsight.com/news/ey-bofa-moveit-settlement-final-approval-october-15-2026-2-5-million-zero-objections-zero-opt-outs-payments-after-effective-date"
+    ]
+   ]
+  },
+  {
+   "id": "aiims-delhi-2022",
+   "ym": "2022-11",
+   "when": "November 2022",
+   "country": "India",
+   "region": "India",
+   "era": "2020–2025",
+   "kind": "Ransomware",
+   "headline": "AIIMS Delhi: a hospital forced onto paper",
+   "what": "Ransomware took AIIMS Delhi's servers offline. Outpatient, inpatient and lab services ran on paper for over a week.",
+   "how": "The IT minister told Parliament 5 servers and about 1.3 TB of data were encrypted. Early analysis pointed to poor separation between parts of the network.",
+   "fixed": "AIIMS said hospital data was restored on 29 November 2022. No arrests reported. Unnamed officials said it came from China; that is not confirmed. A reported Rs 200 crore demand was not confirmed to police.",
+   "protect": "Hospitals and offices should keep offline backups and keep parts of their network separate.",
+   "status": "Recovered",
+   "tone": "green",
+   "sources": [
+    [
+     "The Week",
+     "https://www.theweek.in/news/india/2022/11/29/ransomware-attack-aiims-issues-circular-hackers-demand-rs-200-crore.amp.html"
+    ],
+    [
+     "Business Today",
+     "https://www.businesstoday.in/amp/latest/trends/story/aiims-delhi-says-e-hospital-data-been-restored-on-servers-services-continue-to-run-on-manual-mode-354643-2022-11-29"
+    ],
+    [
+     "Deccan Herald",
+     "https://www.deccanherald.com/amp/story/india%2F5-servers-of-aiims-were-affected-about-13-tb-of-data-encrypted-in-cyber-attack-mos-it-1172460.html"
+    ]
+   ]
+  },
+  {
+   "id": "optus-2022",
+   "ym": "2022-09",
+   "when": "September 2022",
+   "country": "Australia",
+   "region": "Worldwide",
+   "era": "2020–2025",
+   "kind": "Data breach",
+   "headline": "Optus: 9.5 million Australians' details leaked",
+   "what": "About 9.5 million Australians' names, birth dates, phone numbers and emails leaked. About 2.4 million also had ID numbers exposed.",
+   "how": "An internet-facing system lacked a proper login check, so attackers could pull other customers' records by changing numbers in the web address.",
+   "fixed": "In August 2025 the privacy regulator took Optus to court. As of 4 October 2026 there was no decision, and the communications regulator's case has no public outcome. No arrests found.",
+   "protect": "Give companies only the data they need, and be wary of messages after any breach.",
+   "status": "Court case ongoing",
+   "tone": "amber",
+   "sources": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2025-08-08/optus-sued-by-privacy-regulator-alleged-failures-22-cyber-attack/105628586"
+    ],
+    [
+     "CPO Magazine",
+     "https://www.cpomagazine.com/cyber-security/australian-authorities-trace-optus-data-breach-to-access-control-coding-error-may-seek-hundreds-of-millions-in-penalties/"
+    ]
+   ]
+  },
+  {
+   "id": "air-india-sita-2021",
+   "ym": "2021-05",
+   "when": "Disclosed May 2021",
+   "country": "India",
+   "region": "India",
+   "era": "2020–2025",
+   "kind": "Data breach",
+   "headline": "Air India: 4.5 million passengers' data exposed",
+   "what": "About 4.5 million passengers' details from 2011 to 2021 were exposed: names, birth dates, passport and ticket details, some card data and frequent-flyer data. No card security codes or passwords.",
+   "how": "The breach was at SITA, the company that runs Air India's passenger system. SITA confirmed it on 24 February 2021.",
+   "fixed": "SITA secured its servers. Air India investigated with outside experts, told card companies and reset frequent-flyer passwords. No arrests or penalties are publicly reported.",
+   "protect": "Use a different password for each travel account, and check your card statements after a breach notice.",
+   "status": "Closed publicly",
+   "tone": "gray",
+   "sources": [
+    [
+     "Computing",
+     "https://www.computing.co.uk/news/4031795/air-india-passengers-sita-hack"
+    ],
+    [
+     "SecurityWeek",
+     "https://www.securityweek.com/researchers-attribute-sita-cyberattack-chinese-hackers/amp/"
+    ]
+   ]
+  },
+  {
+   "id": "colonial-pipeline-2021",
+   "ym": "2021-05",
+   "when": "7 May 2021",
+   "country": "United States",
+   "region": "Worldwide",
+   "era": "2020–2025",
+   "kind": "Ransomware",
+   "headline": "Colonial Pipeline: fuel supply stopped for days",
+   "what": "Ransomware (the DarkSide group) hit the company's business network. The pipeline shut for nearly a week and over 9,500 petrol stations ran dry.",
+   "how": "Attackers used an old, unused remote-access account that had no second login step.",
+   "fixed": "The company paid about $4.4M in bitcoin. In June 2021 the US Justice Department recovered about $2.3M of it. No arrests were found in the sources opened.",
+   "protect": "Turn on two-step login and delete accounts you no longer use.",
+   "status": "Partly recovered",
+   "tone": "amber",
+   "sources": [
+    [
+     "BankInfoSecurity",
+     "https://www.bankinfosecurity.com/hackers-used-compromised-password-to-get-into-colonial-pipeline-a-16819"
+    ],
+    [
+     "Dark Reading",
+     "https://www.darkreading.com/cyberattacks-data-breaches/doj-seizes-2-3m-in-bitcoin-paid-to-colonial-pipeline-attackers"
+    ]
+   ]
+  },
+  {
+   "id": "ireland-hse-2021",
+   "ym": "2021-05",
+   "when": "14 May 2021",
+   "country": "Ireland",
+   "region": "Worldwide",
+   "era": "2020–2025",
+   "kind": "Ransomware",
+   "headline": "Ireland's health service locked by ransomware",
+   "what": "Ransomware (the Conti group) locked about 80 percent of the health service's IT. Hospitals cancelled some services and data was stolen.",
+   "how": "A staff member opened a malicious spreadsheet attachment, and attackers stayed inside about eight weeks. A review found an outdated, poorly separated network.",
+   "fixed": "Ireland did not pay. A decryption key was released on 20 May and systems recovered by September 2021, at a cost of about €51M in 2021.",
+   "protect": "Don't open unexpected attachments, even from someone you know, and keep systems updated.",
+   "status": "Recovered",
+   "tone": "green",
+   "sources": [
+    [
+     "HSE official report",
+     "https://www.hse.ie/eng/services/publications/conti-cyber-attack-on-the-hse-full-report.pdf"
+    ],
+    [
+     "Irish Auditor General",
+     "https://www.audit.gov.ie/en/find-report/publications/2022/12-financial-impact-of-cyber-security-attack.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "log4shell-2021",
+   "ym": "2021-12",
+   "when": "December 2021",
+   "country": "Worldwide",
+   "region": "Worldwide",
+   "era": "2020–2025",
+   "kind": "Software flaw",
+   "headline": "Log4Shell: a flaw hidden inside countless apps",
+   "what": "A top-severity flaw (10 out of 10) in Log4j, a free tool used inside huge numbers of apps and servers, led to mass scanning and attacks.",
+   "how": "A feature of the tool could be tricked into loading outside instructions from ordinary text. It had existed since 2013.",
+   "fixed": "The maker released fixes between 10 and 28 December 2021. A US government review in July 2022 called it an \"endemic vulnerability\" likely to linger for years.",
+   "protect": "Keep apps and devices updated, and ask a company whether it uses Log4j after a warning.",
+   "status": "Fixed, still lingers",
+   "tone": "amber",
+   "sources": [
+    [
+     "US CISA review board report",
+     "https://www.cisa.gov/sites/default/files/publications/CSRB-Report-on-Log4-July-11-2022_508.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "solarwinds-2020",
+   "ym": "2020-12",
+   "when": "Discovered December 2020",
+   "country": "United States",
+   "region": "Worldwide",
+   "era": "2020–2025",
+   "kind": "Supply-chain attack",
+   "headline": "SolarWinds: booby-trapped software updates",
+   "what": "Booby-trapped updates from SolarWinds reached up to about 18,000 customers. Around 100 were broken into, including US government departments, Microsoft and FireEye.",
+   "how": "Attackers got into the company's software-building system and slipped a hidden backdoor into signed updates.",
+   "fixed": "In April 2021 the US and UK attributed it to Russia's foreign intelligence service and the US imposed sanctions. The US regulator's case against SolarWinds was dropped in 2025. No arrests.",
+   "protect": "Install updates from trusted makers promptly, and keep watching for odd behaviour afterwards.",
+   "status": "Case closed",
+   "tone": "gray",
+   "sources": [
+    [
+     "The Hacker News",
+     "https://thehackernews.com/2021/04/us-sanctions-russia-and-expels-10.html"
+    ],
+    [
+     "The Register",
+     "https://www.theregister.com/2025/11/20/sec_bails_on_solarwinds_lawsuit/"
+    ]
+   ]
+  },
+  {
+   "id": "uae-voice-clone-2020",
+   "ym": "2020-01",
+   "when": "2020 (reported Oct 2021)",
+   "country": "United Arab Emirates",
+   "region": "AI scams",
+   "era": "2020–2025",
+   "kind": "Voice-clone fraud",
+   "headline": "A cloned voice moved $35 million",
+   "what": "A UAE bank manager got a call from a voice like a company director he knew, asking for $35 million for an acquisition. Emails from a \"lawyer\" backed it up, and he approved it.",
+   "how": "Forbes reported the voice was cloned with \"deep voice\" technology. The bank was not named.",
+   "fixed": "Money went to several countries; about $415,000 reached two US accounts. Court filings cite at least 17 people. Recovery and outcome not publicly reported.",
+   "protect": "Never approve a large transfer on a phone call and an email alone; always get a second, separate check.",
+   "status": "Not publicly reported",
+   "tone": "gray",
+   "sources": [
+    [
+     "AI Business (summary of the Forbes report)",
+     "https://aibusiness.com/verticals/uae-authorities-request-us-help-in-tracking-down-deep-voice-scammers"
+    ]
+   ]
+  },
+  {
+   "id": "kudankulam-2019",
+   "ym": "2019-10",
+   "when": "October 2019",
+   "country": "India",
+   "region": "India",
+   "era": "2010–2019",
+   "kind": "Malware",
+   "headline": "Kudankulam nuclear plant: malware on the office network",
+   "what": "Malware called Dtrack was found on a computer on the plant's office network. Operator NPCIL said the systems that run the reactors were separate and unaffected.",
+   "how": "Security firm Dragos found plant-specific names in the malware, suggesting a targeted attack. How it got in is not publicly reported.",
+   "fixed": "NPCIL confirmed it on 30 October 2019 and said it was contained. The plant kept operating. No arrests reported and no official blame named.",
+   "protect": "Keep office and control networks strictly apart, and never reuse passwords between them.",
+   "status": "Contained",
+   "tone": "green",
+   "sources": [
+    [
+     "Dragos",
+     "https://dragos.com/blog/industry-news/assessment-of-reported-malware-infection-at-nuclear-facility/"
+    ],
+    [
+     "Security Affairs",
+     "https://securityaffairs.com/93183/security/kudankulam-nuclear-power-plant-infection.html"
+    ]
+   ]
+  },
+  {
+   "id": "uk-energy-voice-2019",
+   "ym": "2019-03",
+   "when": "March 2019",
+   "country": "United Kingdom",
+   "region": "AI scams",
+   "era": "2010–2019",
+   "kind": "Voice-clone fraud",
+   "headline": "The first reported AI voice-clone payment scam",
+   "what": "The head of a UK energy firm took a call from someone he believed was his German boss and sent €220,000 (about $243,000) to a Hungarian supplier.",
+   "how": "Analysts quoted in the report believe AI software copied the boss's voice and accent. The caller demanded payment \"within an hour\".",
+   "fixed": "The money moved on to other countries. The victim grew suspicious at a second call and paid no more. Recovery and arrests not publicly reported.",
+   "protect": "For any urgent payment request, call the person back on a number you already have.",
+   "status": "Not publicly reported",
+   "tone": "gray",
+   "sources": [
+    [
+     "Dark Reading (summary of the Wall Street Journal report)",
+     "https://www.darkreading.com/risk/cybercriminals-impersonate-chief-execs-voice-with-ai-software/d/d-id/1335722"
+    ],
+    [
+     "KnowBe4",
+     "https://blog.knowbe4.com/ai-used-for-social-engineering.-fraudsters-mimic-ceos-voice-in-unusual-cybercrime-case-wsj"
+    ]
+   ]
+  },
+  {
+   "id": "cosmos-bank-2018",
+   "ym": "2018-08",
+   "when": "10–13 August 2018",
+   "country": "India",
+   "region": "India",
+   "era": "2010–2019",
+   "kind": "Bank fraud",
+   "headline": "Cosmos Bank, Pune: Rs 94 crore taken in three days",
+   "what": "About Rs 94.42 crore (about $13.5M) was taken, mostly through card withdrawals abroad, plus a transfer to a Hong Kong account.",
+   "how": "Malware on the bank's card-payment system let attackers approve withdrawals with fake messages. A security firm suggested a phishing email as the likely way in.",
+   "fixed": "Pune cyber police arrested 7 people by 19 September 2018. A security firm linked it to the North Korea-connected Lazarus group; Indian authorities have not confirmed that. Court outcome not publicly reported.",
+   "protect": "Tell your bank at once about any card debit you don't recognise.",
+   "status": "Arrests made",
+   "tone": "green",
+   "sources": [
+    [
+     "Moneylife",
+     "https://www.moneylife.in/article/hackers-transfer-rs94-crore-from-punes-cosmos-bank/55022.html"
+    ],
+    [
+     "SecurityWeek",
+     "https://www.securityweek.com/north-korea-linked-hackers-stole-135-million-cosmos-bank-report/amp/"
+    ]
+   ]
+  },
+  {
+   "id": "equifax-2017",
+   "ym": "2017-09",
+   "when": "Disclosed 7 September 2017",
+   "country": "United States",
+   "region": "Worldwide",
+   "era": "2010–2019",
+   "kind": "Data breach",
+   "headline": "Equifax: 147 million people's data taken",
+   "what": "About 147 million people's data was taken, including 145.5 million Social Security numbers.",
+   "how": "An Apache Struts flaw on a dispute portal went unpatched for four months. Plain-text credentials and weak network separation let attackers go further.",
+   "fixed": "In July 2019 Equifax agreed to pay at least $575M and up to $700M to US regulators and states. In February 2020 the US charged four members of China's PLA 54th Research Institute; they are not in custody.",
+   "protect": "Freeze your credit and use a unique password for every site.",
+   "status": "Settled",
+   "tone": "green",
+   "sources": [
+    [
+     "FTC",
+     "https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach"
+    ],
+    [
+     "US Justice Department",
+     "https://www.justice.gov/opa/pr/chinese-military-personnel-charged-computer-fraud-economic-espionage-and-wire-fraud-hacking"
+    ]
+   ]
+  },
+  {
+   "id": "notpetya-2017",
+   "ym": "2017-06",
+   "when": "27 June 2017",
+   "country": "Ukraine",
+   "region": "Worldwide",
+   "era": "2010–2019",
+   "kind": "Wiper malware",
+   "headline": "NotPetya: $10 billion in damage from a fake ransomware",
+   "what": "Wiper malware disguised as ransomware hit mainly Ukraine, plus Maersk, Merck and FedEx/TNT. Estimated global losses passed $10B.",
+   "how": "It spread through a poisoned update to Ukrainian tax software M.E.Doc, then moved across networks with the same flaw WannaCry used.",
+   "fixed": "Ukraine, the US and the UK attributed it to Russia, which denies it. In 2020 the US charged six Russian officers, four over NotPetya. They remain at large.",
+   "protect": "Patch promptly and keep offline backups.",
+   "status": "Charges filed",
+   "tone": "amber",
+   "sources": [
+    [
+     "CCDCOE wiki",
+     "https://cyberlaw.ccdcoe.org/wiki/NotPetya_(2017)"
+    ],
+    [
+     "Maritime Executive",
+     "https://maritime-executive.com/article/six-russian-gru-agents-indicted-in-connection-with-notpetya-attack"
+    ]
+   ]
+  },
+  {
+   "id": "wannacry-2017",
+   "ym": "2017-05",
+   "when": "12 May 2017",
+   "country": "Worldwide",
+   "region": "Worldwide",
+   "era": "2010–2019",
+   "kind": "Ransomware",
+   "headline": "WannaCry: the NHS cancels 19,000 appointments",
+   "what": "Ransomware demanding about $300 in bitcoin hit organisations worldwide. The UK's NHS lost about £92M and cancelled more than 19,000 appointments and operations.",
+   "how": "It spread through a Windows file-sharing flaw (EternalBlue) leaked in April 2017. Microsoft had patched it on 14 March 2017.",
+   "fixed": "Researcher Marcus Hutchins registered a hidden \"kill switch\" domain that slowed the spread. The US government attributed it to North Korea. No attackers arrested.",
+   "protect": "Install Windows updates promptly and retire unsupported systems.",
+   "status": "No arrests",
+   "tone": "gray",
+   "sources": [
+    [
+     "CSO Online",
+     "https://www.csoonline.com/article/3227906/wannacry-explained-a-perfect-ransomware-storm.html"
+    ],
+    [
+     "Infosecurity Magazine",
+     "https://www.infosecurity-magazine.com/news/wannacry-cost-nhs-92-million/"
+    ]
+   ]
+  },
+  {
+   "id": "mirai-dyn-2016",
+   "ym": "2016-10",
+   "when": "October 2016",
+   "country": "United States",
+   "region": "Worldwide",
+   "era": "2010–2019",
+   "kind": "DDoS attack",
+   "headline": "Mirai: smart gadgets used to knock out the internet",
+   "what": "An attack on DNS provider Dyn disrupted much of the US East Coast internet.",
+   "how": "The Mirai botnet scanned for cameras, routers and recorders still using default passwords and took them over.",
+   "fixed": "Three authors pleaded guilty in December 2017. Each got five years' probation, 2,500 hours of community service and $127,000 restitution after cooperating.",
+   "protect": "Change default passwords and update the firmware on smart devices.",
+   "status": "Authors sentenced",
+   "tone": "green",
+   "sources": [
+    [
+     "The Hacker News",
+     "https://thehackernews.com/2018/09/mirai-botnet-fbi-cybercrime.html"
+    ]
+   ]
+  },
+  {
+   "id": "bangladesh-bank-2016",
+   "ym": "2016-02",
+   "when": "February 2016",
+   "country": "Bangladesh",
+   "region": "Worldwide",
+   "era": "2010–2019",
+   "kind": "Bank heist",
+   "headline": "Bangladesh Bank: $81 million stolen through SWIFT",
+   "what": "About $81M was stolen from the bank's account at the New York Fed. A further $20M transfer was stopped after a spelling error was noticed.",
+   "how": "Spear-phishing gave attackers access to SWIFT-connected computers, and they sent fraudulent payment instructions.",
+   "fixed": "The Philippine central bank fined RCBC about $21M. About $15M was recovered by early 2018. The US charged North Korean national Park Jin Hyok and attributes the attack to a North Korea-backed group.",
+   "protect": "Treat unexpected attachments and links, even \"job applications\", as suspect.",
+   "status": "Partly recovered",
+   "tone": "amber",
+   "sources": [
+    [
+     "PYMNTS",
+     "https://www.pymnts.com/cybersecurity/2018/bangladesh-bank-heist-swift-phishing-scam-fraud-doj/"
+    ],
+    [
+     "SecurityWeek",
+     "https://www.securityweek.com/philippine-bank-handed-record-fine-bangladesh-heist/"
+    ]
+   ]
+  },
+  {
+   "id": "target-2013",
+   "ym": "2013-12",
+   "when": "Late 2013",
+   "country": "United States",
+   "region": "Worldwide",
+   "era": "2010–2019",
+   "kind": "Data breach",
+   "headline": "Target: 40 million cards exposed at Christmas",
+   "what": "Up to 40 million card accounts were exposed during the holiday season.",
+   "how": "Attackers used credentials stolen from a third-party vendor to reach Target's network, per the New York Attorney General.",
+   "fixed": "In May 2017 Target paid $18.5M to 47 states and DC and agreed to add a security executive and an outside security assessment. Target put its total cost at $202M.",
+   "protect": "Watch card statements and turn on card alerts.",
+   "status": "Settled",
+   "tone": "green",
+   "sources": [
+    [
+     "NBC News",
+     "https://www.nbcnews.com/business/business-news/target-settles-2013-hacked-customer-data-breach-18-5-million-n764031"
+    ],
+    [
+     "Fortune",
+     "https://fortune.com/2017/05/23/target-settlement-data-breach-lawsuits"
+    ]
+   ]
+  },
+  {
+   "id": "stuxnet-2010",
+   "ym": "2010-06",
+   "when": "First reported June 2010",
+   "country": "Iran",
+   "region": "Worldwide",
+   "era": "2010–2019",
+   "kind": "Sabotage malware",
+   "headline": "Stuxnet: the worm that damaged machines",
+   "what": "A worm reprogrammed Siemens controllers at Iran's Natanz plant. A think-tank report says about 1,000 centrifuges were replaced between late 2009 and early 2010.",
+   "how": "It reportedly entered via a USB drive and used four Microsoft zero-day flaws, while showing operators normal readings.",
+   "fixed": "No state has claimed it; the US and Israel are widely speculated, with no concrete evidence. It is seen as the first cyber-attack with destructive physical effects.",
+   "protect": "Keep industrial and office networks separate and block unknown USB drives.",
+   "status": "Unclaimed",
+   "tone": "gray",
+   "sources": [
+    [
+     "CCDCOE wiki",
+     "https://cyberlaw.ccdcoe.org/wiki/Stuxnet_(2010)"
+    ]
+   ]
+  }
+ ]
+}

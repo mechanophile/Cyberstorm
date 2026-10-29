@@ -107,6 +107,7 @@ ok('build: home has brand, footer email, copyright, no "undefined"', () => {
 for (const s of doc.stories) {
   const page = await read(`story/${s.id}/index.html`);
   assert.match(page, /WHAT HAPPENED/);
+  if (/^not yet reported\.?$/i.test(s.how.trim())) assert.ok(!/HOW IT HAPPENED/.test(page), 'empty "how" must be hidden: ' + s.id);
   assert.ok(home.includes(`/story/${s.id}/`));
   assert.ok(!/undefined|\[object/.test(page));
 }
@@ -128,6 +129,12 @@ ok('archive: every entry complete, sourced and rendered', () => {
   }
   assert.ok(!/undefined|\[object/.test(archPage));
   assert.match(home, /href="\/archive\/"/);
+});
+const privacy = await read('privacy/index.html');
+ok('privacy: final text, no draft wording, contact present', () => {
+  assert.ok(!/Draft outline|\[Confirm|\[Update/.test(privacy));
+  assert.match(privacy, /No account, no login/);
+  assert.match(privacy, /mscybk@gmail\.com/);
 });
 await fs.rm(tmp, { recursive: true, force: true });
 console.log(`\n${passed} checks passed`);

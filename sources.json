@@ -9,7 +9,7 @@
     { "name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml" },
     { "name": "The Register (Security)", "url": "https://www.theregister.com/security/headlines.atom" },
     { "name": "Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/rss/news/" },
-    { "name": "Sophos Naked Security", "url": "https://nakedsecurity.sophos.com/feed/" },
+    { "name": "Sophos News (Naked Security)", "url": "https://www.sophos.com/en-us/category/serious-security/feed" },
     { "name": "Schneier on Security", "url": "https://www.schneier.com/feed/atom/" }
   ],
   "googleNews": {
@@ -25,7 +25,7 @@
       { "country": "South Africa", "lang": "en", "hl": "en-ZA", "gl": "ZA", "ceid": "ZA:en", "query": "cyberattack OR ransomware OR \"data breach\" OR scam" },
       { "country": "Germany", "lang": "de", "hl": "de", "gl": "DE", "ceid": "DE:de", "query": "Cyberangriff OR Ransomware OR Datenleck OR Deepfake" },
       { "country": "France", "lang": "fr", "hl": "fr", "gl": "FR", "ceid": "FR:fr", "query": "cyberattaque OR rançongiciel OR \"fuite de données\" OR deepfake" },
-      { "country": "Brazil", "lang": "pt", "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419", "query": "\"ataque hacker\" OR ransomware OR \"vazamento de dados\" OR golpe deepfake" },
+      { "country": "Brazil", "lang": "pt", "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419", "query": "\"ataque hacker\" OR ransomware OR \"vazamento de dados\" OR \"golpe digital\" OR deepfake" },
       { "country": "Japan", "lang": "ja", "hl": "ja", "gl": "JP", "ceid": "JP:ja", "query": "サイバー攻撃 OR ランサムウェア OR 情報漏えい OR ディープフェイク" }
     ]
   }

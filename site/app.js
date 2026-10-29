@@ -46,6 +46,7 @@
   const tabsEl = $('.tabs');
   const tabbed = () => !!tabsEl && getComputedStyle(tabsEl).display !== 'none';
 
+  const known = (t) => !!t && !/^not yet reported\.?$/i.test(String(t).trim());
   const protect = (t) => t ? `<div class="protect"><b>PROTECT YOURSELF</b><p>${esc(t)}</p></div>` : '';
   const archSlide = (s, n) => `<div class="slide arch" style="height:${100 / n}%">
     <div class="r"><span class="tag">${esc(s.kind)}</span><span class="badge ${esc(s.tone)}"><i></i>${esc(s.status)}</span></div>
@@ -68,7 +69,7 @@
     <h3>${esc(s.headline)}</h3>
     <div class="qa">
       <div><b>WHAT HAPPENED</b><p>${esc(s.what)}</p></div>
-      <div><b>HOW IT HAPPENED</b><p>${esc(s.how)}</p></div>
+      ${known(s.how) ? `<div><b>HOW IT HAPPENED</b><p>${esc(s.how)}</p></div>` : ''}
       <div><b>${solved ? 'HOW IT WAS SOLVED' : 'CURRENT STATUS'}</b><p>${esc(s.statusText)}</p></div>
     </div>
     ${protect(s.advice && s.advice[0])}

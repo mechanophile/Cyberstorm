@@ -39,6 +39,7 @@ function ago(iso) {
   const d = Math.round(h / 24);
   return d < 30 ? d + 'd ago' : fmtDate(iso);
 }
+const known = (t) => !!t && !/^not yet reported\.?$/i.test(String(t).trim());
 const place = (s) => (s.country && s.country !== 'Unknown' ? s.country : 'Worldwide');
 const badge = (s) => `<span class="badge ${esc(s.tone)}"><i></i>${esc(s.status)}</span>`;
 const tag = (c) => `<span class="tag">${esc(c)}</span>`;
@@ -234,7 +235,7 @@ function storyPage(s) {
     </div>
     <div class="answers">
       <div><b>WHAT HAPPENED</b><p>${esc(s.what)}</p></div>
-      <div><b>HOW IT HAPPENED</b><p>${esc(s.how)}</p></div>
+      ${known(s.how) ? `<div><b>HOW IT HAPPENED</b><p>${esc(s.how)}</p></div>` : ''}
       <div><b>CURRENT STATUS</b><p>${esc(s.statusText)}</p></div>
     </div>
     <div class="devs"><h2>How the story has developed</h2>
@@ -356,14 +357,22 @@ function aboutPage() {
   return layout({ title: 'About', desc: `About ${NAME}: worldwide cybercrime and AI-threat news in short cards.`, url: '/about/', body, active: 'About' });
 }
 function privacyPage() {
+  const counts = !!cfg.cloudflareAnalyticsToken;
   const body = `<main class="wrap narrow">
   <div class="pagehead"><div class="eyebrow">PRIVACY POLICY</div><h1>Your privacy, <em>simply put.</em></h1>
-  <div class="draftnote">Draft outline. The final text must be reviewed against what the live site actually collects before launch.</div></div>
+  <p class="lead">Last updated: October 2026. This page explains in plain words what ${esc(NAME)} does and does not collect.</p></div>
   <div class="prose">
-    ${section('No account needed', 'You can read ' + esc(NAME) + ' without signing up or logging in.')}
-    ${section('Visitor statistics', 'We count visits using a privacy-friendly analytics tool (Cloudflare Web Analytics) to see how many people visit and which stories are read. [Confirm exact details when set up.]')}
-    ${section('Alerts, if you choose them', 'If breaking-news alerts are offered and you turn them on, we store only what is needed to send them, and you can turn them off at any time. [Update to match the final alert system.]')}
-    ${section('Links to other sites', 'Each story links to the original publisher. Those sites have their own privacy policies.')}
+    ${section('No account, no login', 'You can read ' + esc(NAME) + ' without signing up or logging in. We do not ask for your name, email address or any other personal details to read the site.')}
+    ${section('Counting visits', counts
+      ? 'We use Cloudflare Web Analytics to count how many people visit and which pages are read. Cloudflare describes it as a privacy-first tool that does not use cookies and does not track visitors across other sites. We do not use it to build advertising profiles. Cloudflare handles this data under its own privacy policy.'
+      : 'We do not currently run any tool that tracks visitors. If we add a visit counter later, we will say so here.')}
+    ${section('Hosting', esc(NAME) + ' is hosted on Cloudflare. To deliver the site, Cloudflare handles technical details such as your IP address and browser type, under its own privacy policy. We do not use this to identify you.')}
+    ${section('Saved on your device', 'The site remembers your choice between Swipe and List view in your browser, and saves pages so the site loads faster. This stays on your device. You can clear it any time in your browser settings.')}
+    ${section('News and AI summaries', 'Stories come from public news sources and may be summarised by software. We do not send any information about visitors to those services. Summaries can contain mistakes, so every story links to the original publisher.')}
+    ${section('Alerts', 'We do not currently offer alerts or notifications. If we add them later, they will be optional, and this policy will be updated first.')}
+    ${section('Children', esc(NAME) + ' is written to be suitable for all ages. We do not collect personal information from anyone, including children.')}
+    ${section('Links to other sites', 'Each story links to the original publisher. Those sites have their own privacy policies and we are not responsible for them.')}
+    ${section('Changes to this policy', 'If we change how the site works, we will update this page and its date.')}
     ${section('Contact', `Questions about privacy? Write to <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>.`)}
   </div></main>`;
   return layout({ title: 'Privacy Policy', desc: `${NAME} privacy policy.`, url: '/privacy/', body });

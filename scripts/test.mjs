@@ -130,6 +130,14 @@ ok('archive: every entry complete, sourced and rendered', () => {
   assert.ok(!/undefined|\[object/.test(archPage));
   assert.match(home, /href="\/archive\/"/);
 });
+for (const id of ['id="globe"', 'data-mapview="3d"', 'data-mapbtn="2d"', 'id="gtop"', 'id="glegend"', 'id="clk"', 'id="clk-utc"', 'id="cfilter"', 'class="map"', '/assets/globe.js', '/assets/clock.js']) {
+  ok('home contains ' + id, () => assert.ok(home.includes(id), id + ' missing'));
+}
+for (const f of ['globe.js', 'clock.js', 'app.js']) {
+  const code = await fs.readFile(path.join(tmp, 'dist/assets', f), 'utf8');
+  ok('assets/' + f + ' ships and parses', () => { assert.ok(code.length > 500); execFileSync('node', ['--check', path.join(tmp, 'dist/assets', f)], { stdio: 'pipe' }); });
+}
+ok('archive page has no globe or clock', () => assert.ok(!archPage.includes('id="globe"') && !archPage.includes('id="clk"')));
 const privacy = await read('privacy/index.html');
 ok('privacy: final text, no draft wording, contact present', () => {
   assert.ok(!/Draft outline|\[Confirm|\[Update/.test(privacy));

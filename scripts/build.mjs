@@ -152,14 +152,28 @@ ${breaking ? `<div class="breaking"><div class="wrap"><b>BREAKING</b><span>${esc
     <h1>Every cyber attack. Every country. <em>In short.</em></h1>
     <p class="lead">Cybercrime, data breaches and AI scams from sources around the world, collected automatically and summed up in plain language: what happened, how it happened, and where things stand now.</p>
     <div class="btns"><a class="btn primary" href="#latest">Swipe the latest news</a><a class="btn" href="#map">Open attack map</a></div>
-    <div class="stats">
-      <div class="stat"><b>${day.length}</b><span>incidents today</span></div>
-      <div class="stat"><b>${countries.size}</b><span>countries this week</span></div>
-      <div class="stat"><b>${ongoing.length}</b><span>still ongoing</span></div>
+    <div class="hero-live">
+      <div class="clockcard" role="timer" aria-label="Current date and time">
+        <canvas id="clk" aria-hidden="true"></canvas>
+        <div class="secrow"><span class="seclab">SEC</span><div class="sectrack"><i id="clk-bar"></i><u id="clk-head"></u></div><span class="secnum" id="clk-sec">00</span></div>
+        <div class="clk-date" id="clk-date"></div>
+        <div class="clk-zone"><div class="seg sm" role="group" aria-label="Time zone"><button type="button" id="clk-local" aria-pressed="true">MY TIME</button><button type="button" id="clk-utc" aria-pressed="false">UTC</button></div><small id="clk-zone"></small></div>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>${day.length}</b><span>incidents today</span></div>
+        <div class="stat"><b>${countries.size}</b><span>countries this week</span></div>
+        <div class="stat"><b>${ongoing.length}</b><span>still ongoing</span></div>
+      </div>
     </div>
   </div>
-  <div class="mapcard" id="map">
-    <div class="maphead"><strong>Attack map</strong><span>Tap a glowing dot to filter stories by region</span></div>
+  <div class="mapcard" id="map" data-mapview="3d">
+    <noscript><style>.mapcard .map{display:block!important}.mapcard .globebox,.mapcard .mapseg{display:none!important}</style></noscript>
+    <div class="maphead"><strong>Attack map</strong><div class="seg sm mapseg" role="group" aria-label="Map view"><button type="button" data-mapbtn="3d" aria-pressed="true">3D</button><button type="button" data-mapbtn="2d" aria-pressed="false">2D</button></div><span id="mapsub">Drag to turn the globe. Tap a glowing dot to see that country’s stories.</span></div>
+    <div class="globebox">
+      <canvas id="globe" tabindex="0" aria-label="Globe with glowing dots for countries that have recent attack stories. Drag or use the arrow keys to turn it. Tap a dot to filter the stories below to that country."></canvas>
+      <div class="gtop" id="gtop" aria-label="Countries with the most stories"></div>
+      <div class="glegend" id="glegend" role="group" aria-label="Show or hide story groups on the globe"></div>
+    </div>
     <div class="map">
       <svg viewBox="0 0 1000 500" role="img" aria-label="Dot map of the world with regions that have recent incidents highlighted">
         <defs><pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="3.5" cy="3.5" r="1.5" fill="#2f7be0"/></pattern>
@@ -168,7 +182,7 @@ ${breaking ? `<div class="breaking"><div class="wrap"><b>BREAKING</b><span>${esc
       </svg>
       ${SPOTS.filter(([r]) => regionsWith.has(r)).map(([r, x, y]) => `<button type="button" class="hot" data-region="${esc(r)}" aria-label="Show stories from ${esc(r)}" style="left:${x}%;top:${y}%"><i></i><b></b></button>`).join('')}
     </div>
-    <div class="legend"><span><i style="background:var(--accent)"></i>Region with recent incidents</span><span><i style="background:#2f7be0"></i>Countries covered</span></div>
+    <div class="legend legend2d"><span><i style="background:var(--accent)"></i>Region with recent incidents</span><span><i style="background:#2f7be0"></i>Countries covered</span></div>
   </div>
 </section>
 
@@ -188,6 +202,7 @@ ${breaking ? `<div class="breaking"><div class="wrap"><b>BREAKING</b><span>${esc
     <div class="search"><label class="sr" for="search">Search stories</label>
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9fb0cc" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
       <input id="search" type="search" autocomplete="off" placeholder="Search by country, company or attack type"></div>
+    <div class="cfilter" id="cfilter" hidden><span>Country: <b id="cfname"></b></span><button type="button" id="cfclear">Clear ✕</button></div>
     <div class="chips"><span>REGION</span>${chips('region', REGIONS)}</div>
     <div class="chips"><span>TYPE</span>${chips('cat', cats)}</div>
   </div>
@@ -217,7 +232,7 @@ ${breaking ? `<div class="breaking"><div class="wrap"><b>BREAKING</b><span>${esc
 </main>
 <script type="application/json" id="stories-data">${JSON.stringify(clientData).replace(/</g, '\\u003c')}</script>`;
 
-  return layout({ title: NAME, desc: 'Cybercrime, data breaches and AI scams from around the world, in short cards: what happened, how it happened and the current status.', url: '/', body, active: 'Latest' });
+  return layout({ title: NAME, desc: 'Cybercrime, data breaches and AI scams from around the world, in short cards: what happened, how it happened and the current status.', url: '/', body, active: 'Latest', bodyScripts: '<script src="/assets/globe.js" defer></script><script src="/assets/clock.js" defer></script>' });
 }
 
 /* ---------- story page ---------- */
@@ -385,7 +400,7 @@ function notFound() {
 /* ---------- write everything ---------- */
 await fs.rm(DIST, { recursive: true, force: true });
 await fs.mkdir(path.join(DIST, 'assets'), { recursive: true });
-for (const f of ['style.css', 'app.js', 'icon.svg']) await fs.copyFile(path.join(ROOT, 'site', f), path.join(DIST, 'assets', f));
+for (const f of ['style.css', 'app.js', 'globe.js', 'clock.js', 'icon.svg']) await fs.copyFile(path.join(ROOT, 'site', f), path.join(DIST, 'assets', f));
 await fs.copyFile(path.join(ROOT, 'site', 'sw.js'), path.join(DIST, 'sw.js'));
 let hasPng = true;
 for (const f of ['icon-192.png', 'icon-512.png']) {

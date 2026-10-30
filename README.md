@@ -58,3 +58,10 @@ The home page sorts every story into three columns (tabs on phones): **Solved** 
 
 - Push / email alerts for `breaking` stories (needs a small backend, e.g. a Cloudflare Worker + a push or email service).
 - Optional Android/iOS wrapper once the site has regular readers.
+
+
+## Globe and clock (home page)
+
+- `site/globe.js` draws the Attack map as a 3D globe (no libraries). Dots come from the stories already on the page (country, group). Tapping a dot filters the stories below to that country (`cs-pick` / `cs-country` events handled in `site/app.js`). The old flat map is kept behind the 3D / 2D switch; the choice is remembered (`cs-map`). Phones that ask for reduced motion, or have 2 CPU cores or less, start on 2D.
+- `site/clock.js` draws the hero clock: green hour ring, blue minute ring, red seconds line, date, MY TIME / UTC switch (`cs-clock-utc`).
+- To add a country to the globe, add its `[longitude, latitude]` to the table at the top of `site/globe.js`.

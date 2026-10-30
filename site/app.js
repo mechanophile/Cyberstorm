@@ -42,7 +42,7 @@
   const stories = JSON.parse(dataEl.textContent);
   let view = 'swipe';
   try { view = localStorage.getItem('cs-view') || 'swipe'; } catch (e) {}
-  const state = { region: 'All', cat: 'All', q: '' };
+  const state = { region: 'All', cat: 'All', q: '', country: 'All' };
   const tabsEl = $('.tabs');
   const tabbed = () => !!tabsEl && getComputedStyle(tabsEl).display !== 'none';
 
@@ -82,6 +82,7 @@
   const matches = (s) => {
     const q = state.q.trim().toLowerCase();
     return (state.region === 'All' || s.region === state.region) &&
+      (state.country === 'All' || s.country === state.country) &&
       (state.cat === 'All' || s.category === state.cat) &&
       (!q || (s.headline + ' ' + s.country + ' ' + s.category + ' ' + s.what + ' ' + s.region + ' ' + (s.kind || '') + ' ' + (s.when || '')).toLowerCase().includes(q));
   };
@@ -176,13 +177,32 @@
   tabBtns.forEach((b) => b.addEventListener('click', () => showTab(b.dataset.tab)));
 
   const setPressed = (group, value) => $$('.chip[data-group="' + group + '"]').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.value === value)));
+  /* country filter (set by tapping a dot on the globe) */
+  const cfEl = $('#cfilter');
+  function setCountry(c) {
+    state.country = c || 'All';
+    if (cfEl) { cfEl.hidden = !c; const n = $('#cfname'); if (n) n.textContent = c || ''; }
+    document.dispatchEvent(new CustomEvent('cs-country', { detail: { country: c || null } }));
+  }
+  if ($('#cfclear')) $('#cfclear').addEventListener('click', () => { setCountry(null); feeds.forEach((f) => { f.idx = 0; }); applyAll(); });
+  document.addEventListener('cs-pick', (e) => {
+    const c = e.detail && e.detail.country; if (!c) return;
+    const same = state.country === c;
+    state.region = 'All'; setPressed('region', 'All');
+    setCountry(same ? null : c);
+    feeds.forEach((f) => { f.idx = 0; }); applyAll();
+    if (!same && $('#latest')) $('#latest').scrollIntoView({ behavior: 'smooth' });
+  });
+
   $$('.chip[data-group]').forEach((c) => c.addEventListener('click', () => {
+    if (c.dataset.group === 'region' && state.country !== 'All') setCountry(null);
     state[c.dataset.group] = c.dataset.value;
     setPressed(c.dataset.group, c.dataset.value);
     feeds.forEach((f) => { f.idx = 0; });
     applyAll();
   }));
   $$('.hot').forEach((h) => h.addEventListener('click', () => {
+    if (state.country !== 'All') setCountry(null);
     state.region = h.dataset.region; setPressed('region', state.region); feeds.forEach((f) => { f.idx = 0; }); applyAll();
     $('#latest').scrollIntoView({ behavior: 'smooth' });
   }));

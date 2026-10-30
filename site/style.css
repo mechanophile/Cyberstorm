@@ -275,3 +275,37 @@ footer{border-top:1px solid var(--line2);margin-top:24px}
   .cols:not(.single) .stage{max-width:520px;margin:0 auto}
 }
 @media (max-width:380px){.slide{padding:20px 16px 48px;gap:10px}.slide h3{font-size:20px}.qa p{font-size:14px;line-height:1.4}.cols:not(.single) .slide{padding:20px 16px 48px}}
+
+/* ---- globe + clock (home page) ---- */
+.hero-live{display:flex;flex-wrap:wrap;gap:14px;align-items:stretch}
+.clockcard{flex:0 1 280px;min-width:0;border:1px solid var(--line);border-radius:18px;background:radial-gradient(ellipse at 50% 0%,#0d1a36 0%,#060a14 72%);padding:12px 14px 14px;display:flex;flex-direction:column;gap:10px}
+.clockcard canvas{display:block;width:100%;aspect-ratio:1/1}
+.secrow{display:flex;align-items:center;gap:10px}
+.seclab{font:700 11px var(--mono);letter-spacing:.14em;color:var(--accent)}
+.sectrack{flex:1;height:6px;border-radius:6px;background:#16223a;position:relative}
+.sectrack i{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:linear-gradient(90deg,#2d6fd0,#ff4d5a);box-shadow:0 0 12px rgba(255,77,90,.7)}
+.sectrack u{position:absolute;top:50%;width:14px;height:14px;border-radius:50%;background:#fff;transform:translate(-50%,-50%);box-shadow:0 0 14px 3px #ff4d5a}
+.secnum{font:600 20px var(--mono);color:var(--accent);min-width:2.2ch;text-align:right;text-shadow:0 0 10px rgba(255,77,90,.6)}
+.clk-date{font:600 12px var(--mono);letter-spacing:.1em;color:var(--muted);text-align:center;text-transform:uppercase}
+.clk-zone{display:flex;flex-direction:column;align-items:center;gap:6px}
+.clk-zone small{font-size:12px;color:var(--muted);text-align:center}
+.seg.sm button{padding:0 14px;font:600 12px var(--mono);letter-spacing:.08em;min-height:40px}
+.hero-live .stats{flex:1 1 170px;grid-template-columns:1fr;max-width:none;margin-top:0;align-content:space-between}
+
+.maphead .mapseg{order:2}
+.maphead span{order:3;flex:1 1 100%}
+.mapcard[data-mapview="3d"] .map,.mapcard[data-mapview="3d"] .legend2d{display:none}
+.mapcard[data-mapview="2d"] .globebox{display:none}
+.globebox{display:flex;flex-direction:column;gap:12px}
+.globebox canvas{display:block;width:100%;aspect-ratio:1/1;max-height:min(72vh,640px);margin:0 auto;touch-action:pan-y;cursor:grab;border-radius:12px}
+.globebox canvas:active{cursor:grabbing}
+.gtop,.glegend{display:flex;flex-wrap:wrap;gap:8px}
+.gtop button,.glegend button{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:0 12px;border:1px solid var(--line3);border-radius:999px;background:transparent;color:var(--text2);font-size:13px}
+.gtop button small,.glegend button small{font:500 12px var(--mono);color:var(--muted)}
+.gtop button[aria-pressed=true]{background:var(--blue-bg);border-color:var(--blue);color:#fff}
+.glegend button i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.glegend button[aria-pressed=false]{opacity:.45}
+.cfilter{display:flex;align-items:center;flex-wrap:wrap;gap:4px 12px;border:1px solid var(--line3);border-radius:10px;padding:2px 4px 2px 14px;background:var(--blue-bg);font-size:14px;width:fit-content;max-width:100%}
+.cfilter[hidden]{display:none}
+.cfilter button{min-height:40px;padding:0 10px;border:0;background:transparent;color:var(--blue);font-weight:600}
+@media (max-width:560px){.clockcard{flex-basis:100%}.hero-live .stats{flex-basis:100%;grid-template-columns:repeat(3,minmax(0,1fr))}}

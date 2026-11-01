@@ -1,0 +1,12 @@
+{
+  "title": "SAMPLE catalog for offline tests (made-up entries)",
+  "catalogVersion": "0.0",
+  "dateReleased": "2026-01-01T00:00:00.000Z",
+  "count": 4,
+  "vulnerabilities": [
+    {"cveID":"CVE-2099-0001","vendorProject":"Sample Vendor","product":"Sample Router","vulnerabilityName":"Sample Router Command Injection Vulnerability","dateAdded":"2026-10-28","shortDescription":"Sample text: a flaw in the web panel lets a remote person run commands on the device.","requiredAction":"Apply updates per vendor instructions or stop using the product if no update is available.","dueDate":"2026-11-18","knownRansomwareCampaignUse":"Known","notes":"https://example.com"},
+    {"cveID":"CVE-2099-0002","vendorProject":"Sample Software","product":"Sample Mail Server","vulnerabilityName":"Sample Mail Server Authentication Bypass","dateAdded":"2026-10-27","shortDescription":"Sample text: login checks can be skipped.","requiredAction":"Apply mitigations per vendor instructions.","dueDate":"2026-11-17","knownRansomwareCampaignUse":"Unknown","notes":""},
+    {"cveID":"not-a-cve","vendorProject":"Bad","product":"Bad","vulnerabilityName":"Bad entry must be skipped","dateAdded":"2026-10-26","shortDescription":"x","requiredAction":"x","dueDate":"2026-11-16","knownRansomwareCampaignUse":"Unknown","notes":""},
+    {"cveID":"CVE-2099-0003","vendorProject":"Sample Corp","product":"Sample VPN","vulnerabilityName":"Sample VPN Path Traversal","dateAdded":"2026-10-20","shortDescription":"Sample text: files outside the web folder can be read.","requiredAction":"Apply updates per vendor instructions.","dueDate":"2026-11-10","knownRansomwareCampaignUse":"Known","notes":""}
+  ]
+}

@@ -1,7 +1,562 @@
 {
- "updatedAt": "2026-11-24T20:31:12.855Z",
+ "updatedAt": "2026-11-24T21:00:53.692Z",
  "sample": false,
  "stories": [
+  {
+   "id": "a0b9074a14",
+   "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+   "headline": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen The Record from Recorded Future News",
+   "how": "Not yet reported.",
+   "status": "Warning issued",
+   "tone": "amber",
+   "statusText": "Reported as: warning issued.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:58:47.000Z",
+   "updatedAt": "2026-11-24T20:58:47.000Z",
+   "sourceName": "The Record from Recorded Future News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHcGlqNng1dHhpcUlHQ25ST1BhNExIWDFpRm1uZERPeXI0c3h1cUo0dEpwNjh5V0tWRFZqTC1XNm9GNEZQdG1wN2NEbEgwQWpvMHdxZEdhZk1QdDVWbTgydnJfc21RUQ?oc=5",
+   "sources": [
+    {
+     "name": "The Record from Recorded Future News",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHcGlqNng1dHhpcUlHQ25ST1BhNExIWDFpRm1uZERPeXI0c3h1cUo0dEpwNjh5V0tWRFZqTC1XNm9GNEZQdG1wN2NEbEgwQWpvMHdxZEdhZk1QdDVWbTgydnJfc21RUQ?oc=5"
+    },
+    {
+     "name": "The Record",
+     "url": "https://therecord.media/mycolorado-app-down-data-breach"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:52:00.000Z",
+     "text": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+     "source": "The Record"
+    },
+    {
+     "at": "2026-11-24T20:58:47.000Z",
+     "text": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+     "source": "The Record from Recorded Future News"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "dfe80309b0",
+   "title": "An unclassified CIA system was breached in a cyberattack, reports say",
+   "headline": "An unclassified CIA system was breached in a cyberattack, reports say",
+   "category": "Data Breach",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "An unclassified CIA system was breached in a cyberattack, reports say WLKY",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:55:00.000Z",
+   "updatedAt": "2026-11-24T20:55:00.000Z",
+   "sourceName": "WLKY",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVklHbUtIT0g0b1o2ekUwX2FJcnV5aHlOanlINzdfQmxMZkR3YzFQeHJ0eVhhSlJGWGlCM3hQb0hJTkxNWFhYSmZScVVTYzFZa0tGSHI2VExCSmUyR29ualVYUnducU5yU2hJTm9iZE9tSUNCeVFibmUtbENfRDBBVUhMdnlESXNZNkE?oc=5",
+   "sources": [
+    {
+     "name": "WLKY",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVklHbUtIT0g0b1o2ekUwX2FJcnV5aHlOanlINzdfQmxMZkR3YzFQeHJ0eVhhSlJGWGlCM3hQb0hJTkxNWFhYSmZScVVTYzFZa0tGSHI2VExCSmUyR29ualVYUnducU5yU2hJTm9iZE9tSUNCeVFibmUtbENfRDBBVUhMdnlESXNZNkE?oc=5"
+    },
+    {
+     "name": "WMUR",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbTdod1lsQWVwME5yUnBUMmZiamtheGJWV202Sm5FS1lpaEtnekNHMWdPRlBpQU5RazRnNExQeDBuRmlES2R6YVhFcXhjLWxMWThTa0F0RDA2bVNhTTF0dldlcHlwVExiaE9XYkVIeDJkM2U0b3JJMm16TEdEc0V1OWRfVndOTVg0M2c?oc=5"
+    },
+    {
+     "name": "KCRA",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSjdvNmpoSE5TbkthMzFSckZBOV9IQl95VEwwVTA4eWtYdHplb2VsSHRGODFyMFF4NUszdTRjR2tLNmdaX1VJWWlMQnM4dlRSSDFqbmw2WjZ6NEU0Qk1IelhmemdQaUF0d2NzMWx4ZlpxbXhSSFlBRldIelFVb2xKd1lDYkpJUWl4Z3c?oc=5"
+    },
+    {
+     "name": "5 EYEWITNESS NEWS",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYVlVdHRkdUxPbXhROHpFb1V6Z2RwdGxDNjRiTjhJcTJFZmZKVFdiRVRFLUFuczJ0NFNRRWsyeHAxTm5NQXZIdF9XSUxjYjVYdURBMVBPR3RDNDU2M0tDMzloRmQyaUxZSHdlaHk4dmIzeUxIZkkwcnNaSW04cWpzYVQ2NVpoMGdBbXVTb2ZFUlkxMHliRkd5bWFWOEphOWZHV1lObG5fblFhMW80?oc=5"
+    },
+    {
+     "name": "NewsNation",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU1pFQ1ExMjJCNUx2blNPSzhmcU9CQlJWNUY4bFlaWTFrVExETzM0Ty1FVjJzclVCZDhDdHhlNEIxTTdwU2dhX2VuTElfQThrWmZ0ZEZQTmZVc0VtYTFaaUFUVDdreFBYVmw0QjY0dFhlajhTQmdvTjN1TjkzZEpwUTZ2Nk9zd9IBiwFBVV95cUxPWXYzZzRyeG1LR2VPdjA2emh2V1BacW5ubFFzRDlKQnFILWZLWEdRMnZrVkZPYm5SdjRiYW1LUndTWHZvSWtVQjJKWmYyTGhZUHRYZVRRRGJqYkczX2JiRmNNemI4RUsyUHZDeklBbk1DRWJ1UEE2WUVnbVQ5ZWgwb3ZHUkdPY3BIQXFv?oc=5"
+    },
+    {
+     "name": "AP News",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORFJXS0ZrRlpQVzZydVYtcFMzeVpIYU1UeThIZzFsZkt0Y2dSeEszT3g5eWpqSk9UTnhFb0RYbFlrX1hDczI5cmk5XzRIdzZ5eDI1d0J2M2hwV2lnSG5xUjdBYk03V3k4Y1plVkpuTU41V21ZRGxHYkt0VlhvUjlKNlh4QnpRWWcxOFFQb1gwSmFTNkFheHFFWFdTRQ?oc=5"
+    },
+    {
+     "name": "WTOP News",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPam03WVpMS0ZBdE5sbEFxd2VUbENmNTZWdTJta3ltUDZ3MkxuRXlzWlptLWJyOHg2WU1CTk5CQ3V6eWlKejRPMWVKQ3NueENCZC1uZXh0YVhhSjF0R1Q1VzNBZ3VaQndkZkdQRHlIS3ZpaVc1bFFOM3NBM3JhUFllVTdXLUQwTUo4bE1xRG5hQTZHdXJvbnoxY084SjZFUWhfa2t0Wi0wR2tiQQ?oc=5"
+    },
+    {
+     "name": "Ottumwa Courier",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOWDZSa2pRbG5EQ0N1VTBOWDRKUE1XY3JpNUx6X2I5d25JRF9DbXRIOUdQUFNSeEdSN2YzY29oV0N5eTVWZXowaU5PaEhRWWNRQUNLLXN0ckZkY3lhWFJONnlyTkRDVVJHa2tuaVNfbXU2VkFrZF9lTmRGZUJ1R0plTVh4V0R5NkNVeXc5cWJSQmdrTXpQMnpPVWRsZUZBN1E3QTZqODk3VVJKVGt4NU15amN5bnNEU3BXNEdFZVkwUzA4Q09Ubnh1dW5NaWEyMjVpQjY1MlJKbU9RN3c2Wkp1S3MtUHF0WUFxWkg0ZUFrcVd3blViSW1CUFF2bWN6TXlm?oc=5"
+    },
+    {
+     "name": "WFSB",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcWpfTTI1dmlPRTBVN3pGYjJlSjFzYkFaek9tNTd3QkJXRzJGTlBnUkFNN25LYkhIUE5qZXBzeEZJOWJDV1R1dV9ocFhqWnBtSE9iaVE5c1R4V1ZVdGg5UXpBNWpCcjY1aXRMV2M2a1ZEbkEtcVdHTFc1enk4THhNcVZqQlZhVThoUS1GVm5Tc0tsUTY4QzZKWmVuVW5WT1E4?oc=5"
+    },
+    {
+     "name": "WKYT",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVU9tN1JobW5rVzdRemhZREkzUVFRMnp0R1JZUU42M1ZScHhKZUNFYnpFNTRJYjFNdlFVY3JvRURZVmZFemZLRGJyaHBkdnV1cGxIMll2bURFWHBTTW5JQXdCY2VqWk1UZkFuYUdNM09pVHBkZktiZWZiQ3luQldrLXRrWF9BZGkxWWE5QkpvejVFLU1NZmJaZkVKbDhJT0pG?oc=5"
+    },
+    {
+     "name": "WDAM-TV",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdFhma184VzVlZGUzZmxTN3Q0M1FjWWtQTU9Ib3dzQU85Z3pHUHBRbUxXREtuSFRMbnoxZDZNLWllVjAwREl2ZlFidXN6UUdLLWNkRmpMUU9lZG1YRVpDV252WnA1OWdvTFVkbHpQRTY3cEFCR1kyRG10THVucnRpV2VZNGozMjlRUndLdjYtVHl3aEw3dlBvcDFDMXFKaGwz?oc=5"
+    },
+    {
+     "name": "Toronto Star",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOV0x1LWVVWU85Z1ZVMVVaQ0RfYXo2OEV2b2RiOHpFcEI4QkR5b1JnbVR5aTR2a19vN0xKUmt4cEYxeldHdU1VOEhUR1JiUGhoekpvR0VzczhHQWxyRUdJdHkyVGlWenpBU3MwVk9OT3ZLdEEzdlFSTFdIai0wNUxxbW1EWjQ4cEtocUlfX3hrTEZka2hlcUhlN0hNc2pUZVNIemVvZEZOcmhYMUN1VkJJR055VndzUlkwbFhLVE50cTU2YWhmajBaOVRGSnBvNGlTbFdYaWdFeElCYWJGUFZzNVBlT3NlMzBVaU1SYTlaZHpqMGxoczhLNURTdDBzQXc?oc=5"
+    },
+    {
+     "name": "95.5 WSB",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT2pmbFJDVWpCTmhQRGlQbVVLc2lMNGdJLXhEUDRfRDZiRjNuTU9pREpJeEVWekpoVE5SMW1tajg2MVdRTzAtdU9RUzZlbTRpMjVqRWlJdktrbTZLYVdIaGdjU1JJalN1eWdfeHVuU3JjdVN0b3VYc0VkTElqUHFQbWh4N0dRdXpBLVJhVTFZNNIBowFBVV95cUxQQU81MmpGSHFFZm84Rm1MN3Vzc3RINGxPLWtJNVc2bG0xMVV4OE9wcVNqTVJZMmY3d0g0Q25TMFExNFFGdi1NUGRpNi1FQXptbnZNSlkwb1VUMmo2cTdZME1jYVMtUU5lUzFKT190dE12cUZFR1M0eGp6cEt6UEVvSWZMMmFXa05xaUxhMEI0eGZsREdBa1JqMHh3TXA0dUlZb1dz?oc=5"
+    },
+    {
+     "name": "Audacy",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMWdpdG5iU2tKV2NMb1d3SmFEdmR5Y3I4M2VTQ09ObkpKLUs2Z1NyVDJvTHZ5dGwtUC1mQW1OdlRWM3J6dmRraWs3WVZ3d2VZakUwQjY5SmFGa0R0aFY5YlkyaVpzOVFOQk1uandjSFptYmxZbkM0WW9VZmpaa3dGMG9uaVRTRkE0VjN4ZVh5QUZwZ3hOODhEVUUxY0JkSzhSU2hpYUVjZFE4TXVOMWJqb3RpbW8?oc=5"
+    },
+    {
+     "name": "WKMG",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOblhuWUE1ajJiSXNwWE5kVDlRSENvV0xxUXkta3U5aEo1SnBQcnd3OUQ3azFCQmpLal8tUXNxWF9ZTFc0NXoyRnI0eGlMbFpoR0VwSFM4Uk1xdE84cVJFeVA3Ry1oSmRpdTJWbHlIQW9jbU1HNkp2ZkhQM0tDUXRybjVMbnVaM0ZrSlBvcWJNTllEbGRjREc5ZFBMRnlkVVBQY1plODlidkY0eTV0eG9FNHo5TjMtbE8xV241THlhT1h6Sm1p?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:29:23.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "WKMG"
+    },
+    {
+     "at": "2026-11-24T20:33:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "Audacy"
+    },
+    {
+     "at": "2026-11-24T20:33:07.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "95.5 WSB"
+    },
+    {
+     "at": "2026-11-24T20:33:32.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "Toronto Star"
+    },
+    {
+     "at": "2026-11-24T20:36:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "WFSB"
+    },
+    {
+     "at": "2026-11-24T20:36:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "WKYT"
+    },
+    {
+     "at": "2026-11-24T20:36:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "WDAM-TV"
+    },
+    {
+     "at": "2026-11-24T20:37:01.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "WTOP News"
+    },
+    {
+     "at": "2026-11-24T20:37:01.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "Ottumwa Courier"
+    },
+    {
+     "at": "2026-11-24T20:43:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "AP News"
+    },
+    {
+     "at": "2026-11-24T20:49:27.000Z",
+     "text": "Unclassified CIA system breached in a cyberattack: AP",
+     "source": "NewsNation"
+    },
+    {
+     "at": "2026-11-24T20:53:21.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, AP source says",
+     "source": "5 EYEWITNESS NEWS"
+    },
+    {
+     "at": "2026-11-24T20:55:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, reports say",
+     "source": "WLKY"
+    },
+    {
+     "at": "2026-11-24T20:55:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, reports say",
+     "source": "WMUR"
+    },
+    {
+     "at": "2026-11-24T20:55:00.000Z",
+     "text": "An unclassified CIA system was breached in a cyberattack, reports say",
+     "source": "KCRA"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "cbdf9d4119",
+   "title": "Investigation launched as Gatwick customers warned over potential data breach",
+   "headline": "Investigation launched as Gatwick customers warned over potential data breach",
+   "category": "Data Breach",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Investigation launched as Gatwick customers warned over potential data breach The Independent",
+   "how": "Not yet reported.",
+   "status": "Investigating",
+   "tone": "blue",
+   "statusText": "Reported as: investigating.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:52:00.000Z",
+   "updatedAt": "2026-11-24T20:52:00.000Z",
+   "sourceName": "The Independent",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWRja2drNkFvNGZEYzRUUXZmMU0tMG1RdG4yamNPT0Z0emNCM251dUhZeFhfNEpjYkpQbVV5VUlCTFVkQWxBUXpaNEJyMWhqc2sxQmtCZHJZYUQyckZKYnpBM1dsZHYydi1vQnFoeDcydHRWb2pRall3QWxET1JIdVJIZnVFMHg4MVlHbVJQemEzVWVHZEZxSW4tQmV0TVdz?oc=5",
+   "sources": [
+    {
+     "name": "The Independent",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWRja2drNkFvNGZEYzRUUXZmMU0tMG1RdG4yamNPT0Z0emNCM251dUhZeFhfNEpjYkpQbVV5VUlCTFVkQWxBUXpaNEJyMWhqc2sxQmtCZHJZYUQyckZKYnpBM1dsZHYydi1vQnFoeDcydHRWb2pRall3QWxET1JIdVJIZnVFMHg4MVlHbVJQemEzVWVHZEZxSW4tQmV0TVdz?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:52:00.000Z",
+     "text": "Investigation launched as Gatwick customers warned over potential data breach",
+     "source": "The Independent"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "8f87855382",
+   "title": "Justice Department says its anti-scam surge has reached more than 800 defendants in over 400 cases since March",
+   "headline": "Justice Department says its anti-scam surge has reached more than 800 defendants in over 400 cases since March",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Justice Department says its anti-scam surge has reached more than 800 defendants in over 400 cases since March MLQ.ai",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:51:57.000Z",
+   "updatedAt": "2026-11-24T20:51:57.000Z",
+   "sourceName": "MLQ.ai",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY1R0akNtX0VpNFBxdjhSb0pnaHpmY0xHRExub19maWFELXZvcW43V3Y1QUZpbHVpOHRKUmROcU1RZkxsV0xqbTZ3R0gwVHdtS2Jzdjg1VW5mUXU0ZmhweEJiMXBvejZTQ2h6QWk1RkM5b0s1Wkl4WTNid2xaNHlZNFFJWUhaY3djWnMtRDk5Vm1ESmVyQzdKelpnU0dXalk4WHk1clBKNnEya0ZQTTlPbWgxUHZpcE9UUzdrSnpSMkIwXzFqX1lNR3MzTQ?oc=5",
+   "sources": [
+    {
+     "name": "MLQ.ai",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY1R0akNtX0VpNFBxdjhSb0pnaHpmY0xHRExub19maWFELXZvcW43V3Y1QUZpbHVpOHRKUmROcU1RZkxsV0xqbTZ3R0gwVHdtS2Jzdjg1VW5mUXU0ZmhweEJiMXBvejZTQ2h6QWk1RkM5b0s1Wkl4WTNid2xaNHlZNFFJWUhaY3djWnMtRDk5Vm1ESmVyQzdKelpnU0dXalk4WHk1clBKNnEya0ZQTTlPbWgxUHZpcE9UUzdrSnpSMkIwXzFqX1lNR3MzTQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:51:57.000Z",
+     "text": "Justice Department says its anti-scam surge has reached more than 800 defendants in over 400 cases since March",
+     "source": "MLQ.ai"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "0c08fe0d57",
+   "title": "Bernalillo still logged out six weeks after cyberattack",
+   "headline": "Bernalillo still logged out six weeks after cyberattack",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Bernalillo still logged out six weeks after cyberattack nm.news",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:50:32.000Z",
+   "updatedAt": "2026-11-24T20:50:32.000Z",
+   "sourceName": "nm.news",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZXZvM1BmR0lxdmM0SEtka2NLaW9fLW5DNFFmdFIzbHZLdW1FUnVpX1plX3kyOG56WU5aV3BGZE9xbjVselNQbFFfREp6X01QMGtCT2FXNHFzYzMyTEI3UXRkYkRNSTk1Zm9wV29LbmRTLWtGX0JCX3N2TjFBZE45Y051VDNCLUZfcjRF?oc=5",
+   "sources": [
+    {
+     "name": "nm.news",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZXZvM1BmR0lxdmM0SEtka2NLaW9fLW5DNFFmdFIzbHZLdW1FUnVpX1plX3kyOG56WU5aV3BGZE9xbjVselNQbFFfREp6X01QMGtCT2FXNHFzYzMyTEI3UXRkYkRNSTk1Zm9wV29LbmRTLWtGX0JCX3N2TjFBZE45Y051VDNCLUZfcjRF?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:50:32.000Z",
+     "text": "Bernalillo still logged out six weeks after cyberattack",
+     "source": "nm.news"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "125fe58f8a",
+   "title": "CIA system breached in latest cyberattack targeting US spy agencies",
+   "headline": "CIA system breached in latest cyberattack targeting US spy agencies",
+   "category": "Data Breach",
+   "country": "United States",
+   "region": "North America",
+   "what": "CIA system breached in latest cyberattack targeting US spy agencies The Independent",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:45:00.000Z",
+   "updatedAt": "2026-11-24T20:45:00.000Z",
+   "sourceName": "The Independent",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMmxlTDZCbEJkV0RhRk9FYWtqWk53WmhuSVFzbUFOWUlYZGpobzMzLXRvbDFKU2YwS2lFUHpsRG1IU0dFTnE5NHdlSU1EVlJSQmNuemhUQnpxZEtKUXNmNGdKVUdhQWEyNUJsM3UtbU9OQ3FRWWh4U2hpY005X2xwRXdMRzlQdDZMRm1feE9qa1EyelYyNTU2WXJvTQ?oc=5",
+   "sources": [
+    {
+     "name": "The Independent",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMmxlTDZCbEJkV0RhRk9FYWtqWk53WmhuSVFzbUFOWUlYZGpobzMzLXRvbDFKU2YwS2lFUHpsRG1IU0dFTnE5NHdlSU1EVlJSQmNuemhUQnpxZEtKUXNmNGdKVUdhQWEyNUJsM3UtbU9OQ3FRWWh4U2hpY005X2xwRXdMRzlQdDZMRm1feE9qa1EyelYyNTU2WXJvTQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:45:00.000Z",
+     "text": "CIA system breached in latest cyberattack targeting US spy agencies",
+     "source": "The Independent"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "4f15faaaad",
+   "title": "Black Friday Scams: FBI Data Shows $503 Million Lost To Non-Delivery And Non-Payment Fraud",
+   "headline": "Black Friday Scams: FBI Data Shows $503 Million Lost To Non-Delivery And Non-Payment Fraud",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Black Friday Scams: FBI Data Shows $503 Million Lost To Non-Delivery And Non-Payment Fraud Forbes",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:44:01.000Z",
+   "updatedAt": "2026-11-24T20:44:01.000Z",
+   "sourceName": "Forbes",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUFMtNmVVQ3ZZYmllN2dVeXBsTVpwckxBSXlMM3JVZ2Q5c0Z1QmFFZjZTdmltaXhFZnJjUFFJVGIzaC1ySnRuLUlMcHBqcThTeVd0UUVpaGhhMXRBaGl5UFp4cmdvOVZFeHBoaW1pc205VmdLNHFmd2FkaUNXZUlFMUFsTDhyalZlVDJzR3ZkZlhnV2NZZ2VJZ1BTa2kxWUJRNWE1N0c1RUlaVHpkNnZrUmJudEEzcWlPN19EbzRBRnpEYmtXdDhiUUFLNU1FX3JHQ1VZcFVRaw?oc=5",
+   "sources": [
+    {
+     "name": "Forbes",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUFMtNmVVQ3ZZYmllN2dVeXBsTVpwckxBSXlMM3JVZ2Q5c0Z1QmFFZjZTdmltaXhFZnJjUFFJVGIzaC1ySnRuLUlMcHBqcThTeVd0UUVpaGhhMXRBaGl5UFp4cmdvOVZFeHBoaW1pc205VmdLNHFmd2FkaUNXZUlFMUFsTDhyalZlVDJzR3ZkZlhnV2NZZ2VJZ1BTa2kxWUJRNWE1N0c1RUlaVHpkNnZrUmJudEEzcWlPN19EbzRBRnpEYmtXdDhiUUFLNU1FX3JHQ1VZcFVRaw?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:44:01.000Z",
+     "text": "Black Friday Scams: FBI Data Shows $503 Million Lost To Non-Delivery And Non-Payment Fraud",
+     "source": "Forbes"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "dfdac1641e",
+   "title": "Cyberattack compromises unclassified CIA system | Daily Sabah",
+   "headline": "Cyberattack compromises unclassified CIA system | Daily Sabah",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Cyberattack compromises unclassified CIA system | Daily Sabah Daily Sabah",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:40:00.000Z",
+   "updatedAt": "2026-11-24T20:40:00.000Z",
+   "sourceName": "Daily Sabah",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbHZtU2htZ1lUcnNuWFhqTnlLOV9EZmtRMC1IQ2NoeGo4c0NnaDFZNGx1cUU2eVpXdTNxOEVOVy1hUFo0WkNheE9nRHJxWW9Ja0xFTnl0cmhnZl9UbEY2Tl82LTFCUXJDZWdjWHlGNjhXdGVtck92MVJ6bElneE1uSy0zNk9CZmg1Q3lBanRRdWk3MmPSAZgBQVVfeXFMTTdENzV3LWNLQjdheGFqaGdJX1FHSExjSms2MnkwN1ptRm1QQjYzbXJOMHZNdUZWd0NlcUdUdWViN19PN3R2Uk5uRU5kMy1oa19TeVZmVjdCT2F4em5CMkQwU3BlUW5FV1lESHBIRzVmUm5VNXE1U01tMGFpMUZ1REFZREl6X2FhSlNLTVlaUkNnZ3hXRVJPakQ?oc=5",
+   "sources": [
+    {
+     "name": "Daily Sabah",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbHZtU2htZ1lUcnNuWFhqTnlLOV9EZmtRMC1IQ2NoeGo4c0NnaDFZNGx1cUU2eVpXdTNxOEVOVy1hUFo0WkNheE9nRHJxWW9Ja0xFTnl0cmhnZl9UbEY2Tl82LTFCUXJDZWdjWHlGNjhXdGVtck92MVJ6bElneE1uSy0zNk9CZmg1Q3lBanRRdWk3MmPSAZgBQVVfeXFMTTdENzV3LWNLQjdheGFqaGdJX1FHSExjSms2MnkwN1ptRm1QQjYzbXJOMHZNdUZWd0NlcUdUdWViN19PN3R2Uk5uRU5kMy1oa19TeVZmVjdCT2F4em5CMkQwU3BlUW5FV1lESHBIRzVmUm5VNXE1U01tMGFpMUZ1REFZREl6X2FhSlNLTVlaUkNnZ3hXRVJPakQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:40:00.000Z",
+     "text": "Cyberattack compromises unclassified CIA system | Daily Sabah",
+     "source": "Daily Sabah"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "3d90f20623",
+   "title": "Bell confirms customer information taken in Nov. 17 cyberattack",
+   "headline": "Bell confirms customer information taken in Nov. 17 cyberattack",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Bell confirms customer information taken in Nov. 17 cyberattack The Pulse of the Eastern Townships",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:38:06.000Z",
+   "updatedAt": "2026-11-24T20:38:06.000Z",
+   "sourceName": "The Pulse of the Eastern Townships",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RRlRmd3NVZldIOHExOGpjNEdudlZZU3ZXcUNHdDZVZWVLdUdaWEJQRXpFN0l2c0pNSWF6U2JJekdpX2ZNZGRlbkxSOUlEQ1NLM0JYbFdhNlJVd1VCUmdNRDdlNWxwaFJuMUdYZ3cyTV9mQ0kwNnUybw?oc=5",
+   "sources": [
+    {
+     "name": "The Pulse of the Eastern Townships",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RRlRmd3NVZldIOHExOGpjNEdudlZZU3ZXcUNHdDZVZWVLdUdaWEJQRXpFN0l2c0pNSWF6U2JJekdpX2ZNZGRlbkxSOUlEQ1NLM0JYbFdhNlJVd1VCUmdNRDdlNWxwaFJuMUdYZ3cyTV9mQ0kwNnUybw?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:38:06.000Z",
+     "text": "Bell confirms customer information taken in Nov. 17 cyberattack",
+     "source": "The Pulse of the Eastern Townships"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "76421d1928",
+   "title": "US Freezes Over $1 Billion in Crypto as Anti-Scam Campaign Targets 800+ Defendants",
+   "headline": "US Freezes Over $1 Billion in Crypto as Anti-Scam Campaign Targets 800+ Defendants",
+   "category": "Fraud",
+   "country": "United States",
+   "region": "North America",
+   "what": "US Freezes Over $1 Billion in Crypto as Anti-Scam Campaign Targets 800+ Defendants Finance Magnates",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:35:02.000Z",
+   "updatedAt": "2026-11-24T20:35:02.000Z",
+   "sourceName": "Finance Magnates",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVEt3Q2lCTGRGcUc5SGJHUk1GUkRiT2FWSy1NVGdkVTg5RFBQam1lWHpqOW4xVXFhOTVla2VyWk5vdmRacFZHeHVTcThXVTdERlpfc3dwb2tQM29CWDJtUTNoRE1XZFhDY1BzSm1rOTdBdkhSTDQtQmIwdldqTVNkT0hNRTVwbzZZb1ZWclY4U2pLVEo0TDV4YVlBQ2dnZ3A5QlVxczU0MjNEMjBSemVJcnFiVlVxckZaWU1B?oc=5",
+   "sources": [
+    {
+     "name": "Finance Magnates",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVEt3Q2lCTGRGcUc5SGJHUk1GUkRiT2FWSy1NVGdkVTg5RFBQam1lWHpqOW4xVXFhOTVla2VyWk5vdmRacFZHeHVTcThXVTdERlpfc3dwb2tQM29CWDJtUTNoRE1XZFhDY1BzSm1rOTdBdkhSTDQtQmIwdldqTVNkT0hNRTVwbzZZb1ZWclY4U2pLVEo0TDV4YVlBQ2dnZ3A5QlVxczU0MjNEMjBSemVJcnFiVlVxckZaWU1B?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:35:02.000Z",
+     "text": "US Freezes Over $1 Billion in Crypto as Anti-Scam Campaign Targets 800+ Defendants",
+     "source": "Finance Magnates"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "1275a8cd8a",
+   "title": "Chase, Visa And Mastercard Confirm Vendor Cyber Incidents After Hackers Post Data",
+   "headline": "Chase, Visa And Mastercard Confirm Vendor Cyber Incidents After Hackers Post Data",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Chase, Visa And Mastercard Confirm Vendor Cyber Incidents After Hackers Post Data Forbes",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:33:29.000Z",
+   "updatedAt": "2026-11-24T20:33:29.000Z",
+   "sourceName": "Forbes",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORnBEVmNDVU1sQ191TGdiX0g3RkdhcnZzbFM3VldCeUc0Qm8yZ0VaVnU1d3hvUWNtckpXM3M4d0dFNFdBZDVrYUtuakhpRFFjUjJ5RzZwRVZ0bm9qb3lBYnJUZk02TmVGUXFVWE5ZYXRMUUxFQUZ1MXc2VHJiUFFWeExJWlBsOUpQRmNBN0tuZmQ2QnlpS2E2THp3Z01nTHYwNHJtTmI1SjNxS0NNRWFpSm9xRGdWQV9XOHB2dkJmSlY0TV94dm5LNmZQbno?oc=5",
+   "sources": [
+    {
+     "name": "Forbes",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORnBEVmNDVU1sQ191TGdiX0g3RkdhcnZzbFM3VldCeUc0Qm8yZ0VaVnU1d3hvUWNtckpXM3M4d0dFNFdBZDVrYUtuakhpRFFjUjJ5RzZwRVZ0bm9qb3lBYnJUZk02TmVGUXFVWE5ZYXRMUUxFQUZ1MXc2VHJiUFFWeExJWlBsOUpQRmNBN0tuZmQ2QnlpS2E2THp3Z01nTHYwNHJtTmI1SjNxS0NNRWFpSm9xRGdWQV9XOHB2dkJmSlY0TV94dm5LNmZQbno?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:33:29.000Z",
+     "text": "Chase, Visa And Mastercard Confirm Vendor Cyber Incidents After Hackers Post Data",
+     "source": "Forbes"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "3c8e109d05",
+   "title": "InFocus takes on online gaming AI fraud",
+   "headline": "InFocus takes on online gaming AI fraud",
+   "category": "AI Scams",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "InFocus takes on online gaming AI fraud NT News",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:30:45.000Z",
+   "updatedAt": "2026-11-24T20:30:45.000Z",
+   "sourceName": "NT News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSHhxWnhJWTd0UWJPOHZ3T2N1WUo2LW5VYldTQWhZZUhBNHdYYUxFajh6cnRFN3c0WUZRQnJZZWhCaVBab1hnMEdiQndkemYxVFBVNFh2dHNRdW9xZEQ3UXlGTndKVUZVc2NSTVMtNlc4eUpJMGpLY2lEcU8xdGxIb1dVZFljVEJrcWo1bVlQdk4wWHhpMFNGNXA1QWVCSG04WHlIUW8wTGpXOHJ0VDBLczRSQ1JMLU50Y1Nic2ZzZHBncmNUVjg0VnlmMGlNRmh3VFE4?oc=5",
+   "sources": [
+    {
+     "name": "NT News",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSHhxWnhJWTd0UWJPOHZ3T2N1WUo2LW5VYldTQWhZZUhBNHdYYUxFajh6cnRFN3c0WUZRQnJZZWhCaVBab1hnMEdiQndkemYxVFBVNFh2dHNRdW9xZEQ3UXlGTndKVUZVc2NSTVMtNlc4eUpJMGpLY2lEcU8xdGxIb1dVZFljVEJrcWo1bVlQdk4wWHhpMFNGNXA1QWVCSG04WHlIUW8wTGpXOHJ0VDBLczRSQ1JMLU50Y1Nic2ZzZHBncmNUVjg0VnlmMGlNRmh3VFE4?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:30:45.000Z",
+     "text": "InFocus takes on online gaming AI fraud",
+     "source": "NT News"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
   {
    "id": "cc27378b93",
    "title": "CIA, ODNI Hit by Cyberattack; Non-Classified Information Leaked",
@@ -35,7 +590,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "44f9f835f9",
+   "title": "Iranian hackers target Israel-linked aviation, Saudi hospitals using AI-generated identities",
+   "headline": "Iranian hackers target Israel-linked aviation, Saudi hospitals using AI-generated identities",
+   "category": "Fraud",
+   "country": "Israel",
+   "region": "Asia",
+   "what": "Iranian hackers target Israel-linked aviation, Saudi hospitals using AI-generated identities The Jerusalem Post",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 3,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:22:31.000Z",
+   "updatedAt": "2026-11-24T20:22:31.000Z",
+   "sourceName": "The Jerusalem Post",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16cnJxVXZRYjFOVWplSFRWX2czR0tpUFFFQ1ZJQk5JT3RzXzVfSFRPTFBSYUF4bHNQTmJqUmhVUTcxYk5BZmVQZVRyUmg5ZkNITGFQMjBEalFSM2hPNGhfYWpSTmJETDJjc3c?oc=5",
+   "sources": [
+    {
+     "name": "The Jerusalem Post",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16cnJxVXZRYjFOVWplSFRWX2czR0tpUFFFQ1ZJQk5JT3RzXzVfSFRPTFBSYUF4bHNQTmJqUmhVUTcxYk5BZmVQZVRyUmg5ZkNITGFQMjBEalFSM2hPNGhfYWpSTmJETDJjc3c?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:22:31.000Z",
+     "text": "Iranian hackers target Israel-linked aviation, Saudi hospitals using AI-generated identities",
+     "source": "The Jerusalem Post"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0bc0f96921",
@@ -70,7 +660,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d9f714c26b",
@@ -105,7 +695,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6204a0dc32",
@@ -174,7 +764,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a69ed80274",
@@ -209,7 +799,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "38143d1d5c",
@@ -244,7 +834,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "7fa413412e",
+   "title": "$9M Crypto Coin Scheme Among Chicago Cases Highlighted by Feds in DOJ Fraud Crackdown",
+   "headline": "$9M Crypto Coin Scheme Among Chicago Cases Highlighted by Feds in DOJ Fraud Crackdown",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "$9M Crypto Coin Scheme Among Chicago Cases Highlighted by Feds in DOJ Fraud Crackdown WTTW News",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T20:07:18.000Z",
+   "updatedAt": "2026-11-24T20:07:18.000Z",
+   "sourceName": "WTTW News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObFhXcWRJRmZLa1B1NDJyWWVmb3JCZGVpNTVuckpqVjZhYlFfaGtFZW1UOWtJQkl3N2RQNXpOSEFLUk1uTDFtbmt6N1FLVXhhRG84MS1fV09IdnVXOWlJaFdiRFFwUXpBRHdsVkFyTENwR1Y4V1hxMlBVWVBiWDlQbVlGeFA0Q3ZlcEdrRlcwTkpxTHJTOThnZWxoZDVNeHR0Zm5YR2RvSGpDdWdSV05aeg?oc=5",
+   "sources": [
+    {
+     "name": "WTTW News",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObFhXcWRJRmZLa1B1NDJyWWVmb3JCZGVpNTVuckpqVjZhYlFfaGtFZW1UOWtJQkl3N2RQNXpOSEFLUk1uTDFtbmt6N1FLVXhhRG84MS1fV09IdnVXOWlJaFdiRFFwUXpBRHdsVkFyTENwR1Y4V1hxMlBVWVBiWDlQbVlGeFA0Q3ZlcEdrRlcwTkpxTHJTOThnZWxoZDVNeHR0Zm5YR2RvSGpDdWdSV05aeg?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T20:07:18.000Z",
+     "text": "$9M Crypto Coin Scheme Among Chicago Cases Highlighted by Feds in DOJ Fraud Crackdown",
+     "source": "WTTW News"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "94cb3e7c09",
@@ -279,7 +904,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c0516b3de3",
@@ -314,7 +939,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "dcb781c652",
@@ -349,7 +974,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "da78af61a9",
@@ -384,7 +1009,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ec52eea030",
@@ -419,7 +1044,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "f9443e3ace",
+   "title": "Stop Fleet Fraud! AI Voice Agents Streamline Repairs",
+   "headline": "Stop Fleet Fraud! AI Voice Agents Streamline Repairs",
+   "category": "AI Scams",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "AI Voice Agents Streamline Repairs FreightWaves",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T19:44:57.000Z",
+   "updatedAt": "2026-11-24T19:44:57.000Z",
+   "sourceName": "FreightWaves",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRVh2NjNlcTA1cUt4V0NJMGdadGVvZEF2cE5VUTBZQjdJbFdtVlZuQUNQVTF1OEN6cXdPeE44bzhrQWsxVzh6NVBNZFkwOFBDejFsWnhndjQxUTRhQWhiZC1mcE9uaVM0bHVSS1JMcEFPQXo4LWl3UzZ3TWR4UmtrYU8tUWZqcmJGV19NSWFn?oc=5",
+   "sources": [
+    {
+     "name": "FreightWaves",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRVh2NjNlcTA1cUt4V0NJMGdadGVvZEF2cE5VUTBZQjdJbFdtVlZuQUNQVTF1OEN6cXdPeE44bzhrQWsxVzh6NVBNZFkwOFBDejFsWnhndjQxUTRhQWhiZC1mcE9uaVM0bHVSS1JMcEFPQXo4LWl3UzZ3TWR4UmtrYU8tUWZqcmJGV19NSWFn?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T19:44:57.000Z",
+     "text": "Stop Fleet Fraud! AI Voice Agents Streamline Repairs",
+     "source": "FreightWaves"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5d67f41922",
@@ -459,7 +1119,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8f0ae34a1d",
@@ -499,7 +1159,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5f76ac4f7c",
@@ -539,7 +1199,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "fc798ae34a",
@@ -574,7 +1234,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "970583fa64",
@@ -609,7 +1269,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d08a5b6f76",
@@ -653,7 +1313,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "05bcb1f8e6",
@@ -688,7 +1348,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "36eb97455e",
@@ -712,6 +1372,14 @@
     {
      "name": "Caledonian Record",
      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPU1l0Vm1yMG54eWpEV3hlTGl3MEVjalNZVzBxNWhkMHdEQmNONGJDLWdVMjZpYzZDeVRWUjF1cmJXRGVHRUZoN2I0OXU1NU80OUxHYTVROUlKbkxUSHZJelY2dkdwY3NKQi1GUHNhLWdfOVNBMjY3Sm1FZU1LTC15S04tUjhtOEJqS2ZiUUt6ejJ0OUQzbUVia1NZeUEtSm5jaV9lQ0F0Mlk0ZjBfdWJTRVhoLTV6Sy1Qay1aNHA2b25OZVduWUpKc0pGZElZbVNhYUpRaklTLXdFaDdLMXVlWFZNN3VHQ2hYZ0tNZw?oc=5"
+    },
+    {
+     "name": "Lee News Central",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOOGVJMXQxTGI3UnAtWFJUVXlUQ0FyVTY2a2dsUWo5bTZqeGJaRF9FeUt6blZWU29EdjI4TFIxRGRjVnNPMTNDZE54RUVaRFVfWERfc25jQUpBU0FRQlFIYm9LNTZwbXA4VW5yMi1kR3habHcya1lEU3RBRlV0UzUwaUFwS1ozOUVFMDhVNXJfOUFEaXc2RXNiZ2tMS0NuWkw3VklXWF9fcHVKb1FaeGF1TU9HRlBrVGl4ejl1Z3lzLXFqUWg5TXNDc19LQ1JRTGV5Rm5GTkFiNVk1VnpwR1V5U1gwanFJdHBoYXhEdDFLNmRHblFRNVh1djFKTWthcWlG?oc=5"
+    },
+    {
+     "name": "Omaha World-Herald",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaHlVWmNLTnNxWGt6V2E5WTAwOVJRZFhYQlNpMTFwZ3kxQzhRc1c1S0d6X3ZnMjM0WG5KNDlOZUZwWUkwZEFYVkJaS0MzU215X0l2TXpNU3Q4bmNrTUsyc2JQVkZramRDQU92TkpfcnczazdFbjlmWl9DVlNWeDF0VmcycDk3ZFY0U29lWnVxWDdXcEs0UjlRMjB3?oc=5"
     }
    ],
    "updates": [
@@ -719,11 +1387,21 @@
      "at": "2026-11-24T18:30:09.000Z",
      "text": "Why the 'perfect customer' may be a fraud network, and how banks can spot it",
      "source": "Caledonian Record"
+    },
+    {
+     "at": "2026-11-24T18:30:09.000Z",
+     "text": "Why the 'perfect customer' may be a fraud network, and how banks can spot it",
+     "source": "Lee News Central"
+    },
+    {
+     "at": "2026-11-24T18:30:09.000Z",
+     "text": "Why the 'perfect customer' may be a fraud network, and how banks can spot it",
+     "source": "Omaha World-Herald"
     }
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "97730a6c76",
@@ -758,7 +1436,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8800c3f792",
@@ -786,6 +1464,11 @@
    ],
    "updates": [
     {
+     "at": "2026-11-24T18:18:41.000Z",
+     "text": "London driver instructor ‘shocked’ by deepfake videos circulating online",
+     "source": "London Evening Standard"
+    },
+    {
      "at": "2026-11-24T18:20:12.000Z",
      "text": "London driver instructor ‘shocked’ by deepfake videos circulating online",
      "source": "London Evening Standard"
@@ -793,7 +1476,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f9f3b77151",
@@ -833,7 +1516,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "34219da8d5",
@@ -868,7 +1551,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ec24a6d613",
@@ -903,7 +1586,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3ee1079cb4",
@@ -938,7 +1621,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9e188e311d",
@@ -973,7 +1656,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "60ca18f3fa",
@@ -1008,7 +1691,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0332a814fd",
@@ -1043,7 +1726,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "adb18ca6ae",
@@ -1078,7 +1761,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2db8a6398b",
@@ -1113,7 +1796,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "091d74750e",
@@ -1148,7 +1831,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ce36e02fec",
@@ -1183,7 +1866,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "67c608c566",
@@ -1218,7 +1901,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "858da5689a",
@@ -1253,7 +1936,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "098d2bbcfc",
@@ -1270,7 +1953,7 @@
    "severity": 2,
    "advice": [],
    "publishedAt": "2026-11-24T17:29:56.000Z",
-   "updatedAt": "2026-11-24T20:00:19.000Z",
+   "updatedAt": "2026-11-24T20:45:38.000Z",
    "sourceName": "Claim Depot",
    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwNnRMUHFQTGttaDZSa05uZTNPVkRnUnZMMTBhemE2aTd0RFhsaDVUZTdhSTNQQW9DbmRJdGZic1VkQi1BdWE5cmp5anphZy1FcDJnV2JfTFJDUWV3MVRjdjREa00zV1EyZl94LS1aekNPaGNq?oc=5",
    "sources": [
@@ -1309,11 +1992,16 @@
      "at": "2026-11-24T20:00:19.000Z",
      "text": "Herring Bank Data Breach Lawsuit Investigation",
      "source": "Claim Depot"
+    },
+    {
+     "at": "2026-11-24T20:45:38.000Z",
+     "text": "AIR Communities Data Breach Lawsuit Investigation",
+     "source": "Claim Depot"
     }
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6809e0afd1",
@@ -1348,7 +2036,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c8d3f3c17e",
@@ -1383,7 +2071,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9309aa48e4",
@@ -1418,7 +2106,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e90a74c8a2",
@@ -1487,7 +2175,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "810040882b",
@@ -1531,7 +2219,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "b305545854",
@@ -1566,7 +2254,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4613fd63b6",
@@ -1601,7 +2289,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f6e8b2ad0e",
@@ -1670,7 +2358,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f27f78338b",
@@ -1705,7 +2393,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4fbafac2fa",
@@ -1749,7 +2437,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "b438f37fbf",
@@ -1784,7 +2472,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "54f75a64d9",
@@ -1819,7 +2507,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9d0acaedf4",
@@ -1854,7 +2542,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.855Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "5d453721aa",
+   "title": "Travelstart targeted in cyberattack",
+   "headline": "Travelstart targeted in cyberattack",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Travelstart targeted in cyberattack Travel News",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T16:40:00.000Z",
+   "updatedAt": "2026-11-24T16:40:00.000Z",
+   "sourceName": "Travel News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84QnpvMU9tZnAxajE3S29fcmJ1T09DTlV1RE54UGdRUVBscmNvNXROR2FDRFhDSWlIaGVIQmg5S0lqLW4zNUFocTdaME5vTE00cGpPeHdLaWQwbmcxMDdMMVU5SGd4bVdwaGZWMDhNY3lsaER0TjRB?oc=5",
+   "sources": [
+    {
+     "name": "Travel News",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84QnpvMU9tZnAxajE3S29fcmJ1T09DTlV1RE54UGdRUVBscmNvNXROR2FDRFhDSWlIaGVIQmg5S0lqLW4zNUFocTdaME5vTE00cGpPeHdLaWQwbmcxMDdMMVU5SGd4bVdwaGZWMDhNY3lsaER0TjRB?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T16:40:00.000Z",
+     "text": "Travelstart targeted in cyberattack",
+     "source": "Travel News"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "64fa7d20a7",
@@ -1923,7 +2646,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "14b7adf63a",
@@ -1958,7 +2681,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5e84d271f3",
@@ -1993,7 +2716,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d425441c77",
@@ -2028,7 +2751,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "63399c7470",
@@ -2125,7 +2848,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "584cac24c8",
@@ -2160,7 +2883,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c2d5d38a1f",
@@ -2195,7 +2918,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e9f97c1468",
@@ -2230,7 +2953,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0e73067d80",
@@ -2265,7 +2988,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5ba708d91b",
@@ -2305,7 +3028,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "4c4c636dc7",
+   "title": "Can hackers still read Gmail after a password change?",
+   "headline": "Can hackers still read Gmail after a password change?",
+   "category": "Fraud",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "See the original report for details.",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T16:10:00.000Z",
+   "updatedAt": "2026-11-24T16:10:00.000Z",
+   "sourceName": "Kurt the CyberGuy",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxN3ROdThxUjdlQTdTenlOVzl3NjZ3TVNRM1JWOXlCRUJ1OGV6cUVJRE5TSGNBTzRHVjUyakZHOENwelZPdDRvTU05dktHSmthcjBsc1g5d2x4Vk5KTVN1eFc4M0xsN2dTTWh6dzdiMWM5RHc?oc=5",
+   "sources": [
+    {
+     "name": "Kurt the CyberGuy",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxN3ROdThxUjdlQTdTenlOVzl3NjZ3TVNRM1JWOXlCRUJ1OGV6cUVJRE5TSGNBTzRHVjUyakZHOENwelZPdDRvTU05dktHSmthcjBsc1g5d2x4Vk5KTVN1eFc4M0xsN2dTTWh6dzdiMWM5RHc?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T16:10:00.000Z",
+     "text": "Can hackers still read Gmail after a password change?",
+     "source": "Kurt the CyberGuy"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d1aa9ebc2d",
@@ -2340,7 +3098,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0d5b6afceb",
@@ -2380,7 +3138,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3dc146a36d",
@@ -2415,7 +3173,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ac60f76a24",
@@ -2450,7 +3208,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4aff1b2119",
@@ -2485,7 +3243,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5e2d7b7443",
@@ -2520,7 +3278,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "076062d7e0",
@@ -2555,7 +3313,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "45990407ae",
@@ -2599,7 +3357,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a07028043a",
@@ -2634,7 +3392,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9f71c7065b",
@@ -2669,7 +3427,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "94d866f54d",
@@ -2717,6 +3475,10 @@
     {
      "name": "95.5 WSB",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSURGRHNyc0hfSmlOS0JHSEs0aEhCeTEydjBIbDRSZkt1LU5IWGFsX3l1dV84WUx3Vl9vb3dLakVOT3hWZmZ2bHpYUk9FYXBEajliNHhUdEw4ZzZyc0VoS0xiM2RYTGJiVW8zTktKVFJqRHgwTDNYclRoT2xwMUduV1kwZmFVMG9JTkxZbjZoMzVnSmJ6d3FDaDktNmUyTXJHUDVZ0gG3AUFVX3lxTFA5cW5BYS1SblRiakhNdlZXS1NWY1FwUFZ2ZDJsUHZWVDVHNTZ5SWdNMENoRDh1cHo1cGNFd3RRNVhQNVpaUkdrOXR3RXQyWGtjMWdVa0VjZmJodlZWVXZkUGZrM29Ga1VRSlY1b2k5MUdTWnVTZ0FBWGQ1U0lobk9pNUxXWjBxLTV3MWx3dmUwVUpzTUYwZDl0aEFubGpELW9MTVE2Mnl0OXM0U1lmQnBkR2RWSVFjWQ?oc=5"
+    },
+    {
+     "name": "WSB-TV",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUGJ0dlFSc3hsUlN5SnliUUdNenFueWxmU1ZVZDdHWHJQakhkUEZhbXc5c2k1OS16ZDgzSm00VHpxbHZVUDRnaFVmRzAtSjVybFMtend4THlTNi1oMnZqcnZzQlktTkYwZXdIUWhJc0pqUDQ4Yy1YWTJ2RFlNSF85M1lNaklzMW1PcGZwV3pkSHV0SDB6UGI4OVA5ZWh2UTTSAbMBQVVfeXFMUENvZkVPaXBnRUE2ZGljUE9UZEtmNmJKSGowYUJWZmxSUTRJNnhRT1c4MVZQUFdNdkNqZHVQcEFiTklsTXFiYnc2VUVqNVFhWHg2NXJxWkticGk3eGVTdEJoWTFtUHkxTFd5aWw0UDlSQ3VvcDI3ZzBBMlRpcGtQS2VUUlMzOTNRdjhBdm5SX0FyNEo1Q1FiV2laSUptRzlJVEFzQmxXN2VZYWl6RDc1WG93Qzg?oc=5"
     }
    ],
    "updates": [
@@ -2754,11 +3516,16 @@
      "at": "2026-11-24T15:39:15.000Z",
      "text": "GoFundMe alerts donors of data breach",
      "source": "95.5 WSB"
+    },
+    {
+     "at": "2026-11-24T15:39:15.000Z",
+     "text": "GoFundMe alerts donors of data breach",
+     "source": "WSB-TV"
     }
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "63a2fd142b",
@@ -2793,7 +3560,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "71bf626cc4",
+   "title": "JPMorgan, Visa and Mastercard confirm data breaches via third-party vendors",
+   "headline": "JPMorgan, Visa and Mastercard confirm data breaches via third-party vendors",
+   "category": "Data Breach",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "JPMorgan, Visa and Mastercard confirm data breaches via third-party vendors MSSP Alert",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T15:28:48.000Z",
+   "updatedAt": "2026-11-24T15:28:48.000Z",
+   "sourceName": "MSSP Alert",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXhFSDlXd1prV3RkellNa2FRZkF3ZEFsbS0zMS0xQWZJVEN6QnFJT1djaV81TW9fNVh4T05McVJuRExNVnlDaUNOUV9oYk4zMVBVOWg2UHgzUm1tYzZNMk1IWFQwNmt6QkFTVEltRmlOcWxOV0RuN2tZOURsS0trSElKMkRoYUZyUDlfRElrZURtWktscFNINVRvbHJEbW81bTlzeklFTEhjUQ?oc=5",
+   "sources": [
+    {
+     "name": "MSSP Alert",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXhFSDlXd1prV3RkellNa2FRZkF3ZEFsbS0zMS0xQWZJVEN6QnFJT1djaV81TW9fNVh4T05McVJuRExNVnlDaUNOUV9oYk4zMVBVOWg2UHgzUm1tYzZNMk1IWFQwNmt6QkFTVEltRmlOcWxOV0RuN2tZOURsS0trSElKMkRoYUZyUDlfRElrZURtWktscFNINVRvbHJEbW81bTlzeklFTEhjUQ?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T15:28:48.000Z",
+     "text": "JPMorgan, Visa and Mastercard confirm data breaches via third-party vendors",
+     "source": "MSSP Alert"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ca224ccf23",
@@ -2828,7 +3630,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0e454b52a9",
@@ -2863,7 +3665,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2cc9a5575b",
@@ -2907,7 +3709,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c03596698e",
@@ -2942,7 +3744,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "edb13829e4",
@@ -2977,7 +3779,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "eae8d870f6",
@@ -3012,7 +3814,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ea9b168cbf",
@@ -3047,7 +3849,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "912bb3cee7",
@@ -3082,7 +3884,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a903b208e0",
@@ -3117,7 +3919,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "fa70dfee4f",
@@ -3152,7 +3954,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8476cf3721",
@@ -3187,7 +3989,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9e29cec7d3",
@@ -3222,7 +4024,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3640ff2cc1",
@@ -3257,7 +4059,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d2294fb10f",
@@ -3297,7 +4099,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e2c86f3eaa",
@@ -3400,7 +4202,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "b6b2b77a5e",
@@ -3435,7 +4237,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5240d8a1b4",
@@ -3452,7 +4254,7 @@
    "severity": 2,
    "advice": [],
    "publishedAt": "2026-11-24T14:30:07.000Z",
-   "updatedAt": "2026-11-24T14:30:07.000Z",
+   "updatedAt": "2026-11-24T20:41:44.000Z",
    "sourceName": "Tulsa World",
    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTFhNa3R2cXNvNmZmY0t3cTRfT2wxR0h3MDNEcEVvZGN1SWdsamxnVHRyekRzdmw2SExMQlU2NktJZ0M2azlEeEJ2RjFqM1JCUXVPbFFOWVd4cUdIYkNLRHQ3NndWdllBRTRvTEV6S2J5bExEREZ2b3dMaDNZU0tMZUhPT1N0SlZtcDRqeENIeVhlU0ZveWVILWMySWg3WWwxa0tyTHJ2bw?oc=5",
    "sources": [
@@ -3483,6 +4285,10 @@
     {
      "name": "Elko Daily Free Press",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR2ltRkVPazNnNGZQUVVpbmxaVVZlY3JXWE5UT29UTDNqUnVQZmhFdzNORWVnNWxwQ2x1cDFnOGFWZXZVNDlHRGZqNzBWNmZiWGN2LXRwUTl6SXJkUlVEd21IM2JtaHBqZk5yU1o0WmM1VFNCSGxxTTRFdDBJLXdqc21lWEtyX1Exa1NGYVBfRHNiM1FMQzJPWndtMHBrVDg2RG9QWC1n?oc=5"
+    },
+    {
+     "name": "Capital Gazette",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQczdYWkEyMmVWZlFYTkF0bWRYVkttenU0d3dOcVFDX0FYdHNUN0tzbGlZZTVyak1Rd3lRb3llN3QxZ3liYXNHd283VDFuTEVtZ3ZYeG9zSnRBazd5NEc1STROTlVTLVh1T3RpbVpuOU9VczhTYWItMTlSQVFONFpIVHBIbEFzZ1o2cGJnZTd2NXRoaHlWcmFpNlBuUjBuMGo1c3dYbmhPRkFCNnN6MWRRUkpCc1Vidw?oc=5"
     }
    ],
    "updates": [
@@ -3520,11 +4326,16 @@
      "at": "2026-11-24T14:30:07.000Z",
      "text": "AI is making it easier to scam holiday shoppers. 5 things to look out for.",
      "source": "Elko Daily Free Press"
+    },
+    {
+     "at": "2026-11-24T20:41:44.000Z",
+     "text": "AI is making it easier to scam holiday shoppers. 5 things to look out for.",
+     "source": "Capital Gazette"
     }
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2aa6f7c705",
@@ -3559,7 +4370,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "22bf6552c3",
@@ -3603,7 +4414,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "bcd14fe6e3",
@@ -3638,7 +4449,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f5d354c029",
@@ -3673,7 +4484,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "fc2a6dec3a",
@@ -3708,7 +4519,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "596443d732",
@@ -3743,7 +4554,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "91bf7ffd27",
@@ -3778,7 +4589,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "79a88c4a80",
+   "title": "Queens Public Library restores nearly all services after ransomware attack",
+   "headline": "Queens Public Library restores nearly all services after ransomware attack",
+   "category": "Ransomware",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Queens Public Library restores nearly all services after ransomware attack Spectrum Noticias",
+   "how": "Not yet reported.",
+   "status": "Unconfirmed",
+   "tone": "gray",
+   "statusText": "Not yet reported.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T14:10:00.000Z",
+   "updatedAt": "2026-11-24T14:10:00.000Z",
+   "sourceName": "Spectrum Noticias",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQTNPdTBXZEhGeWtlWTYxNjQ2MzRDZlFGNWhvZkV1QXo2Vkh0NXRLLVNNM3I0dXhxNktBYmhCVkhjelAtbkRtQkQ2Rm0zcE1YcW1RRUY0SFN5b01vLVZqeU9HWUFfTVRZb2hxR25sUUFUOS12VzJGMEhrOWlxRDVLOURrdXhEbC1Xc01xMWVsZV9CbHhZd2pRNWtidGpYUThGem1JVUZZY3BJTG9VSkZKemdTZGRlNjhYNWFvYjVjWGZVUl9xWG9QMUdwd2RFU19xZ0ZULUJWUmZ3WklhYUNEaGxLUmRxWFk?oc=5",
+   "sources": [
+    {
+     "name": "Spectrum Noticias",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQTNPdTBXZEhGeWtlWTYxNjQ2MzRDZlFGNWhvZkV1QXo2Vkh0NXRLLVNNM3I0dXhxNktBYmhCVkhjelAtbkRtQkQ2Rm0zcE1YcW1RRUY0SFN5b01vLVZqeU9HWUFfTVRZb2hxR25sUUFUOS12VzJGMEhrOWlxRDVLOURrdXhEbC1Xc01xMWVsZV9CbHhZd2pRNWtidGpYUThGem1JVUZZY3BJTG9VSkZKemdTZGRlNjhYNWFvYjVjWGZVUl9xWG9QMUdwd2RFU19xZ0ZULUJWUmZ3WklhYUNEaGxLUmRxWFk?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T14:10:00.000Z",
+     "text": "Queens Public Library restores nearly all services after ransomware attack",
+     "source": "Spectrum Noticias"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4929a5d16c",
@@ -3813,7 +4659,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "473630d06b",
@@ -3848,7 +4694,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0e3727812d",
@@ -3883,7 +4729,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "08cc029c28",
@@ -3918,7 +4764,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "bae701e08e",
@@ -3953,7 +4799,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d9c1269da8",
@@ -3988,7 +4834,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f11098c507",
@@ -4023,7 +4869,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e94ac3e9d5",
@@ -4092,7 +4938,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "14678828ea",
@@ -4161,7 +5007,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "db22ce6bdf",
@@ -4196,7 +5042,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0c4445d4cc",
@@ -4231,7 +5077,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c2110f65fb",
@@ -4271,7 +5117,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "691accc43f",
@@ -4306,7 +5152,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0f1ed3a478",
@@ -4341,7 +5187,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "df62efeabc",
@@ -4376,7 +5222,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "cc75fa2ebc",
@@ -4411,7 +5257,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "af64c6c44c",
@@ -4446,7 +5292,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "17faeada10",
@@ -4522,7 +5368,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2f8cd8afa8",
@@ -4557,7 +5403,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "1baa8eed80",
@@ -4592,7 +5438,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8224fd51d3",
@@ -4627,7 +5473,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "68e9b9e623",
@@ -4662,7 +5508,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d6845402aa",
@@ -4697,7 +5543,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3572236344",
@@ -4732,7 +5578,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0346bab0f7",
@@ -4767,7 +5613,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "96cad73784",
@@ -4802,7 +5648,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6085ef5479",
@@ -4842,7 +5688,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3d5532b3f1",
@@ -4877,7 +5723,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "bfdfa9c258",
@@ -4912,7 +5758,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "fec5709721",
@@ -4947,7 +5793,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ccbdba089b",
@@ -4991,7 +5837,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "33fab984c7",
@@ -5026,7 +5872,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "dd54c81b2a",
@@ -5061,7 +5907,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "cc46f03377",
@@ -5096,7 +5942,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "68f7047852",
@@ -5131,7 +5977,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a445a34e50",
@@ -5166,7 +6012,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "1f5f949117",
@@ -5244,7 +6090,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9ee030e624",
@@ -5279,7 +6125,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "91d4c3b285",
@@ -5357,7 +6203,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "30f424a95d",
@@ -5392,7 +6238,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e7e4a8f3b0",
@@ -5427,7 +6273,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f3a43b3954",
@@ -5467,7 +6313,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f91cee693c",
@@ -5502,7 +6348,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0923e4530c",
@@ -5537,7 +6383,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "be86661aed",
@@ -5572,7 +6418,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6a16a282fc",
@@ -5607,7 +6453,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e3528ea915",
@@ -5642,7 +6488,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5209f7ec0c",
@@ -5763,7 +6609,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "73c64bcbbb",
@@ -5832,7 +6678,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d0c1a2627d",
@@ -5886,7 +6732,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3ceb9ed8c6",
@@ -5921,7 +6767,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2548f9b807",
@@ -5956,7 +6802,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "cffcc50d6b",
@@ -5991,7 +6837,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ab41c5064c",
@@ -6026,7 +6872,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "392fe82f23",
@@ -6061,7 +6907,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9436fc5b47",
@@ -6096,7 +6942,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "15b8b56834",
@@ -6131,7 +6977,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "809684a1e7",
@@ -6166,7 +7012,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f127018519",
@@ -6201,7 +7047,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "1c0bad85b2",
@@ -6236,7 +7082,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a11aee8f35",
@@ -6271,7 +7117,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "20534b25c7",
@@ -6315,7 +7161,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6e444f6b5b",
@@ -6350,7 +7196,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "162b25e189",
@@ -6385,7 +7231,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "263bc6a66e",
@@ -6420,7 +7266,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f7cb289892",
@@ -6464,7 +7310,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2a69b48fb9",
@@ -6499,7 +7345,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ce34334a8b",
@@ -6568,7 +7414,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "07391d4802",
@@ -6603,7 +7449,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "cb204aac5a",
@@ -6647,7 +7493,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4f2a61e1af",
@@ -6682,7 +7528,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d856991660",
@@ -6717,7 +7563,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2b2d6b27a5",
@@ -6752,7 +7598,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "7ecdb4fa0d",
@@ -6787,7 +7633,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "05a22b82cd",
@@ -6822,7 +7668,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "40e73f1e16",
@@ -6857,7 +7703,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e35eff0162",
@@ -6892,7 +7738,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "597cca6645",
@@ -6927,7 +7773,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4e133b2a82",
@@ -6962,7 +7808,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5f954aa8e8",
@@ -6997,7 +7843,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "cb6c357cb4",
@@ -7032,7 +7878,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "b9758375aa",
@@ -7067,7 +7913,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "5c096e7c54",
@@ -7102,7 +7948,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "875c3d85a9",
@@ -7137,7 +7983,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8ed98cc858",
@@ -7172,7 +8018,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d37fafc645",
@@ -7207,7 +8053,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "cb2dcf46e1",
@@ -7242,7 +8088,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "eba919fef8",
@@ -7277,7 +8123,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c1c0a3f107",
@@ -7312,7 +8158,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6580ca4b86",
@@ -7352,7 +8198,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "60511498b2",
@@ -7387,7 +8233,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6727c2657c",
@@ -7452,7 +8298,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8a4f69df70",
@@ -7487,7 +8333,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "87263b7a3d",
@@ -7522,7 +8368,42 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
+  },
+  {
+   "id": "42fc2943d2",
+   "title": "Next reports data breach following cyber attack with 'investigations ongoing'",
+   "headline": "Next reports data breach following cyber attack with 'investigations ongoing'",
+   "category": "Data Breach",
+   "country": "Unknown",
+   "region": "Other",
+   "what": "Next reports data breach following cyber attack with 'investigations ongoing' Chard and Ilminster News",
+   "how": "Not yet reported.",
+   "status": "Investigating",
+   "tone": "blue",
+   "statusText": "Reported as: investigating.",
+   "severity": 2,
+   "advice": [],
+   "publishedAt": "2026-11-24T08:00:00.000Z",
+   "updatedAt": "2026-11-24T08:00:00.000Z",
+   "sourceName": "Chard and Ilminster News",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV1QzS1lHcFNaSjVKQzhsNkR0ZDQ0MC1QMVZRSm00NXE1bHZBSlZXaHpEUTBtMXlvdm9PR0lSZl9VMTFCYThBU3RxSlNOd3g4aGo1d054RWw3VWpob0o1bWNtcm1QU1J2a1BMMEl0OGotUXB5M1ptdUJ4ajFXWTlrMGFIT0Q0X1gwOTdDVzBoTm9FeHNBTVU2RlU1SDViR0hJU2pSTy1HSDB4aGlBY1E?oc=5",
+   "sources": [
+    {
+     "name": "Chard and Ilminster News",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV1QzS1lHcFNaSjVKQzhsNkR0ZDQ0MC1QMVZRSm00NXE1bHZBSlZXaHpEUTBtMXlvdm9PR0lSZl9VMTFCYThBU3RxSlNOd3g4aGo1d054RWw3VWpob0o1bWNtcm1QU1J2a1BMMEl0OGotUXB5M1ptdUJ4ajFXWTlrMGFIT0Q0X1gwOTdDVzBoTm9FeHNBTVU2RlU1SDViR0hJU2pSTy1HSDB4aGlBY1E?oc=5"
+    }
+   ],
+   "updates": [
+    {
+     "at": "2026-11-24T08:00:00.000Z",
+     "text": "Next reports data breach following cyber attack with 'investigations ongoing'",
+     "source": "Chard and Ilminster News"
+    }
+   ],
+   "breaking": false,
+   "ai": false,
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "845dbbe781",
@@ -7557,7 +8438,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e980bdd913",
@@ -7592,7 +8473,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2fcfc4108c",
@@ -7627,7 +8508,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8bce7600b3",
@@ -7662,7 +8543,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2c88284401",
@@ -7706,7 +8587,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "efc2058c77",
@@ -7741,7 +8622,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "0df829778d",
@@ -7776,7 +8657,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "59d339784b",
@@ -7811,7 +8692,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "7234fa0a9f",
@@ -7880,7 +8761,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ebb3bd6968",
@@ -7915,7 +8796,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "b410eb290b",
@@ -7955,7 +8836,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4240c506f1",
@@ -7990,7 +8871,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "b24f23e8a6",
@@ -8025,7 +8906,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3ab06f48bd",
@@ -8060,7 +8941,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "854279812f",
@@ -8095,7 +8976,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9f6c2b4ab8",
@@ -8130,7 +9011,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "b48fd6faa6",
@@ -8165,7 +9046,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9eb3174c95",
@@ -8200,7 +9081,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a0a25e5ec0",
@@ -8235,7 +9116,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "09819092c7",
@@ -8275,7 +9156,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "606086e11b",
@@ -8310,7 +9191,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a0c811d9d9",
@@ -8345,7 +9226,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a5c00b7c38",
@@ -8380,7 +9261,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6353af8530",
@@ -8415,7 +9296,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "157cac2578",
@@ -8450,7 +9331,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "573c3eb874",
@@ -8485,7 +9366,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e3ea5f4730",
@@ -8520,7 +9401,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f56c140b73",
@@ -8555,7 +9436,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "704c474e14",
@@ -8590,7 +9471,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "251e94ca0f",
@@ -8625,7 +9506,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "537015c480",
@@ -8660,7 +9541,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "18003ef5ce",
@@ -8695,7 +9576,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "beb362dbc5",
@@ -8730,7 +9611,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8f15fd4139",
@@ -8770,7 +9651,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a5058ad146",
@@ -8805,7 +9686,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a4bf57e120",
@@ -8840,7 +9721,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c0aceb95cb",
@@ -8875,7 +9756,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "7933fe33d7",
@@ -8910,7 +9791,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "244cda75d8",
@@ -8945,7 +9826,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "579e7aaa36",
@@ -8985,7 +9866,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "667865cf8f",
@@ -9059,7 +9940,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "4cb2fd8e8e",
@@ -9099,7 +9980,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2fdef22192",
@@ -9134,7 +10015,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "02d0b8e2af",
@@ -9169,7 +10050,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "20c04166b1",
@@ -9204,7 +10085,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "9ee93ff5c5",
@@ -9239,7 +10120,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e5fec44861",
@@ -9274,7 +10155,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "69176c481f",
@@ -9309,7 +10190,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a3dc1c3f9c",
@@ -9344,7 +10225,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "428139ac22",
@@ -9388,7 +10269,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f960c96747",
@@ -9423,7 +10304,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "df37878fa1",
@@ -9458,7 +10339,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "da939b3317",
@@ -9493,7 +10374,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "e3f9d4d720",
@@ -9528,7 +10409,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "239bb9b80f",
@@ -9586,7 +10467,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "000d40bc26",
@@ -9621,7 +10502,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "da4ba2f0b7",
@@ -9656,7 +10537,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "be976f2219",
@@ -9691,7 +10572,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "bd5d4a1646",
@@ -9726,7 +10607,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "2f696f0e2f",
@@ -9790,7 +10671,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "8167caa283",
@@ -9825,7 +10706,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "a2d38ed234",
@@ -9860,7 +10741,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "ce29dda34f",
@@ -9895,7 +10776,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "c30f5c3a48",
@@ -9939,7 +10820,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "bcd66081af",
@@ -9974,7 +10855,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "58fccd812e",
@@ -10009,7 +10890,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "d018a92bb9",
@@ -10044,7 +10925,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "f3283c35ec",
@@ -10079,7 +10960,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "dc25daadeb",
@@ -10114,7 +10995,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "3e9064fe72",
@@ -10201,7 +11082,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "60386fc881",
@@ -10236,7 +11117,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "89e5e1f385",
@@ -10280,7 +11161,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "1762f997c4",
@@ -10315,7 +11196,7 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   },
   {
    "id": "6fd884afdb",
@@ -10359,903 +11240,10 @@
    ],
    "breaking": false,
    "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "b1446e8e46",
-   "title": "Bell investigating cyberattack that caused outages",
-   "headline": "Bell investigating cyberattack that caused outages",
-   "category": "Fraud",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Bell investigating cyberattack that caused outages CTV News",
-   "how": "Not yet reported.",
-   "status": "Investigating",
-   "tone": "blue",
-   "statusText": "Reported as: investigating.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T23:23:23.000Z",
-   "updatedAt": "2026-11-23T23:23:23.000Z",
-   "sourceName": "CTV News",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbEt4cnhwZ3ppMTNzMVhSMzdOTEc2ZzdaSjdSTzZITGVRMlVqd2RaZWtldFNpSVFValo0UGRQMXlzT3dkM3dRVlZ4NzdMa2xmTGx1SjR6R01rM0dUaEw3LW5vQ1hoMWVzV3Rya0dlNnBSZlpUYnRqaFYyNUJkdDBnYkpuZjluOWgwYVBzUVZmYUo1eVMzNlhJUmdkbGcwWGptc0E?oc=5",
-   "sources": [
-    {
-     "name": "CTV News",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbEt4cnhwZ3ppMTNzMVhSMzdOTEc2ZzdaSjdSTzZITGVRMlVqd2RaZWtldFNpSVFValo0UGRQMXlzT3dkM3dRVlZ4NzdMa2xmTGx1SjR6R01rM0dUaEw3LW5vQ1hoMWVzV3Rya0dlNnBSZlpUYnRqaFYyNUJkdDBnYkpuZjluOWgwYVBzUVZmYUo1eVMzNlhJUmdkbGcwWGptc0E?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T23:23:23.000Z",
-     "text": "Bell investigating cyberattack that caused outages",
-     "source": "CTV News"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "d1363b6bc3",
-   "title": "Outlook November 12 Blackout and Phishing Scam",
-   "headline": "Outlook November 12 Blackout and Phishing Scam",
-   "category": "Fraud",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Outlook November 12 Blackout and Phishing Scam Meteora Web",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T23:04:21.000Z",
-   "updatedAt": "2026-11-23T23:04:21.000Z",
-   "sourceName": "Meteora Web",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWRPZTVFbGptUm5ySWNxNG40RXBacDR4YnhnZVY4c1pnV0c3LTFRTEx4T2M4VjlWektrRndGZG8tRkctOXRVLUVvNE1jYmpCbEV3NTBENUMxX1B0UEhwX0tWYXRnRnB6Vy13LUZLbkNDdXBVSnBiNHB4Ykg5WUdCTFhfaTYwOU5abm1ONjc1amtwU0gtNnAyRVdtWkRNZ1R1RDh3bA?oc=5",
-   "sources": [
-    {
-     "name": "Meteora Web",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWRPZTVFbGptUm5ySWNxNG40RXBacDR4YnhnZVY4c1pnV0c3LTFRTEx4T2M4VjlWektrRndGZG8tRkctOXRVLUVvNE1jYmpCbEV3NTBENUMxX1B0UEhwX0tWYXRnRnB6Vy13LUZLbkNDdXBVSnBiNHB4Ykg5WUdCTFhfaTYwOU5abm1ONjc1amtwU0gtNnAyRVdtWkRNZ1R1RDh3bA?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T23:04:21.000Z",
-     "text": "Outlook November 12 Blackout and Phishing Scam",
-     "source": "Meteora Web"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "af72bd20cc",
-   "title": "LaLiga reports data breach affecting fan services platform",
-   "headline": "LaLiga reports data breach affecting fan services platform",
-   "category": "Data Breach",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "LaLiga reports data breach affecting fan services platform SC Media",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:54:05.000Z",
-   "updatedAt": "2026-11-23T22:54:05.000Z",
-   "sourceName": "SC Media",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbDJPVFpram9aVlQxdWNlYmtRcjZtV1prU0VwSUxNclYwR1NnMWxGb010WDF3QXZ6eENsQ1lGV0g2U01jU1pUS2thOE5wbkxRQTlNQkJ6T011cWludjZ6TTk1aHh5YmRlam5SSjZwek0wUlJnQ0NubTZibW93blhEYk41b1JZX1BRNE9TUjZKbm5uQQ?oc=5",
-   "sources": [
-    {
-     "name": "SC Media",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbDJPVFpram9aVlQxdWNlYmtRcjZtV1prU0VwSUxNclYwR1NnMWxGb010WDF3QXZ6eENsQ1lGV0g2U01jU1pUS2thOE5wbkxRQTlNQkJ6T011cWludjZ6TTk1aHh5YmRlam5SSjZwek0wUlJnQ0NubTZibW93blhEYk41b1JZX1BRNE9TUjZKbm5uQQ?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:54:05.000Z",
-     "text": "LaLiga reports data breach affecting fan services platform",
-     "source": "SC Media"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "dcd95a3cbf",
-   "title": "Enerflo, Inc. Data Breach",
-   "headline": "Enerflo, Inc. Data Breach",
-   "category": "Data Breach",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Data Breach Federman & Sherwood",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:42:40.000Z",
-   "updatedAt": "2026-11-23T22:42:40.000Z",
-   "sourceName": "Federman & Sherwood",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5WTlDV0toOW1SVXEzaHZMSURNZFdNX213b3lvTzd6WVpJN3dpUXVKOF9wOHhRRUgyOV8tQTZkemRXcEgtUFhzV2lrZzFKcjljaFEzNzVZVExkZ1h6ckt4Y0NFYXpIaG9I?oc=5",
-   "sources": [
-    {
-     "name": "Federman & Sherwood",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5WTlDV0toOW1SVXEzaHZMSURNZFdNX213b3lvTzd6WVpJN3dpUXVKOF9wOHhRRUgyOV8tQTZkemRXcEgtUFhzV2lrZzFKcjljaFEzNzVZVExkZ1h6ckt4Y0NFYXpIaG9I?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:42:40.000Z",
-     "text": "Enerflo, Inc. Data Breach",
-     "source": "Federman & Sherwood"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "e3b1a3628b",
-   "title": "Deepfake images of dozens of QC public figures circulate online",
-   "headline": "Deepfake images of dozens of QC public figures circulate online",
-   "category": "Deepfake",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Deepfake images of dozens of QC public figures circulate online CBC",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:33:34.000Z",
-   "updatedAt": "2026-11-23T22:33:34.000Z",
-   "sourceName": "CBC",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9keUlVYjVjNUc3R1JxWElWYUZ5MFhSOVFrUG9QRzlLSWswZllZZUZaQUdzckV6UnNWcmU4MS1idENxSVdjU0x1TUtMaDU2cENpdEtrcGFlRW5Odw?oc=5",
-   "sources": [
-    {
-     "name": "CBC",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9keUlVYjVjNUc3R1JxWElWYUZ5MFhSOVFrUG9QRzlLSWswZllZZUZaQUdzckV6UnNWcmU4MS1idENxSVdjU0x1TUtMaDU2cENpdEtrcGFlRW5Odw?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:33:24.000Z",
-     "text": "Deepfake images of dozens of QC public figures circulate online",
-     "source": "CBC"
-    },
-    {
-     "at": "2026-11-23T22:33:34.000Z",
-     "text": "Deepfake images of dozens of QC public figures circulate online",
-     "source": "CBC"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "f3ad38933f",
-   "title": "Virginia, Oregon sue Elon Musk’s SpaceXSI over deepfake nonconsensual sexual images",
-   "headline": "Virginia, Oregon sue Elon Musk’s SpaceXSI over deepfake nonconsensual sexual images",
-   "category": "Deepfake",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Virginia, Oregon sue Elon Musk’s SpaceXSI over deepfake nonconsensual sexual images NPR",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:16:52.000Z",
-   "updatedAt": "2026-11-23T22:16:52.000Z",
-   "sourceName": "NPR",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2U4OW9TWXczZVdVZ0dYakFmVDF5MGxHQVJqdlRwWW9WU0g1b3lRcE9VMkZkTXc1VE9TQk8xX0xUY2c4ak1MS241d3RqMG8wQjV0NENHVXpKV1dLZjJMR0ZtN19qYnhDa2gyOVo2c0pQclZ1OHV0TGJwbktOTXEzYkZGWGxNanUzdERxbi1pZEJZYjVWQ0hfdEpTbTc1SkNoYUE5OU5JZVZLOUQtTDR6LUl6TEptblh6cC1ZV1NyVkpmdDV6?oc=5",
-   "sources": [
-    {
-     "name": "NPR",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2U4OW9TWXczZVdVZ0dYakFmVDF5MGxHQVJqdlRwWW9WU0g1b3lRcE9VMkZkTXc1VE9TQk8xX0xUY2c4ak1MS241d3RqMG8wQjV0NENHVXpKV1dLZjJMR0ZtN19qYnhDa2gyOVo2c0pQclZ1OHV0TGJwbktOTXEzYkZGWGxNanUzdERxbi1pZEJZYjVWQ0hfdEpTbTc1SkNoYUE5OU5JZVZLOUQtTDR6LUl6TEptblh6cC1ZV1NyVkpmdDV6?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:16:52.000Z",
-     "text": "Virginia, Oregon sue Elon Musk’s SpaceXSI over deepfake nonconsensual sexual images",
-     "source": "NPR"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "1e65df4f0e",
-   "title": "Watch out for a new scam offering ‘AI-powered hairstyle suggestions’",
-   "headline": "Watch out for a new scam offering ‘AI-powered hairstyle suggestions’",
-   "category": "AI Scams",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Watch out for a new scam offering ‘AI-powered hairstyle suggestions’ Kursiv Media",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:15:15.000Z",
-   "updatedAt": "2026-11-23T22:15:15.000Z",
-   "sourceName": "Kursiv Media",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa3BkR0p1Wk4zc1VlbG5rekR5eGFUc0h1VkZGLVFtUU9vSWNrSXJkNnRxMG9WTC1xeGxKNzRCZi1HZDkyalF3ZEhvUUdtZlMwM3k5enMycWZvSEstZnU0STN1WjVfMGNFRlBRMGpXMDJCTzBMTDk0alpnVHU3bDh5eGd4WERab3BsUnFJTkJTY2l4UEFTbHl1UWFpLVo2dW9sa3ZJVldmZ1dpUHRycEd0a2JyS3gwZw?oc=5",
-   "sources": [
-    {
-     "name": "Kursiv Media",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa3BkR0p1Wk4zc1VlbG5rekR5eGFUc0h1VkZGLVFtUU9vSWNrSXJkNnRxMG9WTC1xeGxKNzRCZi1HZDkyalF3ZEhvUUdtZlMwM3k5enMycWZvSEstZnU0STN1WjVfMGNFRlBRMGpXMDJCTzBMTDk0alpnVHU3bDh5eGd4WERab3BsUnFJTkJTY2l4UEFTbHl1UWFpLVo2dW9sa3ZJVldmZ1dpUHRycEd0a2JyS3gwZw?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:15:15.000Z",
-     "text": "Watch out for a new scam offering ‘AI-powered hairstyle suggestions’",
-     "source": "Kursiv Media"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "d1f465ff22",
-   "title": "FBI Warns Hackers Target U.S. Water Supply Systems",
-   "headline": "FBI Warns Hackers Target U.S. Water Supply Systems",
-   "category": "Fraud",
-   "country": "United States",
-   "region": "North America",
-   "what": "FBI Warns Hackers Target U.S. Water Supply Systems 1430 KASI",
-   "how": "Not yet reported.",
-   "status": "Warning issued",
-   "tone": "amber",
-   "statusText": "Reported as: warning issued.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:15:00.000Z",
-   "updatedAt": "2026-11-23T22:15:00.000Z",
-   "sourceName": "1430 KASI",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX1VweGxsWi1TQW1ZMUFRckF3c05hSzF4WUZyYUpMLWhmMHRvT3NhUEw0d3RHdzh2b1NWQjhnbXBjd0EyYTVNeDlCOWRCa2l4dF9jdEdXcEdhbG82aEtFWkFHU0prT1hZSDk3TTdZM0hxSDFvaENDOEhNa3I1dldHNWZSb3NhZ1lscWhMNnRvTXZUc3hyREdCLTNyVFQ?oc=5",
-   "sources": [
-    {
-     "name": "1430 KASI",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX1VweGxsWi1TQW1ZMUFRckF3c05hSzF4WUZyYUpMLWhmMHRvT3NhUEw0d3RHdzh2b1NWQjhnbXBjd0EyYTVNeDlCOWRCa2l4dF9jdEdXcEdhbG82aEtFWkFHU0prT1hZSDk3TTdZM0hxSDFvaENDOEhNa3I1dldHNWZSb3NhZ1lscWhMNnRvTXZUc3hyREdCLTNyVFQ?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:15:00.000Z",
-     "text": "FBI Warns Hackers Target U.S. Water Supply Systems",
-     "source": "1430 KASI"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "2545a4d161",
-   "title": "U.S. takes action to recover over US$1.1 bln in cryptocurrency stolen by N. Korean hackers",
-   "headline": "U.S. takes action to recover over US$1.1 bln in cryptocurrency stolen by N. Korean hackers",
-   "category": "Fraud",
-   "country": "United States",
-   "region": "North America",
-   "what": "takes action to recover over US$1.1 bln in cryptocurrency stolen by N. Korean hackers Yonhap News Agency",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:11:31.000Z",
-   "updatedAt": "2026-11-23T23:30:04.000Z",
-   "sourceName": "Yonhap News Agency",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iR2lFdUdxd2hHU213cEVrQ2FUU2VJMzFQX2RSNThHV0RjN1o4c3RYVVA2NVVsS0g4MjVtYjdrcFc4MWdVX1lGUGNKUE1jX3YzckMtX05KaU9NQQ?oc=5",
-   "sources": [
-    {
-     "name": "Yonhap News Agency",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iR2lFdUdxd2hHU213cEVrQ2FUU2VJMzFQX2RSNThHV0RjN1o4c3RYVVA2NVVsS0g4MjVtYjdrcFc4MWdVX1lGUGNKUE1jX3YzckMtX05KaU9NQQ?oc=5"
-    },
-    {
-     "name": "Korea JoongAng Daily",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRkd1N3JNamxjUW9uRk80NWd4dWVoRTFHQkhraW9YeHUtdFdBXzJVdmMyWTE4Wm9JVl9yRFFrR0VkbnBCdmtGOGg1VHNqX0ZGMkVBTUVSN3F5a0Q1NnBzX3JtVkZLMW80N2NESlJ3WUk1QVVXdkwwOU9zRi05RmU2VnprN0VrZlA4S003eFJiRFhfdi10dVdyWGVzZzRFRVlWSmxCRU56SXdGZ3VNLW5uM2o4a2Ewbnlwd04tY2FyUGZ2a0xKTElNcEplaXFFVlgydFdrRnhCNko?oc=5"
-    },
-    {
-     "name": "The Korea Times",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOV0xMY1kxWXdqVF9iMFBaNGNGQUhsa1E5TjVCTHMwY0FvVF9sWWtlMUpUM0JMa2tlMkVBcTZXNndQMl9wVk82OUc2cloyeW8xU1JIZjVxQVFSSkVjazlMQkNfdjF5cUV4UVg5TzFpSk1Eajc1ejRiOUFzZ2ZzeE03bUU5dUxSSnFZaWIyOWlUNTBWeFNzVDJ5SGlpRDBvTnhJdkVibDdHdXJrNHYxOXFXVUVINWJKZTRtUHg1S0VUejg5b1NMRUJxZlZLNDJYamU3Qkx6SkJ3YkpDd2g3LWZFM9IB5gFBVV95cUxNdG1KVVJ3c0tzVmFudXI2SGlQYUxjNDlac3RtbVlFZEpQSzhNczVrMDRuTENOdTN1RV9YSDJGcnRIN0Mxbl8xWXFsaXlESWxRangyc1YtckFfNGhNQ0FDRTdxUDhNQkdFb1RHMkUyR0dDR2Y2Ny1YdVg0SDVRVkE5dHMtTHQ3UVZXOXRQTlIxdk13R2tPLWZFcG52MDJfdm54Sl9venpGa0toNWxEZHVFNHpUSXFCeWZaWnN3NTNRWGc0VDF3NElxQ19iX0UwU29HSVFZSmRZR3RaSFZTWGM3ekkxTGlFZw?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:11:31.000Z",
-     "text": "U.S. takes action to recover over US$1.1 bln in cryptocurrency stolen by N. Korean hackers",
-     "source": "Yonhap News Agency"
-    },
-    {
-     "at": "2026-11-23T22:35:00.000Z",
-     "text": "US takes action to recover over $1.1 bil. in cryptocurrency stolen by N. Korean hackers",
-     "source": "The Korea Times"
-    },
-    {
-     "at": "2026-11-23T23:30:04.000Z",
-     "text": "U.S. takes action to recover over $1.1 billion in cryptocurrency stolen by North Korean hackers",
-     "source": "Korea JoongAng Daily"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "ac9a9281b3",
-   "title": "Boston Scientific Corporation Data Breach",
-   "headline": "Boston Scientific Corporation Data Breach",
-   "category": "Data Breach",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Boston Scientific Corporation Data Breach Federman & Sherwood",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:11:25.000Z",
-   "updatedAt": "2026-11-23T22:11:25.000Z",
-   "sourceName": "Federman & Sherwood",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQUVaa3ZYWDJBdDQwMWxZdW9QOVhSc1lkcmtPczAwNzJPdUt0bno1TEQ5UW8xdjdsTml2eWVkRER1M3FqQzNDTzRvYmJsNUZaSUZNM0hwRHhOUGtTN0JFel9OMk01b2JSOGJKOHBPeHJzWk9hOEthaWFoS2toTVlBUg?oc=5",
-   "sources": [
-    {
-     "name": "Federman & Sherwood",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQUVaa3ZYWDJBdDQwMWxZdW9QOVhSc1lkcmtPczAwNzJPdUt0bno1TEQ5UW8xdjdsTml2eWVkRER1M3FqQzNDTzRvYmJsNUZaSUZNM0hwRHhOUGtTN0JFel9OMk01b2JSOGJKOHBPeHJzWk9hOEthaWFoS2toTVlBUg?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:11:25.000Z",
-     "text": "Boston Scientific Corporation Data Breach",
-     "source": "Federman & Sherwood"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "82f5fd1e22",
-   "title": "Rakuten Securities Data Breach Exposes Information From Millions of Customer Accounts",
-   "headline": "Rakuten Securities Data Breach Exposes Information From Millions of Customer Accounts",
-   "category": "Data Breach",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Rakuten Securities Data Breach Exposes Information From Millions of Customer Accounts CPO Magazine",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 3,
-   "advice": [],
-   "publishedAt": "2026-11-23T22:00:00.000Z",
-   "updatedAt": "2026-11-23T22:00:00.000Z",
-   "sourceName": "CPO Magazine",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMFo3RFo5ZEsyejlocTBLaG9wZ2dzLW1yLUJqNExBb1ozcHZsOXAwY1FObmJPdE1jNlRGeWh5TEZhWENlVFpfLVh3cE5nWVhJbkN5dEktRFRGUGJoQlEwZG1yQzlUU0s3V0czd05HQTFuSGtrbk1DYTZZSFlzTlVLc2s0OXc5WmZ4eG1oNGRWLVNRNzlOWGZZRWVWSG5UeUk5a3Q5Tml1eTZnQ1NkQTViUnlVZjlkUnJSQldtWXppekZCaFh1cFJoWQ?oc=5",
-   "sources": [
-    {
-     "name": "CPO Magazine",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMFo3RFo5ZEsyejlocTBLaG9wZ2dzLW1yLUJqNExBb1ozcHZsOXAwY1FObmJPdE1jNlRGeWh5TEZhWENlVFpfLVh3cE5nWVhJbkN5dEktRFRGUGJoQlEwZG1yQzlUU0s3V0czd05HQTFuSGtrbk1DYTZZSFlzTlVLc2s0OXc5WmZ4eG1oNGRWLVNRNzlOWGZZRWVWSG5UeUk5a3Q5Tml1eTZnQ1NkQTViUnlVZjlkUnJSQldtWXppekZCaFh1cFJoWQ?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T22:00:00.000Z",
-     "text": "Rakuten Securities Data Breach Exposes Information From Millions of Customer Accounts",
-     "source": "CPO Magazine"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "c92f0c7691",
-   "title": "GoFundMe says donor information was exposed in data breach",
-   "headline": "GoFundMe says donor information was exposed in data breach",
-   "category": "Data Breach",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "GoFundMe says donor information was exposed in data breach 13WMAZ",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:54:00.000Z",
-   "updatedAt": "2026-11-23T22:01:38.000Z",
-   "sourceName": "13WMAZ",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSUF1LUxYSlB1MDYwQmI3aEpGSzczQ0JIczM5WEw3akRvUG9jNkhUZVhSUnpvazdEV05VZnY1OHVrMkNLYzREUnNQaGNMb1F0Y3gycUplSzhYMGJiaFRaS2FfRllvVmFCVU5PZkQySlFSMVpFYzluYlh1RGNlcnNwalRrVUhvX3pZdGtZNzBKU1ltU2dJVGlhZjdvdDZkSExoMVU0aXBaN0pJTkF4V0pKM2FBNWxaOXFKLWtsTFZ1R1lqRGFPSGx4cVNCcU4?oc=5",
-   "sources": [
-    {
-     "name": "13WMAZ",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSUF1LUxYSlB1MDYwQmI3aEpGSzczQ0JIczM5WEw3akRvUG9jNkhUZVhSUnpvazdEV05VZnY1OHVrMkNLYzREUnNQaGNMb1F0Y3gycUplSzhYMGJiaFRaS2FfRllvVmFCVU5PZkQySlFSMVpFYzluYlh1RGNlcnNwalRrVUhvX3pZdGtZNzBKU1ltU2dJVGlhZjdvdDZkSExoMVU0aXBaN0pJTkF4V0pKM2FBNWxaOXFKLWtsTFZ1R1lqRGFPSGx4cVNCcU4?oc=5"
-    },
-    {
-     "name": "12newsnow.com",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV0hQdV81YnN4UXpmMDhVMnJoMjBYbTBPbUZnbU9xamczUTJ0QzlocGppVjh5YnYwNlFnQXhnTE9HSndENXY4QmRMYXRXUVp0dDRQbHRnNjhyc1dEMzV3eUQ3ZlhMSUtUdWhOZnpUSnBSMUdITDZIbHN2Uy1TWkpVdkR2UExOSEJTUDdybU13TE1TQnJIVXhjQTFQWFprLTkwSGxCaXpRSDBndDZyNmp5YUV0a1BfMXdSY3R6cDR5cUhuZ2JYc0FEb0t0MDlFLWVO?oc=5"
-    },
-    {
-     "name": "FOX43",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTG1rN0ZObEtKa21qOVJmRHVxY2pFYWxvUXZyRWY0MGdDMUdKOHRPZlpZQnU1X1p0SEgyd3FxYVhjMFhMVXU5ZmRNOG5Iel9vdW9YaHlUMGhiTTVNdDQ4cUljMV9PZVJPNzhaOHYtVk9CZ2NtSEp0NzVPbFhUcXdTQVhEUVRGT0x3VVl6UU1tdnAwbXlnRXo3cG95MVlEczB3LTZFd2h2S3dPd0RQWHEtNEJtSmdaWjZxNF9MY1Bvc09MNjNJaEpEUGJuSQ?oc=5"
-    },
-    {
-     "name": "KGW",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTG56eTdGS01Xb2kxN3JONEdEZnQtTm9EaTAyT1ExNC1yVDFHSVprTEpOQW1sVm9xTHZSUTdsS1BBZnJVOTZUUnhlSjd0U2szWlM1b1I1MVJfd0I4QmlDUkRlbkVFWG5Tc3U3R0h6Umt1UkR6b2s0UUgxWjBYUkpyeHctaHAyTUJzVE45eWI3aEZSWHhWX2lDUl9hUmZvdFVtZWpHcUlULWVYV1Q1RGZEOW1ZTjZsN0hIM3g4dWhqbTRsblgwb0JlaQ?oc=5"
-    },
-    {
-     "name": "cbs19.tv",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd191azJXV08wWGZ4LWt0ZmtHSHgtcUdkdllsMWtISEZDRlo0YTFLV196TnJZNzQ1RWd1bVZFcjhwcWN1N1M2eHlzVXVXV0dNNUhlbFNXLWlib2gzWlR3YlpBTjQ3aWlqQVJCUFZSWHdENGVua1dSZEJ5dGYtNkVUemxtNy1vNjYtQWY1MHI4a3l3LVRVZGNPRUZiR0Z6Mi1haHBJOVgwTzRXN0Z6VUVIZmdTS1czQ2xuLXl5X3hTUzZkMGtJN0diRzZR?oc=5"
-    },
-    {
-     "name": "13newsnow.com",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ2NNS0l0aExtVHhzY3BsOG9BZkUtOTNpNzc5MmQ2SThPZEIxLUxhOXlOd3F1b09LLXJzSjJDbDZhYi1ybzdrUnhySmVETmFNdXNyNkNIRTF4MFZBaDBrSmgxSmQ3TEViT0dvQUhXZjZ1OGY4THN2TnotcmxacUFKeWtMdGpCRnJMaUNkTmxEcmlIZWZWNF9ZeERqOWFXVFpvZmhzSjJMX25IWWE4WmJ4U3FoR0tQbDdpUjdHQkg3aEZkNERfb0xRcnRnSFdXcDk1?oc=5"
-    },
-    {
-     "name": "rocketcitynow.com",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNUVUcXZKM3NXUV9aRGM3UEwyQ3M3MnBCNHJ2Si04Z292MG51d1M4T1RraHd2ZkdGcldFMTdsLW1PV3VXN3paSTlZd3B4cGdWYlFCQmFQRVo0MFhNZDllZG9oNURjOUxPT19qNmhldmUyVUJROG9GMmcyYnNsY2ZQODJzNjdHbjFCOGk4MjZyR3VZTUF0Zlc0YlFFY0hoMEdub0MyU2Yya0pWNThmcG5UN011emFZTTdMMjZkQWxpLWQ5RFV6VVV4OW52NHZ6TFRNS3ZrZTBB?oc=5"
-    },
-    {
-     "name": "10TV",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQLVJkbkk0RktCQVlDRERMcEJSSkg5aVk1dzI0Q05GMVlYbEhNd0xfbmlTTHFqdVNTSUxkd2Z1OWpjeDlxYmJBeXBFTFd3YnZlTEstaVU4RXllaHNTNVc0dTBKTHN2VElsUVdfLUM1eHhWUzdGNDh1SGkwSThBU1oyWkw5OGMxMVlFSEJxa3BhZkJZbDhFSHdUVVBSSkNzd3l2blRfVzc3eXFLaWNZUFdhUDlFS3pHT3ptUjV4ZUhJRWhHWFNobXRnWV9R?oc=5"
-    },
-    {
-     "name": "WUSA9",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSy1LOHJjbXhadkhiOXpLNHVtZ2VNRUxySVZhenlCM3pyR2NfV19pVENrbkRTdUN4am5reHNWR2RqOThXdF9QbnlxaFpZVWp0cWhSNzVmdFlZQTE1djg2VVZxQlFBVzRXX1VnckN2bVdZREdHcGo0R3prXzljeEFmX2psbUtaQko4djdOWjVrc2k1ODhGVHdHUGZKYy10dklFNmdkZjJsaDFrUlFpLVFDQzM1STJGS1Z4UnF1aldHbzZrOWh3cXp0Yml0OA?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:54:00.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "13WMAZ"
-    },
-    {
-     "at": "2026-11-23T21:54:00.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "FOX43"
-    },
-    {
-     "at": "2026-11-23T21:54:00.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "KGW"
-    },
-    {
-     "at": "2026-11-23T21:54:00.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "13newsnow.com"
-    },
-    {
-     "at": "2026-11-23T21:54:00.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "10TV"
-    },
-    {
-     "at": "2026-11-23T21:54:00.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "WUSA9"
-    },
-    {
-     "at": "2026-11-23T21:56:58.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "cbs19.tv"
-    },
-    {
-     "at": "2026-11-23T21:57:55.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "12newsnow.com"
-    },
-    {
-     "at": "2026-11-23T22:01:38.000Z",
-     "text": "GoFundMe says donor information was exposed in data breach",
-     "source": "rocketcitynow.com"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "ef949789e5",
-   "title": "Inception - possibly a ShinyHunters reboot - claims seven victims in a week",
-   "headline": "Inception - possibly a ShinyHunters reboot - claims seven victims in a week",
-   "category": "Ransomware",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Don't mind the recent arrests. The ShinyHunters extortion gang may still be operating, just under the new name of Inception, according to Okta's threat intelligence group.",
-   "how": "Not yet reported.",
-   "status": "Arrests made",
-   "tone": "green",
-   "statusText": "Reported as: arrests made.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:52:23.000Z",
-   "updatedAt": "2026-11-23T21:52:23.000Z",
-   "sourceName": "The Register (Security)",
-   "sourceUrl": "https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768",
-   "sources": [
-    {
-     "name": "The Register (Security)",
-     "url": "https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:52:23.000Z",
-     "text": "Inception - possibly a ShinyHunters reboot - claims seven victims in a week",
-     "source": "The Register (Security)"
-    }
-   ],
-   "breaking": false,
-   "ai": false
-  },
-  {
-   "id": "3a2f22449a",
-   "title": "Israeli police shut down internal communications systems amid suspected cyberattack",
-   "headline": "Israeli police shut down internal communications systems amid suspected cyberattack",
-   "category": "Fraud",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Israeli police shut down internal communications systems amid suspected cyberattack Ynetnews",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:39:29.000Z",
-   "updatedAt": "2026-11-23T21:39:29.000Z",
-   "sourceName": "Ynetnews",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NYTVJb0FqRVlhY3BVYlhvX2dJcEU5NXJGTXFDV2M3TXVwa0FOUl9oS1ZpUFNIeEFfdEd1UTZBaXhJZkx0aXVaV1h3ajV4VHhsU2szajBn?oc=5",
-   "sources": [
-    {
-     "name": "Ynetnews",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NYTVJb0FqRVlhY3BVYlhvX2dJcEU5NXJGTXFDV2M3TXVwa0FOUl9oS1ZpUFNIeEFfdEd1UTZBaXhJZkx0aXVaV1h3ajV4VHhsU2szajBn?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:39:29.000Z",
-     "text": "Israeli police shut down internal communications systems amid suspected cyberattack",
-     "source": "Ynetnews"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "7310393e85",
-   "title": "KEPCO confirms a data breach affecting more than 1.5 million people",
-   "headline": "KEPCO confirms a data breach affecting more than 1.5 million people",
-   "category": "Data Breach",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "KEPCO confirms a data breach affecting more than 1.5 million people MLQ.ai",
-   "how": "Not yet reported.",
-   "status": "Investigating",
-   "tone": "blue",
-   "statusText": "Update (upi): South Korea probes data breach affecting 1.52 million at KEPCO",
-   "severity": 3,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:38:11.000Z",
-   "updatedAt": "2026-11-24T17:17:43.000Z",
-   "sourceName": "MLQ.ai",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZFhtQXRkOWxlT1gyTWV2V0ZWajc1RFFTUnhDUmNHc191NjkwRFd2RTVEa1RfRTVHeVFLeGtXQ3RoYnFvd1pqMUlOVEhlSnNrNzZ0dVp2elZCRHBUOUFpWExTZi1qYWJKTVdoZHVCaFdOdUpyeWdZOEYyRGdjZk9kLU52b21TVmhqOWZuZ09hWk0?oc=5",
-   "sources": [
-    {
-     "name": "MLQ.ai",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZFhtQXRkOWxlT1gyTWV2V0ZWajc1RFFTUnhDUmNHc191NjkwRFd2RTVEa1RfRTVHeVFLeGtXQ3RoYnFvd1pqMUlOVEhlSnNrNzZ0dVp2elZCRHBUOUFpWExTZi1qYWJKTVdoZHVCaFdOdUpyeWdZOEYyRGdjZk9kLU52b21TVmhqOWZuZ09hWk0?oc=5"
-    },
-    {
-     "name": "upi",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkxQUnFZTURsX1B2dVg5aXdKTjNORERkeVpSeUZGRG1YWUVEX3g4MkJJQnFlWmlQNmk2bVJVUTh1Y1lXSUVLWVVnNEZZT1BDSjZtb3BqeXpVOFJPcVBIZmtrRkF6SnoxaEVzX19IWTNwdjRaY1ZzeGVxMkF0MVcwOG01NGplU1E5eXFWYm5JM0dKN0h3MjZaYUFpU29FUdIBowFBVV95cUxPaWd1dmRMVDJXc25TZU9pcUNyVkk5RjlQU3c3WnVHUlV1RUNxbklnTDduQmlNMWlweEZKcVhqYUZnWUswZ1hOUEtqdHYzcXdCd1hjajJwVjBXTTdhdVRPQlcyTTJJcTYxUmZJYUwwOFZZeDlGN0g4ZGh6c0Vra3htdTFhc0lMbmZYVlpWckpUcDRnTllUSVhLT2l2MnlWdGtOSEE4?oc=5"
-    },
-    {
-     "name": "Mezha.net",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWpVM1k2a1k1eS1vS1U0R1FHdXFxWWt0bnRCempuZDJLYVoxS1Y4aVRCWnZXLU83RzM3T0xudkk2eE91WEtoWUpmTklJZlcyM09wMWUtaTE5UkQtV0RrakJtdDMyZHB5UlUyOE1jQU5abUhoWE1yeU1RZmdnY0E5bFRRdWU?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:38:11.000Z",
-     "text": "KEPCO confirms a data breach affecting more than 1.5 million people",
-     "source": "MLQ.ai"
-    },
-    {
-     "at": "2026-11-24T01:05:25.000Z",
-     "text": "South Korea probes data breach affecting 1.52 million at KEPCO",
-     "source": "upi"
-    },
-    {
-     "at": "2026-11-24T17:17:43.000Z",
-     "text": "KEPCO confirms data breach affecting roughly 1.5 million people",
-     "source": "Mezha.net"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "2fae9eca52",
-   "title": "Workers’ comp scam targets Texans via phone, social media",
-   "headline": "Workers’ comp scam targets Texans via phone, social media",
-   "category": "Fraud",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Workers’ comp scam targets Texans via phone, social media KTSM 9 News",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:33:19.000Z",
-   "updatedAt": "2026-11-23T21:33:19.000Z",
-   "sourceName": "KTSM 9 News",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5femRQNlYyNXBFc3BrcFR0U25HdmxKblJ6b25pbkx4dHoxckRSSHg4QTJrNzBnMXZ6ZTc3c2FTeHpQUS1iMC1pRk5XdmZZcmVFbTBLVk03MkRrSDdqMVM40gFkQVVfeXFMTURIb0dSanRpZzNiV1hZd3NzMkNyZ2pFUDZib2pWU1ppVUc4WHhxdjdtTnZYWG82ODk5SDByUkl5XzR0Z3M3RWw5OXh5SFVjNzhJRFpKTENweFh5enZpam1lZHhJTw?oc=5",
-   "sources": [
-    {
-     "name": "KTSM 9 News",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5femRQNlYyNXBFc3BrcFR0U25HdmxKblJ6b25pbkx4dHoxckRSSHg4QTJrNzBnMXZ6ZTc3c2FTeHpQUS1iMC1pRk5XdmZZcmVFbTBLVk03MkRrSDdqMVM40gFkQVVfeXFMTURIb0dSanRpZzNiV1hZd3NzMkNyZ2pFUDZib2pWU1ppVUc4WHhxdjdtTnZYWG82ODk5SDByUkl5XzR0Z3M3RWw5OXh5SFVjNzhJRFpKTENweFh5enZpam1lZHhJTw?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:33:19.000Z",
-     "text": "Workers’ comp scam targets Texans via phone, social media",
-     "source": "KTSM 9 News"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "d273b270c1",
-   "title": "Nvidia Data Breach Potentially Exposes Emails and Usernames",
-   "headline": "Nvidia Data Breach Potentially Exposes Emails and Usernames",
-   "category": "Data Breach",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Nvidia Data Breach Potentially Exposes Emails and Usernames Claim Depot",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:29:10.000Z",
-   "updatedAt": "2026-11-23T21:29:10.000Z",
-   "sourceName": "Claim Depot",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CTnBCVkxmWFk5emxZeWZTMm5iWllLX0R2V000b2lJdndqZHBrQkxtc0tvWnQtdU54YXBzeWhQUHlsVjZRZTl2RVF4a2tHRWkzSFlMSWRhTXdZNVotZVR4ZmZCVQ?oc=5",
-   "sources": [
-    {
-     "name": "Claim Depot",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CTnBCVkxmWFk5emxZeWZTMm5iWllLX0R2V000b2lJdndqZHBrQkxtc0tvWnQtdU54YXBzeWhQUHlsVjZRZTl2RVF4a2tHRWkzSFlMSWRhTXdZNVotZVR4ZmZCVQ?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:29:10.000Z",
-     "text": "Nvidia Data Breach Potentially Exposes Emails and Usernames",
-     "source": "Claim Depot"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "fd68eb0e96",
-   "title": "How Out-of-Network Loopholes Perpetuate Fraud in Addiction Treatment",
-   "headline": "How Out-of-Network Loopholes Perpetuate Fraud in Addiction Treatment",
-   "category": "Fraud",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "How Out-of-Network Loopholes Perpetuate Fraud in Addiction Treatment Behavioral Health Business",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:22:44.000Z",
-   "updatedAt": "2026-11-23T21:22:44.000Z",
-   "sourceName": "Behavioral Health Business",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZWc2ZTB2djdWbTlkYm5yUS1DdjhzT3JQeldyTk9GRjkxSnNSczlSS29LbFNGQWhNTTh6STRKcFZQYkxJdG50STBieWlGdjcweDd2VV91U2toWHRwR08yWEdMN2d3a3FFX3RmY0tsSHVVTmN0UVB5NDMyQUp0TGNvSHNqQ3V6NG9ER0tkaVQtTXB3NHRVOUNIakFTWEFvVUFVa1RoMWR3?oc=5",
-   "sources": [
-    {
-     "name": "Behavioral Health Business",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZWc2ZTB2djdWbTlkYm5yUS1DdjhzT3JQeldyTk9GRjkxSnNSczlSS29LbFNGQWhNTTh6STRKcFZQYkxJdG50STBieWlGdjcweDd2VV91U2toWHRwR08yWEdMN2d3a3FFX3RmY0tsSHVVTmN0UVB5NDMyQUp0TGNvSHNqQ3V6NG9ER0tkaVQtTXB3NHRVOUNIakFTWEFvVUFVa1RoMWR3?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:22:44.000Z",
-     "text": "How Out-of-Network Loopholes Perpetuate Fraud in Addiction Treatment",
-     "source": "Behavioral Health Business"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "50e8c1c5d5",
-   "title": "Luxury dealer sues At-Bay over $4M ransomware coverage gap",
-   "headline": "Luxury dealer sues At-Bay over $4M ransomware coverage gap",
-   "category": "Ransomware",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "Luxury dealer sues At-Bay over $4M ransomware coverage gap Insurance Business",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:15:24.000Z",
-   "updatedAt": "2026-11-23T21:15:24.000Z",
-   "sourceName": "Insurance Business",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORkJVd05Ccmc1NEUxdUpYVE9XQ283N3NJd3RCQTNMZ3dtY1U1UkFIN3A0TjBPVWlBcS1HOUdVbG5yTS1CSGRYTmF2c3hUZUprZWtyMlNONl80T2oxSV9lcC1xc3MyR085dDdwOHN4REFUaGhidmhBUFZ6STN4ZUVqQjhRRTRjWkxHVkI3N2htekNNVVpKU0RGVUFCVjBRbXZWeHNMdFpqdmtLa0ZwVVhtQk5uYnV6WGxJQVdYTHNCWTdCTVp4bi15YUVxNGtHa2hW?oc=5",
-   "sources": [
-    {
-     "name": "Insurance Business",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORkJVd05Ccmc1NEUxdUpYVE9XQ283N3NJd3RCQTNMZ3dtY1U1UkFIN3A0TjBPVWlBcS1HOUdVbG5yTS1CSGRYTmF2c3hUZUprZWtyMlNONl80T2oxSV9lcC1xc3MyR085dDdwOHN4REFUaGhidmhBUFZ6STN4ZUVqQjhRRTRjWkxHVkI3N2htekNNVVpKU0RGVUFCVjBRbXZWeHNMdFpqdmtLa0ZwVVhtQk5uYnV6WGxJQVdYTHNCWTdCTVp4bi15YUVxNGtHa2hW?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:15:24.000Z",
-     "text": "Luxury dealer sues At-Bay over $4M ransomware coverage gap",
-     "source": "Insurance Business"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
-  },
-  {
-   "id": "37de252577",
-   "title": "FEMA Seeks AI Tools for Fraud-Risk Proof of Concept",
-   "headline": "FEMA Seeks AI Tools for Fraud-Risk Proof of Concept",
-   "category": "AI Scams",
-   "country": "Unknown",
-   "region": "Other",
-   "what": "FEMA Seeks AI Tools for Fraud-Risk Proof of Concept MeriTalk",
-   "how": "Not yet reported.",
-   "status": "Unconfirmed",
-   "tone": "gray",
-   "statusText": "Not yet reported.",
-   "severity": 2,
-   "advice": [],
-   "publishedAt": "2026-11-23T21:12:13.000Z",
-   "updatedAt": "2026-11-23T21:12:13.000Z",
-   "sourceName": "MeriTalk",
-   "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeGhvRE43VE0xVVJsWE54emlFYi1GMk5sZE1DOVpQUlA0QmRIV1BrLTZOeVhEYXpUbHZ1RzU1RVlxblJNY1J4SExrZTlwOGtQeTlCNGZtQ2NyamE3OXkzSUdudlA2YmFZcmZ3WG44eVdWNkZBbDlVb0dwT0xGTmVWUEhJS243SFJxYVQzdV8yWQ?oc=5",
-   "sources": [
-    {
-     "name": "MeriTalk",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeGhvRE43VE0xVVJsWE54emlFYi1GMk5sZE1DOVpQUlA0QmRIV1BrLTZOeVhEYXpUbHZ1RzU1RVlxblJNY1J4SExrZTlwOGtQeTlCNGZtQ2NyamE3OXkzSUdudlA2YmFZcmZ3WG44eVdWNkZBbDlVb0dwT0xGTmVWUEhJS243SFJxYVQzdV8yWQ?oc=5"
-    }
-   ],
-   "updates": [
-    {
-     "at": "2026-11-23T21:12:13.000Z",
-     "text": "FEMA Seeks AI Tools for Fraud-Risk Proof of Concept",
-     "source": "MeriTalk"
-    }
-   ],
-   "breaking": false,
-   "ai": false,
-   "checkedAt": "2026-11-24T20:31:12.854Z"
+   "checkedAt": "2026-11-24T21:00:53.692Z"
   }
  ],
  "seen": [
-  "22db59e8cc",
-  "360040df07",
-  "3bcbebfc7b",
-  "86380d31c0",
-  "25f123c429",
-  "aed5906e59",
-  "ad55e95561",
-  "f3e2605305",
-  "fe1cf9e6c7",
-  "64ada4b4b1",
-  "6d198043cb",
-  "b549d22b75",
-  "456d8ea193",
-  "e83522f9dc",
-  "7b6c9cca65",
-  "6e1dd53538",
-  "7a7b2eaa4a",
-  "033b7c10af",
-  "55506475f4",
-  "5fd83ffae0",
-  "78281ed1cc",
-  "737acff359",
-  "08aa076281",
-  "dcd478a4ba",
-  "7642a31839",
-  "3051c5f76f",
-  "160e058b58",
-  "36cc4feec9",
-  "4315d90063",
-  "7f2d93df1e",
-  "c770057a56",
-  "cdf304acdd",
-  "4a372cb319",
-  "cd205341d4",
-  "4b5087ea90",
-  "07136c7f3c",
-  "bc1d815a42",
-  "15df075f96",
-  "b63ae3d38a",
-  "b741abee8d",
-  "66a081f963",
-  "6e4f36f1b1",
-  "7e06601dc7",
-  "6bc26d5746",
-  "79dead2b63",
-  "f585be9843",
-  "f1d85ea60c",
-  "71b7f439d1",
-  "6b530aaeb2",
-  "f56448c6b8",
-  "b120d07d5c",
-  "a3ee71abe6",
-  "82aecc6f9b",
-  "5bcaf75706",
-  "6d670edfee",
-  "19723831fe",
-  "b8f366a1ee",
-  "5e3f15be8c",
-  "dec4cbcdcc",
-  "118067e6fc",
-  "23f553ff7d",
-  "78074d39df",
-  "0be8ff22df",
-  "473cdd6cf7",
-  "4a5ce5f5ea",
-  "a73b78220d",
-  "eab6bac89e",
-  "7d690563ab",
-  "9077a3569c",
-  "af3758b54c",
-  "e8f3a0ab0b",
-  "5d5b0e900e",
-  "06dc0f452a",
-  "278adfd0c1",
-  "a0b9f7eb88",
-  "4168687b6f",
-  "2b6bcfa554",
-  "f38ef1a3ff",
-  "04ef0c3c03",
-  "38d08e8feb",
-  "dd86a0cc06",
   "04f083a749",
   "5effda1198",
   "615916077b",
@@ -14174,6 +14162,87 @@
   "72155f5371",
   "682ce7099d",
   "2df95cf4f5",
-  "fae8e99e76"
+  "fae8e99e76",
+  "a0b9074a14",
+  "dfe80309b0",
+  "913de81415",
+  "6828793f03",
+  "517facaafd",
+  "585adbdcfb",
+  "2f99e3ac26",
+  "cbdf9d4119",
+  "f50068eea5",
+  "8f87855382",
+  "0c08fe0d57",
+  "b1cd123f87",
+  "4397d8694b",
+  "d1a175ef2d",
+  "846a8a6fc4",
+  "b96d87ab0b",
+  "db37d4c4ce",
+  "125fe58f8a",
+  "4f15faaaad",
+  "a8981e6347",
+  "f2c38ecc61",
+  "7aeb873a48",
+  "8c5ecb5327",
+  "dfdac1641e",
+  "3d90f20623",
+  "e3417147ad",
+  "4b3966d93d",
+  "5546e6424a",
+  "e9f4571c20",
+  "79a8161218",
+  "e7b6827ec0",
+  "76421d1928",
+  "40b360358a",
+  "9d4e8bdec1",
+  "1275a8cd8a",
+  "9c69ee653f",
+  "8c29c7b052",
+  "d30f6854e7",
+  "0480698156",
+  "d2931a0499",
+  "38c779c928",
+  "9fbff14bc2",
+  "3c8e109d05",
+  "9980ee9c24",
+  "79266219dc",
+  "a8262f049b",
+  "38819d6542",
+  "999ff0ca2a",
+  "44f9f835f9",
+  "0dacedab20",
+  "7b1d4ea451",
+  "7fa413412e",
+  "da8ec2396c",
+  "c65b6c8a5e",
+  "f9443e3ace",
+  "c48da9c5ce",
+  "b4d619ebad",
+  "160c51ff0d",
+  "960f82fdbd",
+  "aa783d013a",
+  "faa8f60e4d",
+  "04992aaf3d",
+  "7a20184e79",
+  "3c396787df",
+  "da146670aa",
+  "01cc0d2883",
+  "2754a12112",
+  "fad36d1cf0",
+  "8a705f9a4a",
+  "5a45a70b08",
+  "cf858a6bd6",
+  "5d453721aa",
+  "4c4c636dc7",
+  "00adc6c7ef",
+  "0b1ea2d7db",
+  "71bf626cc4",
+  "79a88c4a80",
+  "a4ae08879d",
+  "c11fb17aad",
+  "bde31998f5",
+  "42fc2943d2"
  ]
 }
